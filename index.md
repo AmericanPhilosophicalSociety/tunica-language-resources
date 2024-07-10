@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Women in Science at the APS"
+title: "The Tunica Language Notebooks"
 #parallax: true
 #image:
 #  img_url: 'https://diglib.amphilsoc.org/islandora/object/graphics:1840/datastream/JPG/view'
@@ -10,72 +10,19 @@ title: "Women in Science at the APS"
 #  banner_text: Women in Science in the APS Collections
 ---
 
-<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="{{ '/assets/img/network-screenshot.jpg'| relative_url }}" class="d-block w-100" style="opacity: 0.7;" alt="Network Visualization">
-      <div class="carousel-caption d-md-block">
-        <h5>Women in Science Network Visualization</h5>
-        <p><a href="{{ '/network-vis'| relative_url }}" target="_blank" rel="noopener noreferrer">Launch and explore the network!</a></p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="{{ '/assets/img/WomenInScience_003.jpeg'| relative_url }}" class="d-block w-100" alt="Women in Science List in the Florence Sabin Papers">
-      <div class="carousel-caption d-md-block">
-        <h5>Florence Sabin's Networks</h5>
-        <p><a href="{{ '/data-stories/sabin'| relative_url }}">Learn more about Sabin's efforts to promote women scientists.</a></p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="{{ '/assets/img/meitner.jpg' | relative_url }}" class="d-block w-100" alt="Lise Meitner with male scientists">
-      <div class="carousel-caption d-md-block">
-        <h5>Scientists Fleeing Totalitarianism</h5>
-        <p><a href="{{ '/data-stories/totalitarianism'| relative_url }}">Explore how scientists migrated to escape war and totalitarian governments.</a></p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="{{ '/assets/img/mcclintock-woods-hole.jpg' | relative_url }}" class="d-block w-100" alt="Barbara McClintock with male scientists">
-      <div class="carousel-caption d-md-block">
-        <h5>Gaps and Silences in the Archive</h5>
-        <p><a href="{{ '/data-stories/gaps-silences'| relative_url }}">See what our project includes and what might be left out.</a></p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="{{ '/assets/img/peiping.jpg' | relative_url }}" class="d-block w-100" alt="Men and women scientists at Peiping University">
-      <div class="carousel-caption d-md-block">
-        <h5>Transnational Connections</h5>
-        <p><a href="{{ '/data-stories/transnationalism'| relative_url }}">Read about how women crossed borders in pursuit of science.</a></p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <picture>
-        <source media="(min-width: 441px)" srcset="{{ '/assets/img/mcclintock-nobel-large.jpg' | relative_url }}">
-        <img src="{{ '/assets/img/mcclintock-nobel.jpg' | relative_url }}" class="d-block w-100" alt="Barbara McClintock giving her Nobel Prize lecture">
-      </picture>
-      <div class="carousel-caption d-md-block">
-        <h5>In Their Own Words</h5>
-        <p><a href="{{ '/data-stories/in-their-own-words'| relative_url }}">Listen to the voices of women scientists describing their experience.</a></p>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
+<div>
+  <img src="{{ '/assets/img/haas-youchigant-header-image.png' | relative_url }}" class="img-fluid" alt="Sesostrie Youchigant, Mary Haas, and a scanned page of the Tunica notebooks">
 </div>
 
-# Scientists in the APS Collections
+# Tunica language and history resources at the APS Library & Museum
 
-Women in the nineteenth and twentieth centuries participated in science: a field that was sometimes open to them, but more often than not structural barriers inhibited their full participation. While some women scientists received notoriety and fame, there are many who have been historically marginalized and lost within the archival record. _in Science_ uses the collections of the [American Philosophical Society](https://www.amphilsoc.org/){:target="_blank"}{:rel="noopener noreferrer"} to recover biographies and information about women in science not previously known. The network visualization at the heart of the project illustrates networks that were essential to sustaining women’s work in science.
+## Explore a vast body of resources on Tunica language, culture, and history through original archival documents and contemporary reflections by Tunica community members
 
-Use the buttons below to launch the network visualization, read more about the project, and to learn more about the individuals found in the network.
+In the 1930s, the last known speaker of the Tunica language, Sesostrie Youchigant, worked with the linguist Mary Haas to preserve information on the Tunica language for future generations. The stories, vocabularies, and deep cultural knowledge told by Youchigant and written down in notebooks by Haas form a rich resource that is playing a key role in the ongoing reawakening of the Tunica language.
 
+This online portal brings together those original documents, now with enhanced tools for exploring them through [transcriptions](https://www.amphilsoc.org/tunica-language-and-history-resources-aps-library-museum) and [content guides](https://www.amphilsoc.org/tunica-language-and-history-resources-aps-library-museum).
 
-{% include viz-button.html %}
+It also gathers together [video interviews](https://www.amphilsoc.org/tunica-language-and-history-resources-aps-library-museum) by contemporary Tunica community that help to give a rich picture of the past, present, and future of the Tunica language and community, as well as [related digital resources](https://www.amphilsoc.org/tunica-language-and-history-resources-aps-library-museum). 
 
 <div class="navigation-cards">
   <div class="container text-center">
