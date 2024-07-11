@@ -19,14 +19,14 @@ Text explaining the two different finding aids - TOC and subject matter headings
 
 Maybe some image boxes with links to those?
 
-## Example - use Liquid to iterate through accordion panels
-
 <div class="accordion" id="accordionPanelsStayOpenExample">
         <div class="accordion-item">
             {% for notebook in site.data.notebooks %}
                 {% assign panelId = "panel" | append: forloop.index %}
-                <h2 class="accordion-header" id="{{panelsStayOpen-headingOne}}">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                {% assign panelCollapseId = "panelCollapse" | append: forloop.index %}
+                {% assign dataBsTarget = "#panelCollapse" | append: forloop.index %}
+                <h2 class="accordion-header" id="{{ panelId }}">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="{{ dataBsTarget }}" aria-expanded="true" aria-controls="{{ panelCollapseId }}">
                     {% assign notebookname = "Notebook " | append: notebook.number | append: " (" | append: notebook.date | append: ")" %}
                     <h2>
                         {% if notebook.title %}
@@ -37,7 +37,7 @@ Maybe some image boxes with links to those?
                     </h2>
                 </button>
                 </h2>
-                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                <div id="{{ panelCollapseId }}" class="accordion-collapse collapse show" aria-labelledby="{{ panelId }}">
                 <div class="accordion-body">
                     <p><i>{{ notebook.description }}</i></p>
                     <p><a href="{{ notebook.url }}" target="_blank">View full notebook</a></p>
@@ -53,95 +53,6 @@ Maybe some image boxes with links to those?
             {% endfor %}
         </div>
 </div>
-
-## Example - accordion panels, no Liquid
-
-<div class="accordion" id="accordionPanelsStayOpenExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-        <h2>Notebook 1 (1993)</h2>
-      </button>
-    </h2>
-    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-      <div class="accordion-body">
-        <p>View notebook</p>
-        <p>Heading</p>
-        <p>Heading</p>
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-        <s>Accordion Item #2</s>
-      </button>
-    </h2>
-    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-      <div class="accordion-body">
-        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-        Accordion Item #3
-      </button>
-    </h2>
-    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-      <div class="accordion-body">
-        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div>
-</div>
-
-## Example - table, no Liquid
-
-<table class="table">
-  <thead>
-    <tr>
-      <th scope="col">Notebook</th>
-      <th scope="col">Year</th>
-      <th scope="col">Details</th>
-      <th scope="col">Expand/Collapse</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td scope="row">Notebook 1</td>
-      <td>1933</td>
-      <td></td>
-      <td>
-        <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-            Expand
-        </a>
-        </td>
-    </tr>
-    <tr>
-      <td>
-        Elicitation
-        How the Tunica Got Their Flag
-        Elicitation (Sept 7, 1933)
-        Thunder Myth
-        Notes on Noun Gender
-      </td>
-    </tr>
-    <tr>
-      <td scope="row">Notebook 2</td>
-      <td>1933</td>
-      <td></td>
-      <td>TK</td>
-    </tr>
-    <tr>
-      <td scope="row">Notebook 3</td>
-      <td>1933</td>
-      <td>Music</td>
-      <td>TK</td>
-    </tr>
-  </tbody>
-</table>
 
 ## TOC in plain text
 
