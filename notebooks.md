@@ -19,6 +19,60 @@ Text explaining the two different finding aids - TOC and subject matter headings
 
 Maybe some image boxes with links to those?
 
+{% for notebook in site.data.notebooks %}
+  <p>
+    Notebook {{ notebook.number }}
+  </p>
+  <ul>
+  {% for section in notebook.contents %}
+    <li>
+        {{ section }}
+    </li>
+  {% endfor %}
+  </ul>
+{% endfor %}
+
+<div class="accordion" id="accordionPanelsStayOpenExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+        <h2>Notebook 1 (1993)</h2>
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+      <div class="accordion-body">
+        <p>View notebook</p>
+        <p>Heading</p>
+        <p>Heading</p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+        <s>Accordion Item #2</s>
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+      <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+        Accordion Item #3
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+</div>
+
 <table class="table">
   <thead>
     <tr>
@@ -30,39 +84,86 @@ Maybe some image boxes with links to those?
   </thead>
   <tbody>
     <tr>
-      <th scope="row">
-        1
-        <div class="collapse" id="collapseExample">
-        <div class="card card-body">
-            Elicitation
-            How the Tunica Got Their Flag
-            Elicitation (Sept 7, 1933)
-            Thunder Myth
-            Notes on Noun Gender
-        </div>
-      </th>
+      <td scope="row">Notebook 1</td>
       <td>1933</td>
       <td></td>
       <td>
         <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
             Expand
         </a>
-    </td>
+        </td>
     </tr>
     <tr>
-      <th scope="row">2</th>
+      <td>
+        Elicitation
+        How the Tunica Got Their Flag
+        Elicitation (Sept 7, 1933)
+        Thunder Myth
+        Notes on Noun Gender
+      </td>
+    </tr>
+    <tr>
+      <td scope="row">Notebook 2</td>
       <td>1933</td>
       <td></td>
       <td>TK</td>
     </tr>
     <tr>
-      <th scope="row">3</th>
+      <td scope="row">Notebook 3</td>
       <td>1933</td>
       <td>Music</td>
       <td>TK</td>
     </tr>
   </tbody>
 </table>
+
+
+<div id="accordion">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Notebook 1 (1933)
+        </button>
+      </h5>
+    </div>
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+        Elicitation
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Notebook 2 (1933)
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+        Elicitation
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Notebook 3 (1933)
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+        Auxiliary - added to infintive
+      </div>
+    </div>
+  </div>
+</div>
+
 
 # Notebooks 1-4
 
