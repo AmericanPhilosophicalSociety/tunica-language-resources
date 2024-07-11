@@ -19,18 +19,42 @@ Text explaining the two different finding aids - TOC and subject matter headings
 
 Maybe some image boxes with links to those?
 
-{% for notebook in site.data.notebooks %}
-  <p>
-    Notebook {{ notebook.number }}
-  </p>
-  <ul>
-  {% for section in notebook.contents %}
-    <li>
-        {{ section }}
-    </li>
-  {% endfor %}
-  </ul>
-{% endfor %}
+## Example - use Liquid to iterate through accordion panels
+
+<div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+            {% for notebook in site.data.notebooks %}
+                {% assign panelId = "panel" | append: forloop.index %}
+                <h2 class="accordion-header" id="{{panelsStayOpen-headingOne}}">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                    {% assign notebookname = "Notebook " | append: notebook.number | append: " (" | append: notebook.date | append: ")" %}
+                    <h2>
+                        {% if notebook.title %}
+                            {{ notebookname | append: ": " | append: notebook.title }}
+                        {% else %}
+                            {{ notebookname }}
+                        {% endif %}
+                    </h2>
+                </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body">
+                    <p><i>{{ notebook.description }}</i></p>
+                    <p><a href="{{ notebook.url }}" target="_blank">View full notebook</a></p>
+                    <ul>
+                        {% for section in notebook.contents %}
+                            <li>
+                                {{ section }}
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                </div>
+            {% endfor %}
+        </div>
+</div>
+
+## Example - accordion panels, no Liquid
 
 <div class="accordion" id="accordionPanelsStayOpenExample">
   <div class="accordion-item">
@@ -72,6 +96,8 @@ Maybe some image boxes with links to those?
     </div>
   </div>
 </div>
+
+## Example - table, no Liquid
 
 <table class="table">
   <thead>
@@ -117,53 +143,7 @@ Maybe some image boxes with links to those?
   </tbody>
 </table>
 
-
-<div id="accordion">
-  <div class="card">
-    <div class="card-header" id="headingOne">
-      <h5 class="mb-0">
-        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Notebook 1 (1933)
-        </button>
-      </h5>
-    </div>
-    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-      <div class="card-body">
-        Elicitation
-      </div>
-    </div>
-  </div>
-
-  <div class="card">
-    <div class="card-header" id="headingTwo">
-      <h5 class="mb-0">
-        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Notebook 2 (1933)
-        </button>
-      </h5>
-    </div>
-    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-      <div class="card-body">
-        Elicitation
-      </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-header" id="headingThree">
-      <h5 class="mb-0">
-        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Notebook 3 (1933)
-        </button>
-      </h5>
-    </div>
-    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-      <div class="card-body">
-        Auxiliary - added to infintive
-      </div>
-    </div>
-  </div>
-</div>
-
+## TOC in plain text
 
 # Notebooks 1-4
 

@@ -1,4 +1,7 @@
 - number: 1
+  url: https://diglib.amphilsoc.org/islandora/object/text%3A312180
+  description: Word lists and interlinear texts.
+  date: 1933
   contents:
     - Elicitation
     - How the Tunica Got Their Flag
@@ -7,9 +10,113 @@
     - Notes on Noun Gender
 
 - number: 2
+  url: https://diglib.amphilsoc.org/islandora/object/text%3A312181
+  description: "Verb paradigms, grammatical notes, wordlists and interlinear texts. Consultant: Sesostrie Youchigant."
+  date: 1933
+  note: There's a weird thing about this notebook actually
   contents:
     - Elicitation
-    - "How: the Tunica Got Their Flag"
-    - Elicitation (Sept 7, 1933)
-    - Thunder Myth
-    - Notes on Noun Gender
+    - The Story of Bayou de Glaise
+    - Elicitation
+    - The Tasks of Rabbit
+    - Elicitation
+    - The Origin of the Pole-Bean (first telling)
+    - The Origin of Corn (first telling)
+    - About Fire
+    - How Eating Implements were made
+    - How They Used to Cook
+    - How Corn-meal was made
+    - How Hominy was made
+    - Flood Myth (first telling)
+
+- number: 3
+  url: https://diglib.amphilsoc.org/islandora/object/text%3A312182
+  description: "Verb paradigms, grammatical notes, wordlists and interlinear texts. Consultant: Sesostrie Youchigant."
+  date: 1933
+  contents:
+    - Placeholder
+
+- number: 4
+  url: https://diglib.amphilsoc.org/islandora/object/text%3A312183
+  description: "Verb paradigms, grammatical notes, wordlists and interlinear texts. Consultant: Sesostrie Youchigant."
+  date: 1933
+  contents:
+    - Placeholder
+
+- number: 5
+  title: Music
+  url: https://diglib.amphilsoc.org/islandora/object/text%3A312184
+  description: "Lyrics to songs and dances, with occasional sheet music transcriptions and anthropological notes on the instruments used. Consultant: Sesostrie Youchigant."
+  date: 1933 to 1935
+  contents:
+    - Placeholder
+
+- number: 6
+  url: https://diglib.amphilsoc.org/islandora/object/text%3A310815
+  description: "Interlinear texts, wordlists, and verb paradigms. Includes some Choctaw lexicon. Consultant: Sesostrie Youchigant."
+  date: 1933
+  contents:
+    - Placeholder
+
+- number: 7
+  url: https://diglib.amphilsoc.org/islandora/object/text%3A311418
+  description: "Interlinear texts (many of the English glosses incomplete), verb paradigms, grammatical notes, ethnography, and wordlists. Consultant: Sesostrie Youchigant."
+  date: 1933
+  contents:
+    - Placeholder
+
+- number: 8
+  url: https://diglib.amphilsoc.org/islandora/object/text%3A311766
+  description: Interlinear texts (many "copied"), wordlists, some sheet music.
+  date: 1934
+  contents:
+    - Placeholder
+
+- number: 9
+  url: https://diglib.amphilsoc.org/islandora/object/text%3A311967
+  description: "Wordlists (some alphabetical) and verb paradigms. Includes insert with more wordlists. Consultant: Sesostrie Youchigant."
+  date: 1933 to 1944
+  contents:
+    - Placeholder
+
+- number: 10
+  title: "'Notes on Swanton's Vocabulary' #1"
+  url: https://diglib.amphilsoc.org/islandora/object/text%3A312175
+  description: Wordlist, annotated and alphabetized from A-P.
+  date: 1934
+  contents:
+    - Placeholder
+
+- number: 11
+  title: "'Notes on Swanton's Vocabulary' #2"
+  url: https://diglib.amphilsoc.org/islandora/object/text%3A312176
+  description: Wordlist, annotated and alphabetized from P-Y. Numbers.
+  date: 1934
+  contents:
+    - Placeholder
+
+- number: 12
+  url: https://diglib.amphilsoc.org/islandora/object/text%3A312177
+  description: "Vocabulary questions (answered and unanswered), wordlists and verb paradigms (continued from #9), and interlinear texts (copied, missing many English glosses)."
+  date: 1934
+  contents:
+    - Placeholder
+
+- number: 13
+  note: This notebook is no longer extant.
+  contents:
+    - Placeholder
+
+- number: 14
+  url: https://diglib.amphilsoc.org/islandora/object/text%3A312178
+  description: Wordlists, texts (some interlinear, mostly English only, including ethnography on Tunica and Choctaw), and verb paradigms.
+  date: 1937
+  contents:
+    - Placeholder
+
+- number: 15
+  url: https://diglib.amphilsoc.org/islandora/object/text%3A312179
+  description: Interlinear texts, ethnographic and historical descriptions featuring the Choctaw, verb paradigms, and wordlists.
+  date: 1937
+  contents:
+    - Placeholder
