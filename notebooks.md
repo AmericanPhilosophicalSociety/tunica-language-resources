@@ -8,7 +8,6 @@ image:
   caption_url: 'https://diglib.amphilsoc.org/islandora/object/women-science-nd/'
   caption: Mary Haas's Tunica notebooks
 ---
-
 # {{ page.title }}
 
 Insert text explaining what these notebooks are and how to access them
@@ -19,30 +18,17 @@ Text explaining the two different finding aids - TOC and subject matter headings
 
 Maybe some image boxes with links to those?
 
-<script>
-    $("#collapseAll").click( function() {
-        let button = document.getElementById("collapseAll");
-        if(!$('.accordion-header').hasClass("active")){
-            $('.accordion-header').removeClass("active").addClass("active");
-            button.innerHTML = 'Collapse all'
-
-        } else {
-            $('.accordion-header').addClass("active").removeClass("active");
-            button.innerHTML = 'Expand all'
-        }
-    });
-</script>
-
-<button id="collapseAll">Button Text</button>
+<button onclick="expandCollapse()">Expand/Collapse All</button>
 
 <div class="accordion" id="toc-accordion">
         <div class="accordion-item">
             {% for notebook in site.data.notebooks %}
                 {% assign panelId = "panel" | append: forloop.index %}
+                {% assign buttonId = "button" | append: forloop.index %}
                 {% assign panelCollapseId = "panelCollapse" | append: forloop.index %}
                 {% assign dataBsTarget = "#panelCollapse" | append: forloop.index %}
                 <h2 class="accordion-header" id="{{ panelId }}">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="{{ dataBsTarget }}" aria-expanded="true" aria-controls="{{ panelCollapseId }}">
+                <button class="accordion-button collapsed" type="button" id="{{ buttonId }}" data-bs-toggle="collapse" data-bs-target="{{ dataBsTarget }}" aria-expanded="false" aria-controls="{{ panelCollapseId }}">
                     {% assign notebookname = "Notebook " | append: notebook.number | append: " (" | append: notebook.date | append: ")" %}
                     <h2>
                         {% if notebook.title %}
@@ -53,12 +39,13 @@ Maybe some image boxes with links to those?
                     </h2>
                 </button>
                 </h2>
-                <div id="{{ panelCollapseId }}" class="accordion-collapse collapse show" aria-labelledby="{{ panelId }}">
+                <div id="{{ panelCollapseId }}" class="accordion-collapse collapse" aria-labelledby="{{ panelId }}">
                 <div class="accordion-body">
                     <p><i>{{ notebook.description }}</i></p>
                     <p><a href="{{ notebook.url }}" target="_blank">View full notebook</a></p>
                     <ul>
                         <li>panelId: {{ panelId }}</li>
+                        <li>buttonId: {{ buttonId }}</li>
                         <li>panelCollapseId: {{ panelCollapseId }}</li>
                         <li>dataBsTarget: {{ dataBsTarget }}</li>
                         {% for section in notebook.contents %}
@@ -72,3 +59,22 @@ Maybe some image boxes with links to those?
             {% endfor %}
         </div>
 </div>
+
+<script>
+    function expandCollapse() {
+        // let panel = document.getElementById("panel1");
+        // let button = document.getElementById("button1");
+        // // button.aria-expanded = "true";
+        // button.style.class = "accordion-button";
+        // panel.class = "accordion-collapse collapse show";
+        console.log("script runs");
+        console.log("class of getElementById panelCollapse1: " + document.getElementById("panelCollapse1").class);
+        document.getElementById("panelCollapse1").class = "accordion-collapse collapse show";
+        console.log("class of getElementById panelCollapse1: " + document.getElementById("panelCollapse1").class);
+        
+        console.log("class of getElementById button1: " + document.getElementById("button1").class);
+        document.getElementById("button1").class = "accordion-button";
+        console.log("class of getElementById button1: " + document.getElementById("button1").class);
+        // document.getElementById("button1").aria-expanded = "true";
+    }
+</script>
