@@ -1,6 +1,6 @@
 # General
 
-+ do a template for the white 'view thing' button instead of copy/pasting
++ get pages into folder to make directory easier to navigate
 
 # Home page
 
@@ -10,18 +10,17 @@
 
 # Navbar
 
-+ have Oral Histories links go to specific pages once those are built
 + do I want to get rid of the drop-down menus and just have these link to the landing page instead?
++ have Oral Histories links go to specific pages once those are built
 
 # TOC
 
 **PRIORITY**
 
-+ formatting for notebook 13 (unknown) - strikethrough, change body
-+ figure out expand all collapse all
-+ change sort display so we see two buttons, one grayed out and one in color? or a switch? idk
-+ write script to get links for subject headings
++ *figure out expand all collapse all*
++ *write script to get links for subject headings*
 + fix CHARACTER PLACEHOLDER TK lines in yml
++ change sort display so we see two buttons, one grayed out and one in color? or a switch? idk
 
 # Additional resources
 
@@ -31,8 +30,9 @@
 
 # About the Language
 
-+ nicer looking landing page
-+ keep working on display for individual posts - nicer blockquote formatting etc?
++ *nicer looking landing page*
++ format title and read more
++ do something more w images? responsive sizing, center them?
 
 # Oral Histories
 

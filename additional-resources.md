@@ -36,7 +36,7 @@ The [Tunica Language & Cultural Revitalization Program](https://www.tunicabiloxi
     <div class="row">
       <div class="col">
         <a href="https://www.tunicabiloxi.org/tribal-info/departments/language-culture-revitalization-program/" target="_blank" rel="noopener noreferrer">
-          <img src="{{ '/assets/img/tunica-notebook-3.jpg'| relative_url }}" width="600px" height="200px">
+          <img src="{{ '/assets/img/TunicaAlphabet2.jpg'| relative_url }}" width="600px" height="400px">
           <div class="card-banner">
             Tunica Language & Culture Revitalization
           </div>

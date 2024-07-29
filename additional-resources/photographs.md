@@ -9,6 +9,8 @@ title: "Photographs"
 
 [sample of a couple of the photos taken by Mary Haas, with link to how to see all of them]
 
+{% include image-gallery.html %}
+
  
 
 [IMAGES]
