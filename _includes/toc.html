@@ -12,7 +12,11 @@
                     {% if notebook.title %}
                         {{ notebookname | append: ": " | append: notebook.title }}
                     {% else %}
-                        {{ notebookname }}
+                        {% if notebook.number == 13 %}
+                            <s>{{ notebookname }}</s>
+                        {% else %}
+                            {{ notebookname }}
+                        {% endif %}
                     {% endif %}
                 </h2>
             </button>
@@ -20,7 +24,9 @@
             <div id="{{ panelCollapseId }}" class="accordion-collapse collapse" aria-labelledby="{{ panelId }}">
             <div class="accordion-body">
                 <p><i>{{ notebook.description }}</i></p>
-                <p><a href="{{ notebook.url }}" target="_blank">View full notebook</a></p>
+                {% if notebook.url %}
+                    <p><a href="{{ notebook.url }}" target="_blank">View full notebook</a></p>
+                {% endif %}
                 <ul>
                     <!-- <li>panelId: {{ panelId }}</li>
                     <li>buttonId: {{ buttonId }}</li>
