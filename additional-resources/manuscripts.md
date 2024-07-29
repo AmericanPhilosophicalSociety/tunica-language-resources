@@ -3,7 +3,7 @@ layout: default
 title: "Additional Manuscripts"
 ---
 
-# Additional Manuscripts
+# {{ page.title }}
 
 In addition to the original notebooks recorded by Mary Haas & Sesostrie Youchigant, there are many other types of unique archival documents about the Tunica people and language. 
 

@@ -10,59 +10,44 @@ image:
 ---
 # {{ page.title }}
 
-Insert text explaining what these notebooks are and how to access them
+In the 1930s, the last known speaker of the Tunica language, Sesostrie Youchigant, worked with the linguist Mary Haas to preserve information on the Tunica language for future generations. The stories, vocabularies, and deep cultural knowledge told by Youchigant and written down in notebooks by Haas form a rich resource that is playing a key role in the ongoing reawakening of the Tunica language.
+
+You can view digitizations and transcriptions of these notebooks on the APS website, linked below.
 
 {% include view-notebooks.html %}
 
-Text explaining the two different finding aids - TOC and subject matter headings
+You can also navigate the notebooks via their contents (below). Contents can be sorted by notebook number or by theme.
 
-Maybe some image boxes with links to those?
+<button id="toggleTOC" onclick="toggleOrganization()" type="button" class="btn btn-primary btn-lg btn-block">Sort by Subject Heading</button>
 
-{% include view-subject-headings.html %}
+<!-- <button id="expandCollapseButton" onClick="expandCollapse()">Expand/Collapse All</button> -->
 
-<button id="expandCollapseButton">Expand/Collapse All</button>
+<div id="toc">
+    {% include toc.html %}
+</div>
 
-<div class="accordion" id="toc-accordion">
-        <div class="accordion-item">
-            {% for notebook in site.data.notebooks %}
-                {% assign panelId = "panel" | append: forloop.index %}
-                {% assign buttonId = "button" | append: forloop.index %}
-                {% assign panelCollapseId = "panelCollapse" | append: forloop.index %}
-                {% assign dataBsTarget = "#panelCollapse" | append: forloop.index %}
-                <h2 class="accordion-header" id="{{ panelId }}">
-                <button class="accordion-button collapsed" type="button" id="{{ buttonId }}" data-bs-toggle="collapse" data-bs-target="{{ dataBsTarget }}" aria-expanded="false" aria-controls="{{ panelCollapseId }}">
-                    {% assign notebookname = "Notebook " | append: notebook.number | append: " (" | append: notebook.date | append: ")" %}
-                    <h2>
-                        {% if notebook.title %}
-                            {{ notebookname | append: ": " | append: notebook.title }}
-                        {% else %}
-                            {{ notebookname }}
-                        {% endif %}
-                    </h2>
-                </button>
-                </h2>
-                <div id="{{ panelCollapseId }}" class="accordion-collapse collapse" aria-labelledby="{{ panelId }}">
-                <div class="accordion-body">
-                    <p><i>{{ notebook.description }}</i></p>
-                    <p><a href="{{ notebook.url }}" target="_blank">View full notebook</a></p>
-                    <ul>
-                        <!-- <li>panelId: {{ panelId }}</li>
-                        <li>buttonId: {{ buttonId }}</li>
-                        <li>panelCollapseId: {{ panelCollapseId }}</li>
-                        <li>dataBsTarget: {{ dataBsTarget }}</li> -->
-                        {% for section in notebook.contents %}
-                            <li>
-                                {{ section }}
-                            </li>
-                        {% endfor %}
-                    </ul>
-                </div>
-                </div>
-            {% endfor %}
-        </div>
+<div id="toc-by-topic" style="display: none">
+    {% include toc-by-topic.html %}
 </div>
 
 <script>
+    function toggleOrganization() {
+        let button = document.getElementById("toggleTOC");
+        let toc = document.getElementById("toc");
+        let tocByTopic = document.getElementById("toc-by-topic");
+        if (toc.style.display === "none") {
+            toc.style.display = "block";
+            tocByTopic.style.display = "none";
+            button.innerHTML = "Sort by Subject Heading";
+        } else {
+            toc.style.display = "none";
+            tocByTopic.style.display = "block";
+            button.innerHTML = "Sort by Notebook";
+        }
+    }
+</script>
+
+<!-- <script>
     function expandCollapse() {
         // let panel = document.getElementById("panel1");
         // let button = document.getElementById("button1");
@@ -81,8 +66,8 @@ Maybe some image boxes with links to those?
     }
     let button = document.getElementById("expandCollapseButton");
     button.addEventListener("click", expandCollapse);
-</script>
+</script> -->
 
-<script>
+<!-- <script>
     $('.collapse').collapse()
-</script>
+</script> -->

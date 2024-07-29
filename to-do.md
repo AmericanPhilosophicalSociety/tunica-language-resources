@@ -1,3 +1,7 @@
+# General
+
++ do a template for the white 'view thing' button instead of copy/pasting
+
 # Home page
 
 + tweak formatting for header image
@@ -13,9 +17,11 @@
 
 **PRIORITY**
 
++ formatting for notebook 13 (unknown) - strikethrough, change body
 + figure out expand all collapse all
-+ Figure out display for sort by notebook vs sort by subject headings
++ change sort display so we see two buttons, one grayed out and one in color? or a switch? idk
 + write script to get links for subject headings
++ fix CHARACTER PLACEHOLDER TK lines in yml
 
 # Additional resources
 

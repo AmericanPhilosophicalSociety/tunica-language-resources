@@ -14,7 +14,7 @@ title: "The Tunica Language Notebooks"
   <img src="{{ '/assets/img/haas-youchigant-header-image.png' | relative_url }}" class="img-fluid" alt="Sesostrie Youchigant, Mary Haas, and a scanned page of the Tunica notebooks">
 </div>
 
-# Tunica language and history resources at the APS Library & Museum
+# Tunica Language and History Resources at the APS Library & Museum
 
 ## Explore a vast body of resources on Tunica language, culture, and history through original archival documents and contemporary reflections by Tunica community members
 
