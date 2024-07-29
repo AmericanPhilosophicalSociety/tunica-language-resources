@@ -1,0 +1,91 @@
+---
+layout: insights
+title: Tunica Animacy
+author: Patricia Anderson
+---
+Tunica nouns have both a grammatical gender and an animacy class. Tunica grammatical gender is either masculine or feminine; there is no neuter or neutral grammatical gender. Tunica animacy classes consist of inanimate, animate-non-human, and animate-human.
+
+Gender and animacy are inextricably linked in Tunica because they are expressed with the same set of suffixes. Known as the Gender-Number Affixes (GNA), affixes encoding grammatical gender and animacy appear on nouns and noun phrases throughout the Tunica texts.
+
+*ihchahchi*
+
+i-hcha-hchi
+
+my-grandparent-feminine singular GNA
+
+my grandmother
+
+ 
+
+*Ihchaku*
+
+i-cha-ku
+
+my-grandparent-masculine singular GNA
+
+my grandfather
+
+ 
+
+*ihksaku*
+
+ihk-sa-ku
+
+my-dog-masculine singular GNA
+
+my dog
+
+ 
+
+*ihksasinima*
+
+ihk-sa-sinima
+
+my-dog-feminine plural GNA
+
+my dogs
+
+Grammatical gender in Tunica is related to biological gender at some level, as we can see with the two “grandparent” examples above: “grandmother” takes the feminine suffix while “grandfather” takes the masculine suffix. However when referring to mixed groups, the ending cannot refer to biological gender alone. Instead, the GNA selected reflects both the number of referents and the animacy class of said nouns.
+
+Consider the following examples. In the first set, the noun is a human, and in the second set, the noun is an animal.
+
+Eti**ku** - my friend -- *ku* is masculine singular ending
+
+Et’**unima** - my two friends -- *unima* is the masculine dual ending
+
+Eti**sɛma** - my many friends -- *sɛma* is the masculine plural ending
+
+Eti**ku** - my group of friends -- *ku* is the masculine collective ending
+
+ 
+
+Rushta**ku** - a rabbit -- *ku* is masculine singular ending
+
+Rusht’**unima** - two rabbits -- *unima* is the masculine dual ending
+
+Rushta**sinima** - many rabbits - *sinima* is the feminine plural ending
+
+Rushta**hchi** - a group of rabbits - *hchi* is the feminine collective ending
+
+As seen above, when there are one or two nouns, there is no distinction between human or animal endings. However, once you increase the number past three items, the difference in animacy class is apparent from the endings - masculine endings are used for humans and feminine endings are used for non-humans.
+
+This pattern of human/non-human animacy is also seen in verb endings when the subject is unknown or indefinite. For example, if I hear a number of voices, and I want to ask “who is making all that racket?” in Tunica, I use the masculine verb endings.
+
+     Kaku hahpaya ya**ta**?
+
+     who   noise      they are making (masculine)
+
+On the other hand, if I hear a bunch of animal yowls, and want to ask “who is making all that racket?” I would say.
+
+     Kaku hahpaya ya**siti**?
+
+     who   noise      they are making (feminine)
+
+For a more indepth look at Tunica grammatical gender and animacy as evidenced though GNAs in the texts, see Heaton and Anderson (2017).
+
+ 
+---
+
+## References
+
+Heaton, Raina and Patricia Anderson. 2017. “When Animals Become Humans: Grammatical Gender in Tunica.” *International Journal of American Linguistics* vol 83, no 2.

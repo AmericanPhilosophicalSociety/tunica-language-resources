@@ -28,26 +28,34 @@ It also gathers together [video interviews](https://www.amphilsoc.org/tunica-lan
   <div class="container text-center">
     <div class="row">
       <div class="col">
-        <a href="{{ '/about'| relative_url }}">
-          <img src="{{ '/assets/img/chromosomes.jpg'| relative_url }}" width="300px" height="200px">
+        <a href="{{ '/notebooks'| relative_url }}">
+          <img src="{{ '/assets/img/tunica-notebook-3.jpg'| relative_url }}" width="300px" height="200px">
           <div class="card-banner">
-            Project Overview
+            The Notebooks
           </div>
         </a>
       </div>
       <div class="col">
-        <a href="{{ '/about-data'| relative_url }}">
-          <img src="{{ '/assets/img/sabin-technique.jpg'| relative_url }}" width="300px" height="200px">
+        <a href="{{ '/additional-resources'| relative_url }}">
+          <img src="{{ '/assets/img/TunicaAlphabet2.jpg'| relative_url }}" width="300px" height="200px">
           <div class="card-banner">
-            The Data
+            Additional Resources
           </div>
         </a>
       </div>
       <div class="col">
-        <a href="{{ '/visualization'| relative_url }}">
-          <img src="{{ '/assets/img/cohn-drawing.jpg'| relative_url }}" width="300px" height="200px">
+        <a href="{{ '/insights/about-the-language'| relative_url }}">
+          <img src="{{ '/assets/img/Tunica08-063preaspiration.jpg'| relative_url }}" width="300px" height="200px">
           <div class="card-banner">
-            The Visualization
+            About the Language
+          </div>
+        </a>
+      </div>
+      <div class="col">
+        <a href="{{ '/oral-histories'| relative_url }}">
+          <img src="{{ '/assets/img/TunicaEldersfromCasino.jpg'| relative_url }}" width="300px" height="200px">
+          <div class="card-banner">
+            Oral Histories
           </div>
         </a>
       </div>

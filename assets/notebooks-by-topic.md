@@ -1,0 +1,202 @@
+# Historical stories
+
+About Red River
+
+A Bank Robbery
+
+The Biloxi
+
+A Choctaw Ball
+
+The Emergence of the Avoyelles
+
+The Emergence of the Tunica
+
+Flint
+
+A Good Deed Forgotten
+
+How the Tunica Got Their Flag
+
+A Hunting Trip Ends in Battle
+
+Le Juif Errant
+
+The Migration of Tunica
+
+The Mounds Near Marksville
+
+The One-Eyed Indians
+
+The One-Eyed Indians
+
+Origin of the Tunica / The Tunica Fight the English
+
+Sesostrie's Family
+
+The Origin of Bayou de Glaise (second telling)
+
+The Story of Bayou de Glaise
+
+Story told by S's grandmother (about the Spanish) 
+
+The Tunica and the Spanish Defeat the Avoyelle
+
+The Tunica Take Revenge
+
+War with Pascagoula + Natchez
+
+Why the Tunica and Biloxi Became Friends
+
+# Traditional stories
+
+The Ahpasa Lamihta
+
+The Avoyelle Woman who Never Died
+
+The Clawed Witch
+
+The Country Under the Water
+
+The Creation of the Turtle
+
+Deer and Turtle as Rivals
+
+The Drying Up of the Ocean
+
+Flood Myth (first telling)
+
+Flood Myth (second telling)
+
+How Flamant Came to be Bald-Headed
+
+Mammoths
+
+The Messenger of Death
+
+The Night Owl
+
+The Opossum and the Turtle
+
+The Origin of Corn
+
+The Origin of Corn (first telling)
+
+The Origin of Corn (second telling)
+
+The Origin of the Pole-Bean (first telling)
+
+The Origin of the Pole-Bean (2nd telling)
+
+The Owl Mammoth
+
+Owl Mammoth (translation)
+
+The Puppy That Saved His Master
+
+The Singing Woman
+
+The Solar Myth (1st telling)
+
+The Solar Myth (2nd telling)
+
+The Solar Myth (3rd telling)
+
+Star Country
+
+The Stone Witch
+
+The Tasks of Rabbit (first telling)
+
+The Tasks of Rabbit (second telling; “The Lord Tests Rabbit Three Times”)
+
+The Three Owls
+
+Thunder Myth (first telling)
+
+Thunder Myth (second telling)
+
+Tigre Blanc
+
+Woodpecker
+
+# Cultural knowledge
+
+About Fire
+
+About Fire
+
+About food (in English)
+
+Animals
+
+Ball game (in English)
+
+Black bear
+
+Dance information
+
+Dances (in English)
+
+Dew, Corn Shucking, Weaving
+
+Enough
+
+Ethnobotany
+
+Ethnobotany
+
+Ethnobotany (in English)
+
+Face Painting and Dances
+
+How and What They Used to Hunt
+
+How Corn-meal was made
+
+How Eating Implements were made
+
+How Hominy was made
+
+How they Danced the Bear Dance
+
+How they Danced the Rabbit Dance
+
+How They Danced the Raccoon Dance
+
+How They Made Baskets
+
+How They Tanned Hide
+
+How They Used to Cook
+
+How They Used to Cure Fever
+
+How They Used to Make Baskets
+
+How They Used to Make Hats From Palmetto Leaves
+
+How They Used to Shoot Ghosts
+
+How They Used to Tan Hides
+
+Old-Time Houses and Furniture
+
+On Catching Baby Deer
+
+Plant names
+
+Sesostrie Dreams About a Rabbit
+
+Snake or bite cure
+
+Ticlina
+
+Types of Dances. Of the Choctaw and Koasati (in English)
+What they Used to Eat
+
+William Ely Johnson
+
+# Linguistic notes
+
+[mention that the notebooks are full of passages where miscellaneous words and phrase are listed, and tell people to look for "elicitation" in the general sequential tables of contents (link to that page)]

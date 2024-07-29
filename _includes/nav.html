@@ -11,30 +11,31 @@
             The Notebooks
           </a>
         </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="{{ '/additional-resources' | relative_url }}">
+            Additional Resources
+          </a>
+        </li> -->
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Finding Aids
+            Additional Resources
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="{{ '/data-stories/sabin' | relative_url }}">Introduction</a></li>
-            <li><a class="dropdown-item" href="{{ '/data-stories/totalitarianism' | relative_url }}">Table of Contents</a></li>
-            <li><a class="dropdown-item" href="{{ '/data-stories/gaps-silences' | relative_url }}">Subject Headings</a></li>
+            <li><a class="dropdown-item" href="{{ '/additional-resources' | relative_url}}">Introduction</a></li>
+            <li><a class="dropdown-item" href="{{ '/additional-resources/manuscripts' | relative_url}}">Manuscripts</a></li>
+            <li><a class="dropdown-item" href="{{ '/additional-resources/photographs' | relative_url}}">Photographs</a></li>
           </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{ '/visualization' | relative_url }}">
-            Additional Manuscripts
-          </a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             About the Language
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="{{ '/search-bios' | relative_url}}">Tunica as a Language Isolate</a></li>
-            <li><a class="dropdown-item" href="{{ '/tip-of-the-iceberg' | relative_url}}">Tunica Animacy</a></li>
-            <li><a class="dropdown-item" href="{{ '/tip-of-the-iceberg' | relative_url}}">Preaspiration in Tunica</a></li>
-            <li><a class="dropdown-item" href="{{ '/tip-of-the-iceberg' | relative_url}}">Spatial Orientation in Tunica Grammar</a></li>
+            {% for page in site.pages %}
+              {% if page.layout == 'insights' %}
+                <li><a class="dropdown-item" href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
+              {% endif %}
+            {% endfor %}
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -42,12 +43,12 @@
             Oral Histories
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="{{ '/search-bios' | relative_url}}">Introduction</a></li>
-            <li><a class="dropdown-item" href="{{ '/search-bios' | relative_url}}">Tunica History</a></li>
-            <li><a class="dropdown-item" href="{{ '/tip-of-the-iceberg' | relative_url}}">Music and Traditions</a></li>
-            <li><a class="dropdown-item" href="{{ '/tip-of-the-iceberg' | relative_url}}">Connecting Generations</a></li>
-            <li><a class="dropdown-item" href="{{ '/tip-of-the-iceberg' | relative_url}}">Language Reawakening</a></li>
-            <li><a class="dropdown-item" href="{{ '/tip-of-the-iceberg' | relative_url}}">Traditional Crafts</a></li>
+            <li><a class="dropdown-item" href="{{ '/oral-histories' | relative_url}}">Introduction</a></li>
+            <li><a class="dropdown-item" href="{{ '/oral-histories' | relative_url}}">Tunica History</a></li>
+            <li><a class="dropdown-item" href="{{ '/oral-histories' | relative_url}}">Music and Traditions</a></li>
+            <li><a class="dropdown-item" href="{{ '/oral-histories' | relative_url}}">Connecting Generations</a></li>
+            <li><a class="dropdown-item" href="{{ '/oral-histories' | relative_url}}">Language Reawakening</a></li>
+            <li><a class="dropdown-item" href="{{ '/oral-histories' | relative_url}}">Traditional Crafts</a></li>
           </ul>
         </li>
       </ul>

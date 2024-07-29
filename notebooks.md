@@ -3,7 +3,7 @@ layout: default
 title: 'The Tunica Language Notebooks'
 parallax: true
 image:
-  img_url: '/womeninscience/assets/img/tunica-notebook-3.jpg'
+  img_url: '/tunicanotebooks/assets/img/tunica-notebook-3.jpg'
   img_alt: A blue notebook with a Yale University logo and handwritten text reading "Tunica III".
   caption_url: 'https://diglib.amphilsoc.org/islandora/object/women-science-nd/'
   caption: Mary Haas's Tunica notebooks
@@ -18,7 +18,9 @@ Text explaining the two different finding aids - TOC and subject matter headings
 
 Maybe some image boxes with links to those?
 
-<button onclick="expandCollapse()">Expand/Collapse All</button>
+{% include view-subject-headings.html %}
+
+<button id="expandCollapseButton">Expand/Collapse All</button>
 
 <div class="accordion" id="toc-accordion">
         <div class="accordion-item">
@@ -44,10 +46,10 @@ Maybe some image boxes with links to those?
                     <p><i>{{ notebook.description }}</i></p>
                     <p><a href="{{ notebook.url }}" target="_blank">View full notebook</a></p>
                     <ul>
-                        <li>panelId: {{ panelId }}</li>
+                        <!-- <li>panelId: {{ panelId }}</li>
                         <li>buttonId: {{ buttonId }}</li>
                         <li>panelCollapseId: {{ panelCollapseId }}</li>
-                        <li>dataBsTarget: {{ dataBsTarget }}</li>
+                        <li>dataBsTarget: {{ dataBsTarget }}</li> -->
                         {% for section in notebook.contents %}
                             <li>
                                 {{ section }}
@@ -71,10 +73,16 @@ Maybe some image boxes with links to those?
         console.log("class of getElementById panelCollapse1: " + document.getElementById("panelCollapse1").class);
         document.getElementById("panelCollapse1").class = "accordion-collapse collapse show";
         console.log("class of getElementById panelCollapse1: " + document.getElementById("panelCollapse1").class);
-        
+
         console.log("class of getElementById button1: " + document.getElementById("button1").class);
         document.getElementById("button1").class = "accordion-button";
         console.log("class of getElementById button1: " + document.getElementById("button1").class);
         // document.getElementById("button1").aria-expanded = "true";
     }
+    let button = document.getElementById("expandCollapseButton");
+    button.addEventListener("click", expandCollapse);
+</script>
+
+<script>
+    $('.collapse').collapse()
 </script>
