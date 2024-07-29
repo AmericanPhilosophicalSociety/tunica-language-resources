@@ -18,7 +18,7 @@
 **PRIORITY**
 
 + *figure out expand all collapse all*
-+ *write script to get links for subject headings*
++ write script to get links for subject headings
 + fix CHARACTER PLACEHOLDER TK lines in yml
 + change sort display so we see two buttons, one grayed out and one in color? or a switch? idk
 
@@ -26,7 +26,11 @@
 
 + make formatting look nice on landing page
 + how to format images in headers?
-+ get content for photos page and do layout
+
+## Photographs
+
++ change code for Carousels to use liquid templating/loops
++ make these look better - less blank space, larger images, place captions below images
 
 # About the Language
 

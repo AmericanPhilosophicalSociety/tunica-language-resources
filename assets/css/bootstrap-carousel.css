@@ -1,4 +1,25 @@
 .carousel-item img {
-    margin: 0 auto; /* this will align the image to center. */
-    width: auto; /* for those images which don't have a width specified, but has a max-height will be auto adjusted */
-  }
+    margin: 0 auto;
+    /* this will align the image to center. */
+    width: auto;
+    /* for those images which don't have a width specified, but has a max-height will be auto adjusted */
+}
+
+.carousel {
+    overflow: hidden;
+    padding-bottom: 4rem;
+}
+
+/* .carousel-caption {
+    top: 100%;
+} */
+
+.carousel-inner {
+    overflow: visible;
+}
+
+.carousel-control-next,
+.carousel-control-prev,
+.carousel-indicators {
+    bottom: 4rem;
+}
