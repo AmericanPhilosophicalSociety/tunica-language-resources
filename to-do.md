@@ -17,10 +17,9 @@
 
 **PRIORITY**
 
-+ *figure out expand all collapse all*
-+ write script to get links for subject headings
++ *figure out expand all collapse all fix*
++ write script to get links for subject headings - WAIT ON THIS
 + fix CHARACTER PLACEHOLDER TK lines in yml
-+ change sort display so we see two buttons, one grayed out and one in color? or a switch? idk
 
 # Additional resources
 

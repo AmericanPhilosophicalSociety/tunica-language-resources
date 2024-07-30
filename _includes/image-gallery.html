@@ -12,9 +12,10 @@
         <div class="carousel-item">
       {% endif %}
       {% assign imgPath = "/assets/img/" | append: photo.fileName %}
+        <!-- <img src="{{ imgPath | relative_url }}" class="d-block" alt="..."> -->
         <img src="{{ imgPath | relative_url }}" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h5>{{ photo.displayTitle }}</h5>
+          <h5><a href="{{ photo.url }}" target="_blank">{{ photo.displayTitle }}</a></h5>
           <p>{{ photo.description }}</p>
         </div>
       </div>

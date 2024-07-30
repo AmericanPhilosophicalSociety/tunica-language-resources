@@ -6,17 +6,20 @@
 }
 
 .carousel {
-    overflow: hidden;
+    /* overflow: hidden; */
     padding-bottom: 4rem;
+    /* box-sizing: border-box;
+            margin: 0;
+            padding: 0; */
 }
 
-/* .carousel-caption {
+.carousel-caption {
     top: 100%;
-} */
-
-.carousel-inner {
-    overflow: visible;
 }
+
+/* .carousel-inner {
+    overflow: visible;
+} */
 
 .carousel-control-next,
 .carousel-control-prev,

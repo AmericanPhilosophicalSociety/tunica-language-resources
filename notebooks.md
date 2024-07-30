@@ -80,8 +80,8 @@ You can also navigate the notebooks via their contents (below). Contents can be 
         // document.getElementById("toc-accordion").addClass("open");
         // document.getElementById("toc-accordion").collapse("toggle");
         // for all accordion: addClass("open") or removeClass("open");
-        // const collapseElementList = document.querySelectorAll('.collapse');
-        console.log("collapseElementList: " + collapseElementList[5].outerHTML);
+        const collapseElementList = document.querySelectorAll('.collapse');
+        // console.log("collapseElementList: " + collapseElementList[5].outerHTML);
         const collapseList = [...collapseElementList].map(collapseEl => new bootstrap.Collapse(collapseEl));
         // console.log("collapseElementList: " + collapseList[5].outerHTML);
         // const collapseElementListShorter = [];
