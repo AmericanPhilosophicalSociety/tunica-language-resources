@@ -20,9 +20,9 @@ title: "The Tunica Language Notebooks"
 
 In the 1930s, the last known speaker of the Tunica language, Sesostrie Youchigant, worked with the linguist Mary Haas to preserve information on the Tunica language for future generations. The stories, vocabularies, and deep cultural knowledge told by Youchigant and written down in notebooks by Haas form a rich resource that is playing a key role in the ongoing reawakening of the Tunica language.
 
-This online portal brings together those original documents, now with enhanced tools for exploring them through [transcriptions](https://www.amphilsoc.org/tunica-language-and-history-resources-aps-library-museum) and [content guides](https://www.amphilsoc.org/tunica-language-and-history-resources-aps-library-museum).
+This online portal brings together those [original documents]({{ '/notebooks'| relative_url }}), now with enhanced tools for exploring them through *transcriptions* and *content guides*.
 
-It also gathers together [video interviews](https://www.amphilsoc.org/tunica-language-and-history-resources-aps-library-museum) by contemporary Tunica community that help to give a rich picture of the past, present, and future of the Tunica language and community, as well as [related digital resources](https://www.amphilsoc.org/tunica-language-and-history-resources-aps-library-museum). 
+It also gathers together [video interviews]({{ '/oral-histories'| relative_url }}) by contemporary Tunica community that help to give a rich picture of the past, present, and future of the Tunica language and community, as well as [related digital resources]({{ '/additional-resources'| relative_url }}). 
 
 <div class="navigation-cards">
   <div class="container text-center">

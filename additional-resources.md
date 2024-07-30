@@ -19,7 +19,7 @@ Beyond the notebooks, there are many more Tunica language documents made by Mary
       </div>
       <div class="col">
         <a href="{{ '/additional-resources/photographs'| relative_url }}">
-          <img src="{{ '/assets/img/TunicaAlphabet2.jpg'| relative_url }}" width="600px" height="400px">
+          <img src="{{ '/assets/img/10-26-k-anna-mae-pierite-juneau.jpg'| relative_url }}" width="600px" height="400px">
           <div class="card-banner">
             Photographs
           </div>

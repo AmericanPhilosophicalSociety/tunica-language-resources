@@ -6,12 +6,12 @@
 
 + tweak formatting for header image
 + tweak formatting for cards
-+ update links in text body
 
 # Navbar
 
 + do I want to get rid of the drop-down menus and just have these link to the landing page instead?
 + have Oral Histories links go to specific pages once those are built
++ could add About the Language to Additional Resources if necessary
 
 # TOC
 
