@@ -1,0 +1,12 @@
+<!-- {% assign categories = "Introduction, Tunica History, Music and Traditions, Connecting Generations, Language Reawakening, Traditional Crafts" | split: ", " %}
+{{ categories }} -->
+
+{% assign categories = site.oral-histories | where:"layout", "oral-history-category" %}
+
+<nav class="nav nav-pills flex-column flex-sm-row">
+    <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="#">Highlights</a>
+    {% for category in categories %}
+    <a class="flex-sm-fill text-sm-center nav-link" href="{{ category.url | relative_url }}">{{ category.title }}</a>
+    {% endfor %}
+</nav>
+<hr>

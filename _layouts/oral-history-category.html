@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+
+{% assign videos = site.oral-histories | where:"category", page.title %}
+
+{% for video in videos %}
+    <div>
+        <h3>{{ video.title }}</h3>
+        {% if video.interviewee %}
+            <p>{{ video.interviewee }}</p>
+        {% endif %}
+        <video controls="" height="315" width="560">
+            <source src="{{ video.link }}" type="video/ogg">
+            <source src="{{ video.link }}" type="video/mp4">
+        </video>
+        <p><a href="{{ video.url | relative_url }}">Video page</a></p>
+    </div>
+{% endfor %}

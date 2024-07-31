@@ -39,5 +39,18 @@
 
 # Oral Histories
 
-+ build pages once someone tells me how to handle video embedding
++ make category and interviewee names clickable
++ what should main display page look like?
++ some kind of breadcrumbs/additional menu displaying on these pages?
++ video display template
++ pages with many videos - show thumbnails?
++ some way to order videos
+
+## Questions for CNAIR
+
 + should this be called Community Commentaries? Video Interviews?
++ names for remaining two interview subjects
+
+arrow that lets you scroll through multiple videos
+
+how to do a 'display video' template? is there a way to feed in a variable/data to an 'includes'?
