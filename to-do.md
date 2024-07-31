@@ -47,9 +47,7 @@ all good here!
 
 + what's the issue with Youchigant image? why displaying on some pages and not others?
 + add imgAlt field
-+ make interviewee names clickable, include navbar
 + what should main display page look like?
-+ video display template
 + pages with many videos - show thumbnails?
 + some way to order videos
 + UUIDs for videos?
@@ -62,3 +60,10 @@ all good here!
 arrow that lets you scroll through multiple videos?
 
 how to do a 'display video' template? is there a way to feed in a variable/data to an 'includes'? do you just have to put it in a for loop w that one thing?
+
+nav_order
+Tunica History
+Music
+Connecting
+Language
+Crafts

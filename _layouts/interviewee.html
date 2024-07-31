@@ -4,6 +4,8 @@ layout: default
 
 <h1>All interviews with: {{ page.name }}</h1>
 
+{% include oral-histories-nav.html %}
+
 {% assign videos = site.oral-histories | where:"interviewee", page.name %}
 
 {% for video in videos %}

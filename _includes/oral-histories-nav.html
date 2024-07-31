@@ -1,7 +1,7 @@
 <!-- {% assign categories = "Introduction, Tunica History, Music and Traditions, Connecting Generations, Language Reawakening, Traditional Crafts" | split: ", " %}
 {{ categories }} -->
 
-{% assign categories = site.oral-histories | where:"layout", "oral-history-category" %}
+{% assign categories = site.oral-histories | where:"layout", "oral-history-category" | sort:"navOrder" %}
 
 <nav class="nav nav-pills flex-column flex-sm-row">
     {% if page.title == "Oral Histories" %}
