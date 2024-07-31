@@ -8,4 +8,4 @@ category: Tunica Culture and Music
 layout: video
 ---
 
-The [Rabbit Dance Song](https://diglib.amphilsoc.org/islandora/object/text%3A312184?page=5), sung by Elisabeth Pierite
+The <a href="https://diglib.amphilsoc.org/islandora/object/text%3A312184?page=5" target="_blank">Rabbit Dance Song</a>, sung by Elisabeth Pierite.

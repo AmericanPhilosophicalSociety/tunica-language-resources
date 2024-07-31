@@ -7,4 +7,4 @@ category: Tunica History
 layout: video
 ---
 
-Donna Pierite discusses the story, ["Le Juif Errant,"](https://diglib.amphilsoc.org/islandora/object/text%3A311766?page=7) and the long-time presence of French speakers among the Tunica.
+Donna Pierite discusses the story, <a href="https://diglib.amphilsoc.org/islandora/object/text%3A311766?page=7" target="_blank">"Le Juif Errant,"</a> and the long-time presence of French speakers among the Tunica.

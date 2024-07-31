@@ -21,4 +21,7 @@ layout: default
         </video>
         <p><a href="{{ video.url | relative_url }}">Video page</a></p>
     </div> -->
+    {% unless forloop.last %}
+        <hr>
+    {% endunless %}
 {% endfor %}

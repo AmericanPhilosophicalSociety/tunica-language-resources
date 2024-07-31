@@ -8,4 +8,4 @@ category: Tunica History
 layout: video
 ---
 
-Jeremy Zahn talks about this [photograph from 1915](https://diglib.amphilsoc.org/islandora/object/graphics:1693) of Alice Picote, Sesostrie Youchigant, and his great aunt, Cora Chiki.
+Jeremy Zahn talks about this <a href="https://diglib.amphilsoc.org/islandora/object/graphics:1693" target="_blank">photograph from 1915</a> of Alice Picote, Sesostrie Youchigant, and his great aunt, Cora Chiki.

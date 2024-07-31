@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<h1>All interviews with: {{ page.name }}</h1>
+
+{% assign videos = site.oral-histories | where:"interviewee", page.name %}
+
+{% for video in videos %}
+    {% include video-embed.html %}
+    {% unless forloop.last %}
+            <hr>
+    {% endunless %}
+{% endfor %}
