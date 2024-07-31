@@ -2,7 +2,9 @@
 layout: default
 ---
 
-<h1>{{ page.title }}</h1>
+<h1>Oral Histories</h1>
+
+{% include oral-histories-nav.html %}
 
 {% assign videos = site.oral-histories | where:"category", page.title %}
 

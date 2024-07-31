@@ -6,6 +6,7 @@
 
 + tweak formatting for header image
 + tweak formatting for cards
++ do a "Who was Sesostrie Youchigant?" box with the photo
 
 # Navbar
 
@@ -39,9 +40,8 @@
 
 # Oral Histories
 
-+ make category and interviewee names clickable
++ make interviewee names clickable, include navbar
 + what should main display page look like?
-+ some kind of breadcrumbs/additional menu displaying on these pages?
 + video display template
 + pages with many videos - show thumbnails?
 + some way to order videos
@@ -53,4 +53,12 @@
 
 arrow that lets you scroll through multiple videos
 
-how to do a 'display video' template? is there a way to feed in a variable/data to an 'includes'?
+how to do a 'display video' template? is there a way to feed in a variable/data to an 'includes'? do you just have to put it in a for loop w that one thing?
+
+# highlights
+
+who was sesostrie youchigant?
+rabbit dance song
+Elisabeth connecting generations interview
+language reawakening 1:38
+traditional crafts 1:46

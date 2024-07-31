@@ -4,9 +4,17 @@
 {% assign categories = site.oral-histories | where:"layout", "oral-history-category" %}
 
 <nav class="nav nav-pills flex-column flex-sm-row">
-    <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="#">Highlights</a>
+    {% if page.title == "Oral Histories" %}
+        <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="#">Highlights</a>
+    {% else %}
+        <a class="flex-sm-fill text-sm-center nav-link" href="{{ '/oral-histories' | relative_url }}">Highlights</a>
+    {% endif %}
     {% for category in categories %}
-    <a class="flex-sm-fill text-sm-center nav-link" href="{{ category.url | relative_url }}">{{ category.title }}</a>
+        {% if page.title == category.title or page.category == category.title %}
+            <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="#">{{ category.title }}</a>
+        {% else %}
+            <a class="flex-sm-fill text-sm-center nav-link" href="{{ category.url | relative_url }}">{{ category.title }}</a>
+        {% endif %}
     {% endfor %}
 </nav>
 <hr>
