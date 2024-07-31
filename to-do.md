@@ -2,6 +2,12 @@
 
 + get pages into folder to make directory easier to navigate
 
+## CSS
+
++ sizing for figures - don't let them get too big
++ make fonts look better
++ more attractive button, Youchigant link etc
+
 # Home page
 
 + tweak formatting for header image
@@ -34,6 +40,7 @@
 
 # About the Language
 
++ *add this to Additional Resources*
 + *nicer looking landing page*
 + format title and read more
 + do something more w images? responsive sizing, center them?
@@ -45,6 +52,7 @@
 + video display template
 + pages with many videos - show thumbnails?
 + some way to order videos
++ UUIDs for videos?
 
 ## Questions for CNAIR
 
@@ -54,11 +62,3 @@
 arrow that lets you scroll through multiple videos
 
 how to do a 'display video' template? is there a way to feed in a variable/data to an 'includes'? do you just have to put it in a for loop w that one thing?
-
-# highlights
-
-who was sesostrie youchigant?
-rabbit dance song
-Elisabeth connecting generations interview
-language reawakening 1:38
-traditional crafts 1:46

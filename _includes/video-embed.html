@@ -1,0 +1,18 @@
+<div>
+    <h3><a href="{{ video.url | relative_url }}">{{ video.title }}</a></h3>
+    <video controls="" height="315" width="560">
+        <source src="{{ video.link }}" type="video/ogg">
+        <source src="{{ video.link }}" type="video/mp4">
+    </video>
+    <p>{{ video.content }}</p>
+
+    {% if video.img %}
+        <figure class="figure">
+            {% assign imgPath = "/assets/img/" | append: video.img %}
+            <img src="{{ imgPath | relative_url }}" class="figure-img img-fluid rounded" alt="..." style="max-width:50%">
+        </figure>
+    {% endif %}
+    {% if video.interviewee %}
+        <p>Interviewee: {{ video.interviewee }}</p>
+    {% endif %}
+</div>

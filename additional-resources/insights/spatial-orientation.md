@@ -109,4 +109,4 @@ This example from Notebook 14 shows the different position used when asking wher
 
 When asking where “rice” is, you use the verb that denotes a lying position, whereas when you ask where the “star” is, you use the verb that denotes a sitting position. 
 
-As you can see above with the feminine ara and the masculine una, spatial orientation is intertwined with grammatical gender and animacy class. For more on these topics, see [Tunica Animacy](/tunicanotebooks/insights/animacy).
+As you can see above with the feminine ara and the masculine una, spatial orientation is intertwined with grammatical gender and animacy class. For more on these topics, see <a href="{{ '/additional-resources/insights/animacy' | relative_url}}">Tunica Animacy</a>.

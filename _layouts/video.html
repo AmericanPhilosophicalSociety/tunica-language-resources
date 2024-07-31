@@ -5,22 +5,4 @@ layout: default
 
 {% include oral-histories-nav.html %}
 
-<p class="text-align-center">
-    <video controls="" height="315" width="560">
-        <source src="{{ page.link }}" type="video/ogg">
-        <source src="{{ page.link }}" type="video/mp4">
-    </video>
-</p>
-
-{{ page.content }}
-
-{% if page.img %}
-    <figure class="figure">
-        {% assign imgPath = "/assets/img/" | append: page.img %}
-        <img src="{{ imgPath | relative_url }}" class="figure-img img-fluid rounded" alt="..." style="max-width:50%">
-    </figure>
-{% endif %}
-
-{% if page.interviewee %}
-    <p>Interviewee: {{ page.interviewee }}</p>
-{% endif %}
+{% include individual-video-display.html %}

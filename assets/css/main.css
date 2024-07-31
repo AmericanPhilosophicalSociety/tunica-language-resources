@@ -1,6 +1,7 @@
 html, body {
   /* font-family: "Proxima Nova Regular","Segoe UI",Roboto,"Droid Sans","Helvetica Neue",Arial,sans-serif; */
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* Funky default viewBox styling suggestions. Don't use! */
@@ -98,13 +99,17 @@ html, body {
   text-align: justify;
 }
 
-figure {
+/* figure {
   margin: 0;
-}
+} */
 
-figcaption {
+/* figcaption {
   font-style: italic;
-}
+} */
+
+.figure {display: table;margin-right: auto;margin-left: auto;}
+
+.figure-caption {display: table-caption;caption-side: bottom;text-align: center;}
 
 /* Style the button that is used to open the sidepanel */
 .openbtn {

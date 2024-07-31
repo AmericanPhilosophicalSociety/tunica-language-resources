@@ -9,7 +9,8 @@ layout: default
 {% assign videos = site.oral-histories | where:"category", page.title %}
 
 {% for video in videos %}
-    <div>
+    {% include video-embed.html %}
+    <!-- <div>
         <h3>{{ video.title }}</h3>
         {% if video.interviewee %}
             <p>{{ video.interviewee }}</p>
@@ -19,5 +20,5 @@ layout: default
             <source src="{{ video.link }}" type="video/mp4">
         </video>
         <p><a href="{{ video.url | relative_url }}">Video page</a></p>
-    </div>
+    </div> -->
 {% endfor %}

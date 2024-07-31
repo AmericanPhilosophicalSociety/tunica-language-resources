@@ -22,7 +22,19 @@ title: 'Oral Histories'
     {% endfor %}
 </div> -->
 
+{% assign featured = "Who was Sesostrie Youchigant?, Rabbit Dance Song, Teaching Younger Generations, On Language Reawakening, Continuing traditional Tunica crafts" | split: ", " %}
+
 <div>
+    {% for title in featured %}
+        {% assign video = site.oral-histories | where:"title", title | first %}
+        {% include video-embed.html %}
+        {% unless forloop.last %}
+            <hr>
+        {% endunless %}
+    {% endfor %}
+</div>
+
+<!-- <div>
     {% assign videos = site.oral-histories | where:"layout", "video" %}
     {% for video in videos %}
         <div>
@@ -36,5 +48,6 @@ title: 'Oral Histories'
             {% endif %}
             <p><a href="{{ video.url | relative_url }}">Video page</a></p>
         </div>
+        {% include video-embed.html %}
     {% endfor %}
-</div>
+</div> -->
