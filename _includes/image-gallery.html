@@ -13,6 +13,7 @@
       {% endif %}
       {% assign imgPath = "/assets/img/" | append: photo.fileName %}
         <!-- <img src="{{ imgPath | relative_url }}" class="d-block w-100" alt="..."> -->
+        <!-- <img src="{{ imgPath | relative_url }}" class="mx-auto d-block" alt="..."> -->
         <img src="{{ imgPath | relative_url }}" class="mx-auto d-block" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5><a href="{{ photo.url }}" target="_blank">{{ photo.displayTitle }}</a></h5>
