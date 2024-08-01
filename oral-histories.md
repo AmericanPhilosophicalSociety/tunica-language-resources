@@ -27,15 +27,15 @@ title: 'Oral Histories'
 <div>
     {% for title in featured %}
         {% assign video = site.oral-histories | where:"title", title | first %}
-        {% include video-embed.html %}
-        <div class='box-wrapper'>
+        {% include video-embed-flex.html %}
+        <!-- <div class='box-wrapper'>
             <div class='box'>
                 {% assign categoryRecord = site.oral-histories | where:"title", video.category | first %}
                 <a href="{{  categoryRecord.url | relative_url }}">
                     <p>Learn More About {{ video.category }}</p>
                 </a>
             </div>
-        </div>
+        </div> -->
         <!-- Alternative look with button - width settings don't work -->
         <!-- <div class="d-grid gap-2">
             <a href="{{  categoryRecord.url | relative_url }}">

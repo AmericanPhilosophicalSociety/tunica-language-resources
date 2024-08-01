@@ -29,11 +29,16 @@ all good here!
 
 + make formatting look nice on landing page
 + how to format images in headers?
++ eventually, put text next to image - flexbox?
 
 ## Photographs
 
-+ change code for Carousels to use liquid templating/loops
-+ make these look better - less blank space, larger images, place captions below images
++ ideally, get caption below photos in carousel and maybe get rid of border. is this possible? probably not!
+
+### Questions for CNAIR
+
++ more photos?
++ what kind of explanatory text?
 
 # About the Language
 
@@ -56,5 +61,3 @@ all good here!
 + should videos be in a specific order?
 
 arrow that lets you scroll through multiple videos?
-
-how to do a 'display video' template? is there a way to feed in a variable/data to an 'includes'? do you just have to put it in a for loop w that one thing?

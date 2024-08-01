@@ -6845,7 +6845,8 @@ fieldset:disabled .btn {
     position: absolute;
     /* changed right and left from 15% */
     right: 10%;
-    bottom: 1.25rem;
+    /* changed bottom from 1.25 */
+    bottom: .5rem;
     left: 10%;
     /* changed padding-top and padding-bottom from 1.25 */
     padding-top: .5rem;

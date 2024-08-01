@@ -11,6 +11,41 @@ $lightbox-color: rgba(30, 30, 30, .8);
 $faded-accent: rgba(229, 173, 28, .7);
 $carousel-link: #9fbfc7;
 
+.textWithImage {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.manuscripts1 {
+  flex: 50;
+}
+
+.manuscripts2 {
+  flex: 50;
+}
+
+.video-embed {
+  display: flex;
+  align-items: center;
+}
+
+.videoPlayerColumn {
+  flex: 50;
+}
+
+.videoDescriptionColumn {
+  flex: 50;
+}
+
+.video-title {
+  text-transform: uppercase;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  letter-spacing: 0.1em;
+}
+
 .header {
  background-color: $accent-color;
 }
