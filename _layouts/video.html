@@ -5,4 +5,5 @@ layout: default
 
 {% include oral-histories-nav.html %}
 
-{% include individual-video-display.html %}
+{% assign video = site.oral-histories | where: "title", page.title | first %}
+{% include video-embed-flex.html %}

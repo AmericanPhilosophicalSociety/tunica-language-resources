@@ -62,6 +62,6 @@ title: 'Oral Histories'
             {% endif %}
             <p><a href="{{ video.url | relative_url }}">Video page</a></p>
         </div>
-        {% include video-embed.html %}
+        {% include video-embed-flex.html %}
     {% endfor %}
 </div> -->

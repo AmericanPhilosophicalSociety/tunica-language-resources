@@ -9,7 +9,7 @@ layout: default
 {% assign videos = site.oral-histories | where:"interviewee", page.name %}
 
 {% for video in videos %}
-    {% include video-embed.html %}
+    {% include video-embed-flex.html %}
     {% unless forloop.last %}
             <hr>
     {% endunless %}
