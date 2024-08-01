@@ -10,17 +10,29 @@ title: "The Tunica Language Notebooks"
 #  banner_text: Women in Science in the APS Collections
 ---
 
-<div>
+<!-- <div>
   <img src="{{ '/assets/img/haas-youchigant-header-image.png' | relative_url }}" class="img-fluid" alt="Sesostrie Youchigant, Mary Haas, and a scanned page of the Tunica notebooks">
-</div>
+</div> -->
 
-# Tunica Language and History Resources at the APS Library & Museum
-
-## Explore a vast body of resources on Tunica language, culture, and history through original archival documents and contemporary reflections by Tunica community members
+# Explore Tunica language, culture, and history through original archival documents and contemporary reflections by Tunica community members
 
 In the 1930s, the last known speaker of the Tunica language, Sesostrie Youchigant, worked with the linguist Mary Haas to preserve information on the Tunica language for future generations. The stories, vocabularies, and deep cultural knowledge told by Youchigant and written down in notebooks by Haas form a rich resource that is playing a key role in the ongoing reawakening of the Tunica language.
 
-{% include youchigant-button.html %}
+<div class="navigation-cards">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <a href="{{ '/oral-histories/tunica-history/who-was-sesostrie-youchigant.html'| relative_url }}">
+          <img src="{{ '/assets/img/haas-papers-sesostrie-youchigant.jpg'| relative_url }}" width="300px">
+          <div class="card-banner">
+            Oral History Interview:
+            Who Was Sesostrie Youchigant?
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
 
 This online portal brings together those [original documents]({{ '/notebooks'| relative_url }}), now with enhanced tools for exploring them through *transcriptions* and *content guides*.
 
@@ -45,14 +57,14 @@ It also gathers together [video interviews]({{ '/oral-histories'| relative_url }
           </div>
         </a>
       </div>
-      <div class="col">
+      <!-- <div class="col">
         <a href="{{ '/insights/about-the-language'| relative_url }}">
           <img src="{{ '/assets/img/Tunica08-063preaspiration.jpg'| relative_url }}" width="300px" height="200px">
           <div class="card-banner">
             About the Language
           </div>
         </a>
-      </div>
+      </div> -->
       <div class="col">
         <a href="{{ '/oral-histories'| relative_url }}">
           <img src="{{ '/assets/img/TunicaEldersfromCasino.jpg'| relative_url }}" width="300px" height="200px">

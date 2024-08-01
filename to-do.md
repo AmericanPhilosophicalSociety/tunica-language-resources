@@ -11,9 +11,7 @@
 
 # Home page
 
-+ tweak formatting for header image
 + tweak formatting for cards
-+ do a "Who was Sesostrie Youchigant?" box with the photo
 
 # Navbar
 
@@ -46,24 +44,17 @@ all good here!
 # Oral Histories
 
 + what's the issue with Youchigant image? why displaying on some pages and not others?
-+ add imgAlt field
++ add imgAlt field (or don't? just put images in page content?)
 + what should main display page look like?
 + pages with many videos - show thumbnails?
-+ some way to order videos
-+ UUIDs for videos?
++ UUIDs for videos and photos?
 
 ## Questions for CNAIR
 
 + should this be called Community Commentaries? Video Interviews?
 + names for remaining two interview subjects
++ should videos be in a specific order?
 
 arrow that lets you scroll through multiple videos?
 
 how to do a 'display video' template? is there a way to feed in a variable/data to an 'includes'? do you just have to put it in a for loop w that one thing?
-
-nav_order
-Tunica History
-Music
-Connecting
-Language
-Crafts
