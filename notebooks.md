@@ -37,72 +37,35 @@ You can also navigate the notebooks via their contents (below). Contents can be 
 </div>
 
 <script>
-    // function toggleOrganization() {
-    //     let button = document.getElementById("toggleTOC");
-    //     let toc = document.getElementById("toc");
-    //     let tocByTopic = document.getElementById("toc-by-topic");
-    //     if (toc.style.display === "none") {
-    //         toc.style.display = "block";
-    //         tocByTopic.style.display = "none";
-    //         button.innerHTML = "Sort by Subject Heading";
-    //     } else {
-    //         toc.style.display = "none";
-    //         tocByTopic.style.display = "block";
-    //         button.innerHTML = "Sort by Notebook";
-    //     }
-    // }\
     // TODO: consolidate into one function?
     function sortByNotebook() {
-        let button1 = document.getElementById("sortByNotebook");
-        let button2 = document.getElementById("sortBySubject");
         let toc = document.getElementById("toc");
         let tocByTopic = document.getElementById("toc-by-topic");
         
         toc.style.display = "block";
         tocByTopic.style.display = "none";
-        button1.addClass("checked");
-        button2.removeClass("checked");
     }
     function sortBySubject() {
-        let button1 = document.getElementById("sortByNotebook");
-        let button2 = document.getElementById("sortBySubject");
         let toc = document.getElementById("toc");
         let tocByTopic = document.getElementById("toc-by-topic");
        
         toc.style.display = "none";
         tocByTopic.style.display = "block";
-        button1.removeClass("checked");
-        button2.addClass("checked");
     }
     function expandCollapse() {
-        // let accordion = document.getElementById("toc-accordion");
-        // accordion.addClass("show");
-        // document.getElementById("toc-accordion").addClass("open");
-        // document.getElementById("toc-accordion").collapse("toggle");
-        // for all accordion: addClass("open") or removeClass("open");
-        const collapseElementList = document.querySelectorAll('.collapse');
-        // console.log("collapseElementList: " + collapseElementList[5].outerHTML);
-        const collapseList = [...collapseElementList].map(collapseEl => new bootstrap.Collapse(collapseEl));
-        // console.log("collapseElementList: " + collapseList[5].outerHTML);
-        // const collapseElementListShorter = [];
-        // look for class accordion-button
-        // collapsed: accordion-button collapsed
-        // uncollapsed: accordion-button 
-
-        // use show and hide methods?
-        // https://getbootstrap.com/docs/5.2/components/collapse/
-
-        // for (let i = 0; i < collapseElementList.length; i++) {
-        //     if (collapseElementList[i].class == "accordion-collapse collapse") {
-        //         // new bootstrap.Collapse(collapseElementList[i]);
-        //         collapseElementListShorter.push(collapseElementList[i]);
-        //     }
-        // }
-        // console.log("collapseElementList: " + collapseElementList[5].outerHTML + collapseElementList[1]);
-        
-        // const collapseList = [...collapseElementListShorter].map(collapseEl => new bootstrap.Collapse(collapseEl));
-        // iterate through collapseElementList
-        // if anything is currently closed, open it (how to check this?)
-        // if not, iterate through again and close everything
+        // if anything is currently collapsed, expand it
+        const closedElementList = document.querySelectorAll('.accordion-collapse.collapse:not(.show)');
+        if (closedElementList.length > 0) {
+            console.log("element 1: " + closedElementList[0].outerHTML);
+            const closedList = [...closedElementList].map(collapseEl => new bootstrap.Collapse(collapseEl));
+        } else {
+            // else, collapse everything
+            const openElementList = document.querySelectorAll('.accordion-collapse.collapse.show');
+            // console.log("collapseElementList: " + openElementList.length);
+            console.log("open element 1: " + openElementList[0].outerHTML);
+            // console.log("collapseElementList: " + collapseElementList[4].outerHTML);
+            // console.log("collapseElementList: " + collapseElementList[5].outerHTML);
+            const openList = [...openElementList].map(collapseEl => new bootstrap.Collapse(collapseEl));
+        } 
     }
 </script>
