@@ -457,6 +457,10 @@ main > p {
   }
 }
 
+.navigation-cards {
+  margin: 15px;
+}
+
 .navigation-cards .col {
   position: relative;
   display: flex;
@@ -468,16 +472,31 @@ main > p {
   padding-top: 10px;
   top: 70%;
   // background-color: $faded-accent;
+  color: $box-color;
   background-color: $accent-color;
   padding-bottom: 10px;
   text-align: center;
   font-size: 18pt;
   width: 100%;
+}
+
+.card-banner.main {
   max-width: 300px;
 }
 
-.card-banner {
-  color: $box-color;
+.card-banner.vertical {
+  top: 77%;
+  max-width: 300px;
+}
+
+.card-banner.horizontal {
+  top: 80%;
+  width: 400px;
+}
+
+.card-banner.long {
+  max-width: 600px;
+  top: 75%;
 }
 
 @media (max-width: 414px) {

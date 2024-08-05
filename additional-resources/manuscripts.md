@@ -23,11 +23,13 @@ title: "Additional Manuscripts"
 
 </div>
 
-<div class="manuscripts2">
-<figure class="figure w-100 text-center">
-  <img src="{{ '/assets/img/Mss_Ms_Coll_094-001.jpg'| relative_url }}" class="figure-img img-fluid rounded" alt="Excerpt of letter from Chief Joe Pierite to Mary Haas, October 17, 1964" style="max-width:300px;">
-  <figcaption class="figure-caption">Excerpt of letter from Chief Joe Pierite to Mary Haas, October 17, 1964</figcaption>
-</figure>
-</div>
+<div class="manuscripts2 w-100 text-center">
+  {% assign modalId = "1" %}
+  {% assign imgUrl = "/assets/img/Mss_Ms_Coll_094-001.jpg" %}
+  {% assign imgAlt = "Excerpt of letter from Chief Joe Pierite to Mary Haas, October 17, 1964" %}
+  {% assign imgWidth = "max-width:300px" %}
+  {% assign imgCaption = "Excerpt of letter from Chief Joe Pierite to Mary Haas, October 17, 1964" %}
 
+  {% include modal-figure.html %}
+</div>
 </section>

@@ -24,7 +24,7 @@ In the 1930s, the last known speaker of the Tunica language, Sesostrie Youchigan
       <div class="col">
         <a href="{{ '/oral-histories/tunica-history/who-was-sesostrie-youchigant.html'| relative_url }}">
           <img src="{{ '/assets/img/haas-papers-sesostrie-youchigant.jpg'| relative_url }}" width="300px">
-          <div class="card-banner">
+          <div class="card-banner vertical">
             Oral History Interview:
             Who Was Sesostrie Youchigant?
           </div>
@@ -44,7 +44,7 @@ It also gathers together [video interviews]({{ '/oral-histories'| relative_url }
       <div class="col">
         <a href="{{ '/notebooks'| relative_url }}">
           <img src="{{ '/assets/img/tunica-notebook-3.jpg'| relative_url }}" width="300px" height="200px">
-          <div class="card-banner">
+          <div class="card-banner main">
             The Notebooks
           </div>
         </a>
@@ -52,7 +52,7 @@ It also gathers together [video interviews]({{ '/oral-histories'| relative_url }
       <div class="col">
         <a href="{{ '/additional-resources'| relative_url }}">
           <img src="{{ '/assets/img/TunicaAlphabet2.jpg'| relative_url }}" width="300px" height="200px">
-          <div class="card-banner">
+          <div class="card-banner main">
             Additional Resources
           </div>
         </a>
@@ -68,7 +68,7 @@ It also gathers together [video interviews]({{ '/oral-histories'| relative_url }
       <div class="col">
         <a href="{{ '/oral-histories'| relative_url }}">
           <img src="{{ '/assets/img/TunicaEldersfromCasino.jpg'| relative_url }}" width="300px" height="200px">
-          <div class="card-banner">
+          <div class="card-banner main">
             Oral Histories
           </div>
         </a>

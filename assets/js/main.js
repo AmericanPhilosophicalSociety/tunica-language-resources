@@ -13,7 +13,7 @@ function showOrHide() {
     }
 }
 
-// START REVISED MODAL CODE
+// START MODAL CODE
 
 // Get the image that opens the modal
 var img = document.querySelectorAll('img.modalImg');
@@ -26,18 +26,9 @@ var spans = document.getElementsByClassName("close");
 
 // When the user clicks the button, open the modal
 for (var i = 0; i < img.length; i++) {
-//  btn[i].onclick = function(e) {
-//     // e.preventDefault();
-//     // changed "href" to "id"
-//     // modal = document.querySelector(e.target.getAttribute("id"));
-//     // modal.style.display = "block";
-//     // e.style.display = "block";
-//  }
  img[i].onclick = function(e){
     modal = document.querySelector(e.target.getAttribute("href"));
     modal.style.display = "block";
-    // modalImg.src = this.src;
-    // captionText.innerHTML = modalCaption.innerHTML;
   }
 }
 
@@ -59,4 +50,4 @@ window.onclick = function(event) {
     }
 }
 
-// END REVISED MODAL CODE
+// END MODAL CODE

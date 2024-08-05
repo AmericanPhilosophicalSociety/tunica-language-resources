@@ -1,11 +1,10 @@
 **Next week:**
-How to make cards look more attractive?
-Image/figure expands when clicked
 UUID (or APS ID?) for photo/video -> photos hyperlink
 
 # General
 
 + get pages into folder to make directory easier to navigate / do something with config file?
++ get better crops/sizing for images in navigation cards
 
 ## CSS
 
@@ -64,3 +63,7 @@ UUID (or APS ID?) for photo/video -> photos hyperlink
 + Something bad happening w cards - they're covering text
 + Image galleries don't display full image
 + Insights: blog post size is not responsive
+
+
+Modal on:
++ Photos in carousel?

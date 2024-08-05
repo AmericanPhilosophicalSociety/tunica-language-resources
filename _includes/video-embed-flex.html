@@ -13,10 +13,13 @@
         <!-- Display description and image (if included) -->
         <p>{{ video.content }}</p>
         {% if video.img %}
-            <figure class="figure">
-                {% assign imgPath = "/assets/img/" | append: video.img %}
-                <img src="{{ imgPath | relative_url }}" class="figure-img img-fluid rounded" alt="..." style="max-height:250px;">
-            </figure>
+            {% assign modalId = forloop.index %}
+            {% assign imgUrl = "/assets/img/" | append: video.img %}
+            {% assign imgAlt = "" %}
+            {% assign imgWidth = "max-height:250px" %}
+            {% assign imgCaption = "" %}
+
+            {% include modal-figure.html %}
         {% endif %}
         <!-- If interviewee is listed and this is NOT an interviewee page, display interviewee -->
         {% if video.interviewee and page.layout != "interviewee" %}
