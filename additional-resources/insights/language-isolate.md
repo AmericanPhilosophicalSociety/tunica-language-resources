@@ -3,6 +3,7 @@ layout: insights
 title: Tunica as a Language Isolate
 author: Patricia Anderson
 ---
+
 Tunica is a language isolate, meaning it is unrelated to any other language today. But, as is the case with many language isolates, it is likely that related languages once existed. Unfortunately, no related languages were recorded or written down before their speakers were coerced to stop speaking them. Youchigant mentions a mutually intelligible language in Notebook 9, stating that “there used to be another tribe near the Tunica and their languages were mutually intelligible” (180).
 
 <figure class="figure">
