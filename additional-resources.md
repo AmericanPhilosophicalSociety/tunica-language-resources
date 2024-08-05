@@ -11,7 +11,7 @@ Beyond the notebooks, there are many more Tunica language documents made by Mary
     <div class="row">
       <div class="col">
         <a href="{{ '/additional-resources/manuscripts'| relative_url }}">
-          <img src="{{ '/assets/img/tunica-notebook-3.jpg'| relative_url }}" width="600px" height="400px">
+          <img src="{{ '/assets/img/haas-tunica-and-surrounding-peoples-cropped.jpg'| relative_url }}" width="600px" height="400px">
           <div class="card-banner">
             Manuscripts
           </div>

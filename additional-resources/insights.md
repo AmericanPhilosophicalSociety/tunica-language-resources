@@ -1,24 +1,14 @@
 ---
-layout: insights
+layout: default
 title: "Insights on the Tunica Language"
 ---
 
+<h1>{{ page.title }}</h1>
+
 [Placeholder text: A few introductory sentences/paragraphs about these posts, the author, etc.?]
 
-<!-- <ul>
-  {% for page in site.pages %}
-    {% if page.layout == 'insights' and page.title != "Introduction: Insights on the Tunica Language" %}
-        <li>
-            <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
-            <p>{{ page.excerpt }}</p>
-            <a href="{{ page.url | relative_url }}">Read more</a>
-        </li>
-    {% endif %}
-  {% endfor %}
-</ul> -->
-
 {% tablerow page in site.pages %}
-    {% if page.layout == 'insights' and page.title != "Insights on the Tunica Language" %}
+    {% if page.layout == 'insights' %}
         <div class="card gap-3 mx-3" style="width: 70rem;" padding="$spacer !important;">
             <div class="card-body" padding="$spacer !important;">
                         <h2 class="card-title"><a href="{{ page.url | relative_url }}">{{ page.title }}</a></h2>

@@ -7,7 +7,7 @@ author: Patricia Anderson
 Preaspiration in Tunica is marked with an \h\ before a consonant. We see it in words like *lahpa* (the verb for land a boat) and *hihkut'E* (rat) to name a few. The presence of a leading \h\ results in a breathy sound before the consonant.
 
 <figure class="figure">
-  <img src="{{ '/assets/img/Tunica09-003preaspiration_0.jpg'| relative_url }}" class="figure-img img-fluid rounded" alt="An example of Tunica preaspiration" style="max-width:50%">
+  <img src="{{ '/assets/img/Tunica09-003preaspiration_0.jpg'| relative_url }}" class="figure-img img-fluid rounded" alt="An example of Tunica preaspiration" style="max-width:700px">
   <figcaption class="figure-caption">Excerpt from <a href="https://diglib.amphilsoc.org/islandora/object/text%3A311967?page=3" target="_blank">Tunica Notebook 9, page 3</a></figcaption>
 </figure>
 
@@ -16,7 +16,7 @@ Preaspiration is meaningful in Tunica. Consequently, *tika* and *tihka* mean dif
 However, not every word in Tunica has an aspirated pair. In the Notebooks, we see frequent corrections to preaspiration, presumably during a subsequent editing phase given that these corrections generally happen in a different ink.
 
 <figure class="figure">
-  <img src="{{ '/assets/img/Tunica08-063preaspiration.jpg'| relative_url }}" class="figure-img img-fluid rounded" alt="An example of Tunica preaspiration" style="max-width:50%">
+  <img src="{{ '/assets/img/Tunica08-063preaspiration.jpg'| relative_url }}" class="figure-img img-fluid rounded" alt="An example of Tunica preaspiration" style="max-width:600px">
   <figcaption class="figure-caption">Excerpt from <a href="https://diglib.amphilsoc.org/islandora/object/text%3A311766?page=65" target="_blank">Tunica Notebook 8, page 63</a></figcaption>
 </figure>
 

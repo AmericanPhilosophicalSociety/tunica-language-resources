@@ -136,20 +136,3 @@ For a more in-depth look at Tunica grammatical gender and animacy as evidenced t
 ## References
 
 Heaton, Raina and Patricia Anderson. 2017. “When Animals Become Humans: Grammatical Gender in Tunica.” *International Journal of American Linguistics* vol 83, no 2.
-
-<!-- Eti**ku** - my friend -- *ku* is masculine singular ending
-
-Et’**unima** - my two friends -- *unima* is the masculine dual ending
-
-Eti**sɛma** - my many friends -- *sɛma* is the masculine plural ending
-
-Eti**ku** - my group of friends -- *ku* is the masculine collective ending
-
-
-Rushta**ku** - a rabbit -- *ku* is masculine singular ending
-
-Rusht’**unima** - two rabbits -- *unima* is the masculine dual ending
-
-Rushta**sinima** - many rabbits - *sinima* is the feminine plural ending
-
-Rushta**hchi** - a group of rabbits - *hchi* is the feminine collective ending -->

@@ -103,7 +103,7 @@ During her work with Youchigant, Haas became aware of this distinction in Tunica
 This example from Notebook 14 shows the different position used when asking where something is; *ara* is the feminine singular form of *ura*.
 
 <figure class="figure">
-  <img src="{{ '/assets/img/TunicaNotebook14-006.jpg'| relative_url }}" class="figure-img img-fluid rounded" alt="A scan of a handwritten notebook page explaining Tunica spatial orientation" style="max-width:50%">
+  <img src="{{ '/assets/img/TunicaNotebook14-006.jpg'| relative_url }}" class="figure-img img-fluid rounded" alt="A scan of a handwritten notebook page explaining Tunica spatial orientation" style="max-width:700px">
   <figcaption class="figure-caption">Excerpt from <a href="https://diglib.amphilsoc.org/islandora/object/text%3A312178?page=6" target="_blank">Tunica Notebook 14, page 2</a></figcaption>
 </figure>
 

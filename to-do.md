@@ -1,7 +1,7 @@
-**Next week: expand/collapse all for TOC**
-After that: UUID (or APS ID?) for photo/video -> photos hyperlink
-Replace Manuscripts image with Tunica and Surrounding Peoples cover
-Cropped version of pic on Photographs box
+**Next week:**
+How to make cards look more attractive?
+Image/figure expands when clicked
+UUID (or APS ID?) for photo/video -> photos hyperlink
 
 # General
 
@@ -19,7 +19,6 @@ Cropped version of pic on Photographs box
 
 # TOC
 
-+ *figure out expand all collapse all fix*
 + write script to get links for subject headings - WAIT ON THIS
 + fix CHARACTER PLACEHOLDER TK lines in yml
 
@@ -31,6 +30,10 @@ Cropped version of pic on Photographs box
 ## Photographs
 
 + ideally, get caption below photos in carousel and maybe get rid of border. is this possible? probably not!
+
+## Insights
+
++ more attractive header display w link back to main page - how should this look?
 
 ### Questions for CNAIR
 
@@ -53,3 +56,11 @@ Cropped version of pic on Photographs box
 + should this be called Community Commentaries? Video Interviews?
 + names for remaining two interview subjects
 + should videos be in a specific order?
+
+# Mobile
+
++ Video player looks weird on mobile - get it to flex down if window is below a certain size
++ Why is header cut off on side?
++ Something bad happening w cards - they're covering text
++ Image galleries don't display full image
++ Insights: blog post size is not responsive
