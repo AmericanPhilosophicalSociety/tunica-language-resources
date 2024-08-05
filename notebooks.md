@@ -18,14 +18,19 @@ You can view digitizations and transcriptions of these notebooks on the APS webs
 
 You can also navigate the notebooks via their contents (below). Contents can be sorted by notebook number or by theme.
 
-<button id="expandCollapseButton" class="btn btn-primary" onClick="expandCollapse()">Expand/Collapse All</button>
 
-<div class="btn-group" role="group" aria-label="Select organization by notebook or organization by subject heading" style="padding-bottom: .75rem;">
+<div class="toc-buttons">
+
+<div class="btn-group button-left" role="group" aria-label="Select organization by notebook or organization by subject heading">
   <input type="radio" class="btn-check" name="btnradio" id="sortByNotebook" autocomplete="off" checked>
   <label class="btn btn-outline-primary" for="sortByNotebook" onClick="sortByNotebook()">Sort by Notebook</label>
 
   <input type="radio" class="btn-check" name="btnradio" id="sortBySubject" autocomplete="off">
   <label class="btn btn-outline-primary" for="sortBySubject" onClick="sortBySubject()">Sort by Subject Heading</label>
+</div>
+
+<button id="expandCollapseButton" class="btn btn-primary button-right" onClick="expandCollapse()">Expand/Collapse All</button>
+
 </div>
 
 <div id="toc">
@@ -61,10 +66,7 @@ You can also navigate the notebooks via their contents (below). Contents can be 
         } else {
             // else, collapse everything
             const openElementList = document.querySelectorAll('.accordion-collapse.collapse.show');
-            // console.log("collapseElementList: " + openElementList.length);
-            console.log("open element 1: " + openElementList[0].outerHTML);
-            // console.log("collapseElementList: " + collapseElementList[4].outerHTML);
-            // console.log("collapseElementList: " + collapseElementList[5].outerHTML);
+            // console.log("open element 1: " + openElementList[0].outerHTML);
             const openList = [...openElementList].map(collapseEl => new bootstrap.Collapse(collapseEl));
         } 
     }

@@ -18,6 +18,8 @@ $carousel-link: #9fbfc7;
   align-items: center;
 }
 
+// Styling for Manuscripts page
+
 .manuscripts1 {
   flex: 50;
 }
@@ -25,6 +27,8 @@ $carousel-link: #9fbfc7;
 .manuscripts2 {
   flex: 50;
 }
+
+// Styling for video displays
 
 .video-embed {
   display: flex;
@@ -44,6 +48,23 @@ $carousel-link: #9fbfc7;
   margin-top: 1em;
   margin-bottom: 1em;
   letter-spacing: 0.1em;
+}
+
+// Styling for TOC
+
+.toc-buttons {
+  display: flex;
+  // align-items: center;
+  justify-content: space-around;
+  padding-bottom: .75rem;
+}
+
+.button-left {
+  margin-right: auto;
+}
+
+.button-right {
+  margin-left: auto;
 }
 
 .header {
