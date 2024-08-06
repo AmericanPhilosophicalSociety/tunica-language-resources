@@ -346,7 +346,25 @@ main {position: relative;} /* to place scrollbar */
   transition: transform 2s ease-in-out;
 }
 
+.carousel-indicators {
+  background-color: $alt-color;
+}
 
+.carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  height: 50vh;
+}
+
+.carousel-inner {
+  border-top: 25px;
+  border-left: 25px;
+  border-right: 25px;
+  border-bottom: 25px;
+  border-color: $alt-color;
+  border-style: solid;
+  // background-color: $accent-color;
+}
 
 figure {
   display: inline-block;
@@ -374,21 +392,6 @@ figure img {
   .parallax {
     background-attachment: scroll;
   }
-}
-
-.carousel-item img {
-  object-fit: cover;
-  object-position: center;
-  height: 50vh;
-}
-
-.carousel-inner {
-  border-top: 25px;
-  border-left: 25px;
-  border-right: 25px;
-  border-bottom: 25px;
-  border-color: $alt-color;
-  border-style: solid;
 }
 
 .parallax-text {

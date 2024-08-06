@@ -1,9 +1,13 @@
 <div id="{{ dataBsTarget }}" class="carousel slide" data-bs-ride="false">
-  <!-- <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div> -->
+  <div class="carousel-indicators">
+    {% for photo in photos %}
+      {% if forloop.index == 1 %}
+        <button type="button" data-bs-target="#{{ dataBsTarget }}" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      {% else %}
+        <button type="button" data-bs-target="#{{ dataBsTarget }}" data-bs-slide-to="{{ forloop.index0 }}" aria-label="Slide {{ forloop.index }}"></button>
+      {% endif %}
+    {% endfor %}
+  </div>
   <div class="carousel-inner">
     {% for photo in photos %}
       {% if forloop.index == 1 %}
@@ -12,8 +16,6 @@
         <div class="carousel-item">
       {% endif %}
       {% assign imgPath = "/assets/img/" | append: photo.fileName %}
-        <!-- <img src="{{ imgPath | relative_url }}" class="d-block w-100" alt="..."> -->
-        <!-- <img src="{{ imgPath | relative_url }}" class="mx-auto d-block" alt="..."> -->
         <img src="{{ imgPath | relative_url }}" class="mx-auto d-block" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5><a href="{{ photo.url }}" target="_blank">{{ photo.displayTitle }}</a></h5>
