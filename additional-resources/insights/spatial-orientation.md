@@ -102,13 +102,12 @@ During her work with Youchigant, Haas became aware of this distinction in Tunica
 
 This example from Notebook 14 shows the different position used when asking where something is; *ara* is the feminine singular form of *ura*.
 
-{% assign modalId = "1" %}
-{% assign imgUrl = "/assets/img/TunicaNotebook14-006.jpg" %}
-{% assign imgAlt = "A scan of a handwritten notebook page explaining Tunica spatial orientation" %}
-{% assign imgWidth = "max-width:700px" %}
-{% assign imgCaption = "Excerpt from <a href='https://diglib.amphilsoc.org/islandora/object/text%3A312178?page=6' target='_blank'>Tunica Notebook 14, page 2</a>" %}
-
-{% include modal-figure.html %}
+{% include modal-figure.html
+  imgFile = "TunicaNotebook14-006.jpg"
+  imgAlt = "A scan of a handwritten notebook page explaining Tunica spatial orientation"
+  imgSize = "max-width:700px"
+  imgCaption = "Excerpt from <a href='https://diglib.amphilsoc.org/islandora/object/text%3A312178?page=6' target='_blank'>Tunica Notebook 14, page 2</a>"
+%}
 
 When asking where “rice” is, you use the verb that denotes a lying position, whereas when you ask where the “star” is, you use the verb that denotes a sitting position. 
 
