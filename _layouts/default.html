@@ -27,7 +27,12 @@
       {% include nav.html %}
       {% if page.parallax %}
         {% assign i = page.image %}
-        {% include parallax.html alt=i.img_alt img_url=i.img_url banner_text = i.banner_text caption_url=i.caption_url caption=i.caption %}
+        {% include parallax.html 
+          alt=i.img_alt 
+          img_url=i.img_url 
+          banner_text = i.banner_text 
+          caption_url=i.caption_url 
+          caption=i.caption %}
       {% endif %}
     </header>
     <main id='main'>

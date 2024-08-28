@@ -3,9 +3,8 @@ layout: default
 title: 'The Tunica Language Notebooks'
 parallax: true
 image:
-  img_url: '/tunicanotebooks/assets/img/tunica-notebook-3.jpg'
+  img_url: '/assets/img/tunica-notebook-3.jpg'
   img_alt: A blue notebook with a Yale University logo and handwritten text reading "Tunica III".
-  caption_url: 'https://diglib.amphilsoc.org/islandora/object/women-science-nd/'
   caption: Mary Haas's Tunica notebooks
 ---
 # {{ page.title }}
@@ -34,7 +33,7 @@ You can also navigate the notebooks via their contents (below). Contents can be 
 </div>
 
 <div id="toc">
-    {% include toc.html %}
+    {% include toc-with-links.html %}
 </div>
 
 <div id="toc-by-topic" style="display: none">

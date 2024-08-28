@@ -2,7 +2,9 @@
     <!-- Display title and video in column 1 -->
     <div class="video-embed">
     <div class="videoPlayerColumn">
-        <h3 class="video-title"><a href="{{ video.url | relative_url }}" class="video-link">{{ video.title }}</a></h3>
+        {% if page.layout != "video" %}
+            <h3 class="video-title"><a href="{{ video.url | relative_url }}" class="video-link">{{ video.title }}</a></h3>
+        {% endif %}
         <video controls="" height="315" width="560">
             <source src="{{ video.link }}" type="video/ogg">
             <source src="{{ video.link }}" type="video/mp4">

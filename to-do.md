@@ -67,3 +67,41 @@ UUID (or APS ID?) for photo/video -> photos hyperlink
 
 Modal on:
 + Photos in carousel?
+
+
+
+
+ok, alternate plan
+
+read in notebooks.yml
+for each notebook, find contents section
+for each line, convert from:
+
+- How the Tunica Got Their Flag
+
+to:
+
+- title: How the Tunica Got Their Flag
+      page: 14
+
+
+https://diglib.amphilsoc.org/islandora/object/text%3A312180?page=
+
+PID
+
+then plug in page number
+
+https://diglib.amphilsoc.org/node/233510?page=14
+
+alter yml file
+under each content, put page number? maybe I have to hand-code that?
+could have the script add "- page: " under each item in contents
+
+I already have a URL for each notebook loaded in
+actually all I have to do is input a page number (with some script assistance?) and then I can build a link using notebook.url
+and I think it makes sense to just do that from the toc template
+
+
+# TO DO - SEPTEMBER
++ photo gallery
++ flexbox: make it look good on small laptop screen or phone

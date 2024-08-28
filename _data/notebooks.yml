@@ -3,11 +3,12 @@
   description: Word lists and interlinear texts.
   date: 1933
   contents:
-    - Elicitation
-    - How the Tunica Got Their Flag
-    - Elicitation (Sept 7, 1933)
-    - Thunder Myth
-    - Notes on Noun Gender
+    - "Elicitation"
+    - "How the Tunica Got Their Flag"
+    - "Elicitation (Sept 7, 1933)"
+    - "Thunder Myth"
+    - "Notes on Noun Gender"
+    - "Haas's Table of Contents"
 
 - number: 2
   url: https://diglib.amphilsoc.org/islandora/object/text%3A312181
@@ -84,7 +85,7 @@
     - Record No. 37 - Rabbit Dance Song
     - Record No. 38 - Rabbit Dance
     - Notes on Old-Time Instruments
-    - Record No. 39 - Raccoon Dance - "Corn Dance"
+    - Record No. 39 - Raccoon Dance - Corn Dance
     - Record No. 41 - Duck Dance
     - Record No. 42 - Chicken Dance
     - Record No. 43 - Bear Dance
@@ -274,15 +275,15 @@
   description: Wordlist, annotated and alphabetized from P-Y. Numbers.
   date: 1934
   contents:
-    - p (continued)    
-    - r    
-    - s    
-    - CHARACTER PLACEHOLDER TK   
-    - CHARACTER PLACEHOLDER TK 
-    - t    
-    - u    
-    - w    
-    - "y"
+    - p (continued)
+    - r
+    - s
+    - š
+    - č
+    - t
+    - u
+    - w
+    - 'y'
 
 - number: 12
   url: https://diglib.amphilsoc.org/islandora/object/text%3A312177
@@ -306,8 +307,7 @@
     - Notes and Questions
 
 - number: 13
-  description: This notebook is no longer extant.
-  date: Unknown
+  description: Does not exist. Mary Haas skipped this number in the sequence.
 
 - number: 14
   url: https://diglib.amphilsoc.org/islandora/object/text%3A312178

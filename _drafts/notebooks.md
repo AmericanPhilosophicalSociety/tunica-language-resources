@@ -3,11 +3,12 @@ layout: default
 title: 'The Tunica Language Notebooks'
 parallax: true
 image:
-  img_url: '/tunicanotebooks/assets/img/tunica-notebook-3.jpg'
+  img_url: '/tunicalanguagesources/assets/img/tunica-notebook-3.jpg'
   img_alt: A blue notebook with a Yale University logo and handwritten text reading "Tunica III".
   caption_url: 'https://diglib.amphilsoc.org/islandora/object/women-science-nd/'
   caption: Mary Haas's Tunica notebooks
 ---
+
 # {{ page.title }}
 
 Insert text explaining what these notebooks are and how to access them

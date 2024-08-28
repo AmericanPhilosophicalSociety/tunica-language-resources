@@ -46,7 +46,7 @@ Beyond the notebooks, there are many more Tunica language documents made by Mary
   </div>
 </div>
 
-The [Tunica Language & Cultural Revitalization Program](https://www.tunicabiloxi.org/tribal-info/departments/language-culture-revitalization-program/) of the Tunica-Biloxi Tribe of Louisiana, along with its partners, the Tunica Language Project, have produced many resources to promote the learning of the Tunica language.
+The <a href="https://www.tunicabiloxi.org/tribal-info/departments/language-culture-revitalization-program/" target="_blank" rel="noopener noreferrer">Tunica Language & Culture Revitalization Program</a> of the Tunica-Biloxi Tribe of Louisiana, along with its partners, the Tunica Language Project, have produced many resources to promote the learning of the Tunica language.
 
 <div class="navigation-cards">
   <div class="container text-center">
