@@ -6,6 +6,7 @@ image:
   img_url: '/assets/img/tunica-notebook-3.jpg'
   img_alt: A blue notebook with a Yale University logo and handwritten text reading "Tunica III".
   caption: Mary Haas's Tunica notebooks
+  cssClass: 'notebook'
 ---
 # {{ page.title }}
 

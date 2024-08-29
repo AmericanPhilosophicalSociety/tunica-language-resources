@@ -1,13 +1,10 @@
 ---
 layout: default
 title: "The Tunica Language Notebooks"
-#parallax: true
-#image:
-#  img_url: 'https://diglib.amphilsoc.org/islandora/object/graphics:1840/datastream/JPG/view'
-#  img_alt: Black and white photograph of two women, one looking into microscope, the other working with a beaker, sitting at a table in a laboratory.
-#  caption_url: https://diglib.amphilsoc.org/islandora/object/two-women-working-laboratory-seated
-#  caption: Two women working in laboratory, seated. Milislav Demerec Papers
-#  banner_text: Women in Science in the APS Collections
+parallax: true
+image:
+ img_url: '/assets/img/haas-youchigant-header-image.png'
+ img_alt: Fill in alt text
 ---
 
 <!-- <div>
@@ -16,9 +13,9 @@ title: "The Tunica Language Notebooks"
 
 # Explore Tunica language, culture, and history through original archival documents and contemporary reflections by Tunica community members
 
-In the 1930s, the last known speaker of the Tunica language, Sesostrie Youchigant, worked with the linguist Mary Haas to preserve information on the Tunica language for future generations. The stories, vocabularies, and deep cultural knowledge told by Youchigant and written down in notebooks by Haas form a rich resource that is playing a key role in the ongoing reawakening of the Tunica language.
+In the 1930s, the last known speaker of the Tunica language, <a href="{{ '/oral-histories/tunica-history/who-was-sesostrie-youchigant.html'| relative_url }}">Sesostrie Youchigant</a>, worked with the linguist Mary Haas to preserve information on the Tunica language for future generations. The stories, vocabularies, and deep cultural knowledge told by Youchigant and written down in notebooks by Haas form a rich resource that is playing a key role in the ongoing reawakening of the Tunica language.
 
-<div class="navigation-cards">
+<!-- <div class="navigation-cards">
   <div class="container text-center">
     <div class="row">
       <div class="col">
@@ -32,7 +29,7 @@ In the 1930s, the last known speaker of the Tunica language, Sesostrie Youchigan
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 This online portal brings together those [original documents]({{ '/notebooks'| relative_url }}), now with enhanced tools for exploring them through *transcriptions* and *content guides*.
 

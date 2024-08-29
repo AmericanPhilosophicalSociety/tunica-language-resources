@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
 
 // $accent-color: #E5AD1C;
-$accent-color: #FDC151;
-$link-color: #D3232E;
+// $accent-color: #FDC151;
+$accent-color: #f89339;
+// $link-color: #D3232E;
+$link-color: #cf0c00;
 // $link-color: #F37465;
 $box-color: #2e2c27;
 // $box-color: #6BCff6;
@@ -309,11 +311,17 @@ main {position: relative;} /* to place scrollbar */
 .parallax {
   /* Set a specific height */
   height: 100%;
+  // width: 100%;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
+  // background-size: cover;
+  background-size: contain;
+}
+
+.parallax.notebook {
   background-size: cover;
 }
 
