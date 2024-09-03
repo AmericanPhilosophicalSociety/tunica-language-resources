@@ -178,10 +178,10 @@ body {
   clip: auto;
 }
 
-a:focus {
-  color: $link-color;
-  text-decoration: underline;
-}
+// a:focus {
+//   color: $link-color;
+//   text-decoration: underline;
+// }
 
 @media screen and (max-width: 1200px) {
   body, blockquote p, blockquote li {

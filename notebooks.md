@@ -36,7 +36,7 @@ You can also navigate the notebooks via their contents (below). Contents can be 
 
 </div>
 
-<div id="toc">
+<div id="toc" style="display: block">
     {% include toc-with-links.html %}
 </div>
 
@@ -61,14 +61,18 @@ You can also navigate the notebooks via their contents (below). Contents can be 
         tocByTopic.style.display = "block";
     }
     function expandCollapse() {
-        // if anything is currently collapsed, expand it
-        const closedElementList = document.querySelectorAll('.accordion-collapse.collapse:not(.show)');
+        // determine which version of the TOC is currently displayed
+        let toc = document.getElementById("toc");
+        let currentToc = ((toc.style.display == "block") ? toc : document.getElementById("toc-by-topic"));
+        // within that TOC, find any collapsed elements
+        const closedElementList = currentToc.querySelectorAll('.accordion-collapse.collapse:not(.show)');
+        // if any collapsed elements, expand them
         if (closedElementList.length > 0) {
-            console.log("element 1: " + closedElementList[0].outerHTML);
+            // console.log("element 1: " + closedElementList[0].outerHTML);
             const closedList = [...closedElementList].map(collapseEl => new bootstrap.Collapse(collapseEl));
         } else {
             // else, collapse everything
-            const openElementList = document.querySelectorAll('.accordion-collapse.collapse.show');
+            const openElementList = currentToc.querySelectorAll('.accordion-collapse.collapse.show');
             // console.log("open element 1: " + openElementList[0].outerHTML);
             const openList = [...openElementList].map(collapseEl => new bootstrap.Collapse(collapseEl));
         } 

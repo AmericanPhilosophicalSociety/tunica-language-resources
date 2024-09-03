@@ -4,14 +4,9 @@
 + change fonts - get from Brian and Paul
 + *get it on the server* / figure out workflow for getting it on the server
 
-# Home page
-
-+ **tweak parallax scroll effect so not such a big color block**
-
 # TOC
 
-+ write script to get links for subject headings
-+ **fix expand/collapse so it treats the two TOC independently**
++ write script to get links for subject headings - scrape web for subject headings, in those files find page numbers
 
 # Additional Resources
 
@@ -31,8 +26,6 @@
 + Video player looks weird on mobile - get it to flex down if window is below a certain size
 + Why is header cut off on side?
 + Additional Manuscripts: mess w flex, don't want this to display as columns on small screen
-+ Image galleries don't display full image - but this probably doesn't matter, I'm changing that anyway
-
 
 # Links for TOC
 
@@ -71,3 +64,48 @@ max-width 800px (or rem?)
 padding 1rem
 
 text should wrap under the video if it's overflowing
+
+
+
+Speck photos:
+https://diglib.amphilsoc.org/solr-search/content?search_api_fulltext=tunica&f%5B0%5D=collection_globalsearch%3AFrank%20G.%20Speck%20Papers&f%5B1%5D=genre%3APhotographs
+
+Speck drawings:
+https://diglib.amphilsoc.org/solr-search/content?search_api_fulltext=tunica&f%5B0%5D=collection_globalsearch%3AFrank%20G.%20Speck%20Papers&f%5B1%5D=genre%3ASketches
+
+
+pick a few images to highlight- 5 or so from each collection?
+link out to the rest
+
+sort by collection / sort by people
+
+do people have a node/stable ID?
+
+
+
+people
+
+Creator:
+Speck
+Haas
+Neitzel
+
+Subject:
+
+names
+
+or Creator/Photographer; Pictured/Depicted
+
+
+some of these get a taxonomy term, others don't?
+
+https://diglib.amphilsoc.org/solr-search/content?search_api_fulltext=tunica&f%5B0%5D=person_globalsearch%3APierite%2C%20Joseph%2C%20Jr.
+
+vs
+
+https://diglib.amphilsoc.org/taxonomy/term/17895
+
+https://diglib.amphilsoc.org/taxonomy/term/17894
+
+
+include custom link for Speck, Neitzel - separate photos they took and photos they appear in
