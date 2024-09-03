@@ -1,15 +1,11 @@
 ---
 layout: default
-title: "The Tunica Language Notebooks"
-parallax: true
-image:
- img_url: '/assets/img/haas-youchigant-header-image.png'
- img_alt: Fill in alt text
+title: "Tunica Language Resources"
+# parallax: true
+# image:
+#   img_url: "/assets/img/haas-youchigant-header-image.png"
+#   img_alt: Fill in alt text
 ---
-
-<!-- <div>
-  <img src="{{ '/assets/img/haas-youchigant-header-image.png' | relative_url }}" class="img-fluid" alt="Sesostrie Youchigant, Mary Haas, and a scanned page of the Tunica notebooks">
-</div> -->
 
 # Explore Tunica language, culture, and history through original archival documents and contemporary reflections by Tunica community members
 
@@ -31,45 +27,30 @@ In the 1930s, the last known speaker of the Tunica language, <a href="{{ '/oral-
   </div>
 </div> -->
 
-This online portal brings together those [original documents]({{ '/notebooks'| relative_url }}), now with enhanced tools for exploring them through *transcriptions* and *content guides*.
+This online portal brings together those [original documents]({{ '/notebooks'| relative_url }}), now with enhanced tools for exploring them through _transcriptions_ and _content guides_.
 
-It also gathers together [video interviews]({{ '/oral-histories'| relative_url }}) by contemporary Tunica community that help to give a rich picture of the past, present, and future of the Tunica language and community, as well as [related digital resources]({{ '/additional-resources'| relative_url }}). 
+It also gathers together [video interviews]({{ '/oral-histories'| relative_url }}) by contemporary Tunica community that help to give a rich picture of the past, present, and future of the Tunica language and community, as well as [related digital resources]({{ '/additional-resources'| relative_url }}).
 
-<div class="navigation-cards">
-  <div class="container text-center">
-    <div class="row">
-      <div class="col">
-        <a href="{{ '/notebooks'| relative_url }}">
-          <img src="{{ '/assets/img/tunica-notebook-3.jpg'| relative_url }}" width="300px" height="200px">
-          <div class="card-banner main">
-            The Notebooks
-          </div>
-        </a>
-      </div>
-      <div class="col">
-        <a href="{{ '/additional-resources'| relative_url }}">
-          <img src="{{ '/assets/img/TunicaAlphabet2.jpg'| relative_url }}" width="300px" height="200px">
-          <div class="card-banner main">
-            Additional Resources
-          </div>
-        </a>
-      </div>
-      <!-- <div class="col">
-        <a href="{{ '/insights/about-the-language'| relative_url }}">
-          <img src="{{ '/assets/img/Tunica08-063preaspiration.jpg'| relative_url }}" width="300px" height="200px">
-          <div class="card-banner">
-            About the Language
-          </div>
-        </a>
-      </div> -->
-      <div class="col">
-        <a href="{{ '/oral-histories'| relative_url }}">
-          <img src="{{ '/assets/img/TunicaEldersfromCasino.jpg'| relative_url }}" width="300px" height="200px">
-          <div class="card-banner main">
-            Oral Histories
-          </div>
-        </a>
+<div class="nav-cards">
+  <a href="{{ '/notebooks'| relative_url }}">
+    <div class="nav-card" style="background-image: url(&quot;{{ '/assets/img/tunica-notebook-3.jpg' | relative_url }}&quot;);">
+      <div class="card-text main">
+        The Notebooks
       </div>
     </div>
-  </div>
+  </a>
+  <a href="{{ '/additional-resources'| relative_url }}">
+    <div class="nav-card" style="background-image: url(&quot;{{ 'assets/img/TunicaAlphabet2.jpg' | relative_url }}&quot;);">
+      <div class="card-text">
+        Additional Resources
+      </div>
+    </div>
+  </a>
+  <a href="{{ '/oral-histories'| relative_url }}">
+    <div class="nav-card" style="background-image: url(&quot;{{ 'assets/img/TunicaEldersfromCasino.jpg' | relative_url }}&quot;);">
+      <div class="card-text">
+        Oral Histories
+      </div>
+    </div>
+  </a>
 </div>

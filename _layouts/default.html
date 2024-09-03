@@ -18,11 +18,10 @@
     <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.2/mdb.min.css"/> -->
-    <link rel="shortcut icon" type="image/ico" href="{{ '/img/favicon.ico' | relative_url }}">
+    <link rel="shortcut icon" type="image/ico" href="{{ '/assets/img/favicon.ico' | relative_url }}">
 		<script src="https://kit.fontawesome.com/4fd7da23e2.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    {% include skip-link.html %}
     <header class='header'>
       {% include nav.html %}
       {% if page.parallax %}
@@ -34,6 +33,9 @@
           caption_url=i.caption_url 
           caption=i.caption
           cssClass=i.cssClass %}
+      {% endif %}
+      {% if page.title == "Tunica Language Resources" %}
+      <img src="{{ '/assets/img/haas-youchigant-header-image.png' | relative_url }}" width="100%" alt="Sesostrie Youchigant, Mary Haas, and a scanned page of the Tunica notebooks">
       {% endif %}
     </header>
     <main id='main'>

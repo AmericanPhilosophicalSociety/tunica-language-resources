@@ -1,66 +1,40 @@
-**Next week:**
-UUID (or APS ID?) for photo/video -> photos hyperlink
-
 # General
 
-+ get pages into folder to make directory easier to navigate / do something with config file?
-+ get better crops/sizing for images in navigation cards
-+ change color scheme - Tunica tribe logo?
-
-## CSS
-
-+ sizing for figures - don't let them get too big
-+ make fonts look better
-+ more attractive button, Youchigant link etc
++ *get pages into folder to make directory easier to navigate / do something with config file?*
++ change fonts - get from Brian and Paul
++ *get it on the server* / figure out workflow for getting it on the server
 
 # Home page
 
-+ tweak formatting for cards
++ **tweak parallax scroll effect so not such a big color block**
 
 # TOC
 
 + write script to get links for subject headings
-+ probably change link color so it doesn't look as overwhelming
++ **fix expand/collapse so it treats the two TOC independently**
 
-# Additional resources
-
-+ make formatting look nice on landing page
-+ how to format images in headers?
+# Additional Resources
 
 ## Photographs
 
 + **priority** - alternate photo display with info about subjects. this is waiting on photo metadata cleanup
 
-## Insights
-
-+ more attractive header display w link back to main page - how should this look?
-
-# About the Language
-
-+ *nicer looking landing page*
-+ format title and read more
-+ do something more w images? responsive sizing, center them?
-
 # Oral Histories
 
 + add imgAlt field (or don't? just put images in page content?)
 + UUIDs for videos and photos? - this could help improve connection between videos and related images
-
-## Questions for CNAIR
-
-+ names for remaining two interview subjects
 + should videos be in a specific order?
 
-# Mobile
+# Mobile / Small Screen View
 
++ for nav cards, do some kind of conditional formatting thing where Insights and Language and Culture Revitalization are wide on a big screen and same size as the rest on a small one
 + Video player looks weird on mobile - get it to flex down if window is below a certain size
 + Why is header cut off on side?
-+ Something bad happening w cards - they're covering text
-+ Image galleries don't display full image
-+ Insights: blog post size is not responsive
++ Additional Manuscripts: mess w flex, don't want this to display as columns on small screen
++ Image galleries don't display full image - but this probably doesn't matter, I'm changing that anyway
 
 
-
+# Links for TOC
 
 https://diglib.amphilsoc.org/islandora/object/text%3A312180?page=
 
@@ -71,13 +45,29 @@ then plug in page number
 https://diglib.amphilsoc.org/node/233510?page=14
 
 
+# Tunica Logo Colors
 
+Orange color:
 
-# TO DO - SEPTEMBER
-+ photo gallery
-+ flexbox: make it look good on small laptop screen or phone
-+ add remaining names to photos once digital library starts working again
+Hex:
+#f89339
 
-The young woman in the first video here is Teyanna Pierite-Simon. She is in the crafts section as well.
+rgba(248,147,57,255)
 
-The older woman in the first video here is Beryl Pierite Holmes.
+Red:
+
+#df2413
+
+rgba(223,36,19,255)
+
+Darker red:
+#cf0c00
+
+rgba(207,12,0,255)
+
+# Video display
+
+max-width 800px (or rem?)
+padding 1rem
+
+text should wrap under the video if it's overflowing

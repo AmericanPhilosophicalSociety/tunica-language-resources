@@ -30,7 +30,7 @@
                         <li>
                             {% if section.page %}
                                 {% assign pageUrl = notebook.url | append: "?page=" | append: section.page %}
-                                <a href="{{ pageUrl }}" target="_blank">{{ section.title }}</a>
+                                <a href="{{ pageUrl }}" target="_blank" class="no-decoration-link">{{ section.title }}</a>
                             {% else %}
                                 {{ section.title }}
                             {% endif %}

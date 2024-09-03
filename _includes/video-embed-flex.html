@@ -3,7 +3,7 @@
     <div class="video-embed">
     <div class="videoPlayerColumn">
         {% if page.layout != "video" %}
-            <h3 class="video-title"><a href="{{ video.url | relative_url }}" class="video-link">{{ video.title }}</a></h3>
+            <h3 class="video-title"><a href="{{ video.url | relative_url }}" class="no-decoration-link">{{ video.title }}</a></h3>
         {% endif %}
         <video controls="" height="315" width="560">
             <source src="{{ video.link }}" type="video/ogg">
