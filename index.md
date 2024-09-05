@@ -7,7 +7,7 @@ title: "Tunica Language Resources"
 #   img_alt: Fill in alt text
 ---
 
-# Explore Tunica language, culture, and history through original archival documents and contemporary reflections by Tunica community members
+<h2>Explore Tunica language, culture, and history through original archival documents and contemporary reflections by Tunica community members</h2>
 
 In the 1930s, the last known speaker of the Tunica language, <a href="{{ '/oral-histories/tunica-history/who-was-sesostrie-youchigant.html'| relative_url }}">Sesostrie Youchigant</a>, worked with the linguist Mary Haas to preserve information on the Tunica language for future generations. The stories, vocabularies, and deep cultural knowledge told by Youchigant and written down in notebooks by Haas form a rich resource that is playing a key role in the ongoing reawakening of the Tunica language.
 
@@ -33,8 +33,32 @@ It also gathers together [video interviews]({{ '/oral-histories'| relative_url }
 
 <div class="nav-cards">
   <a href="{{ '/notebooks'| relative_url }}">
+    <div class="nav-card-square" style="background-image: url(&quot;{{ '/assets/img/square-tunica-notebook-3-larger.jpg' | relative_url }}&quot;);">
+      <div class="card-text accent">
+        The Notebooks
+      </div>
+    </div>
+  </a>
+  <a href="{{ '/additional-resources'| relative_url }}">
+    <div class="nav-card-square" style="background-image: url(&quot;{{ 'assets/img/square-picote-sesostrie.jpg' | relative_url }}&quot;);">
+      <div class="card-text">
+        Additional Resources
+      </div>
+    </div>
+  </a>
+  <a href="{{ '/oral-histories'| relative_url }}">
+    <div class="nav-card-square" style="background-image: url(&quot;{{ 'assets/img/square-ryan-lopez.png' | relative_url }}&quot;);">
+      <div class="card-text accent">
+        Oral Histories
+      </div>
+    </div>
+  </a>
+</div>
+
+<!-- <div class="nav-cards">
+  <a href="{{ '/notebooks'| relative_url }}">
     <div class="nav-card" style="background-image: url(&quot;{{ '/assets/img/tunica-notebook-3.jpg' | relative_url }}&quot;);">
-      <div class="card-text main">
+      <div class="card-text">
         The Notebooks
       </div>
     </div>
@@ -53,4 +77,4 @@ It also gathers together [video interviews]({{ '/oral-histories'| relative_url }
       </div>
     </div>
   </a>
-</div>
+</div> -->

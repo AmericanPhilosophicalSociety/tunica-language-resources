@@ -8,14 +8,14 @@ Beyond the notebooks, there are many more Tunica language documents made by Mary
 
 <div class="nav-cards">
   <a href="{{ '/additional-resources/manuscripts'| relative_url }}">
-    <div class="nav-card" style="background-image: url(&quot;{{ '/assets/img/haas-tunica-and-surrounding-peoples-cropped.png' | relative_url }}&quot;);">
+    <div class="nav-card-square" style="background-image: url(&quot;{{ '/assets/img/square-speck-cane-arrow.jpg' | relative_url }}&quot;);">
       <div class="card-text main">
         Manuscripts
       </div>
     </div>
   </a>
   <a href="{{ '/additional-resources/photographs'| relative_url }}">
-    <div class="nav-card" style="background-image: url(&quot;{{ 'assets/img/10-26-k-anna-mae-pierite-juneau.jpg' | relative_url }}&quot;);">
+    <div class="nav-card-square" style="background-image: url(&quot;{{ 'assets/img/square-picote-sesostrie.jpg' | relative_url }}&quot;);">
       <div class="card-text">
         Photographs
       </div>
@@ -27,8 +27,8 @@ Beyond the notebooks, there are many more Tunica language documents made by Mary
 
 <div class="nav-cards">
   <a href="{{ '/additional-resources/insights'| relative_url }}">
-    <div class="nav-card" style="background-image: url(&quot;{{ '/assets/img/TunicaNotebook09-182cropped.jpg' | relative_url }}&quot;);">
-      <div class="card-text main">
+    <div class="nav-card-square" style="background-image: url(&quot;{{ '/assets/img/square-preaspiration.jpg' | relative_url }}&quot;);">
+      <div class="card-text accent">
         Insights on the Tunica Language
       </div>
     </div>
@@ -38,10 +38,10 @@ Beyond the notebooks, there are many more Tunica language documents made by Mary
 The <a href="https://www.tunicabiloxi.org/tribal-info/departments/language-culture-revitalization-program/" target="_blank" rel="noopener noreferrer">Tunica Language & Culture Revitalization Program</a> of the Tunica-Biloxi Tribe of Louisiana, along with its partners, the Tunica Language Project, have produced many resources to promote the learning of the Tunica language.
 
 <div class="nav-cards">
-  <a href="https://www.tunicabiloxi.org/tribal-info/departments/language-culture-revitalization-program/" target="_blank" rel="noopener noreferrer">
-    <div class="nav-card" style="background-image: url(&quot;{{ '/assets/img/TunicaAlphabet2.jpg' | relative_url }}&quot;);">
-      <div class="card-text main">
-        Tunica Language & Culture Revitalization
+  <a href="https://www.tunicabiloxi.org/tribal-info/departments/language-culture-revitalization-program/">
+    <div class="nav-card-square" style="background-image: url(&quot;{{ 'assets/img/square-anna-mae.jpg' | relative_url }}&quot;);">
+      <div class="card-text">
+        Additional Resources
       </div>
     </div>
   </a>

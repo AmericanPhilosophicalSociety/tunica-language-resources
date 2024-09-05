@@ -35,7 +35,7 @@
           cssClass=i.cssClass %}
       {% endif %}
       {% if page.title == "Tunica Language Resources" %}
-      <img src="{{ '/assets/img/haas-youchigant-header-image.png' | relative_url }}" width="100%" alt="Sesostrie Youchigant, Mary Haas, and a scanned page of the Tunica notebooks">
+      <img src="{{ '/assets/img/haas-youchigant-header-image.png' | relative_url }}" width="100%" max-width="100%" alt="Sesostrie Youchigant, Mary Haas, and a scanned page of the Tunica notebooks">
       {% endif %}
     </header>
     <main id='main'>
@@ -43,16 +43,15 @@
       <section>
         {{ content }}
       </section>
-      <div class="scroll-top"> <!--scrollbar at the end of main-->
+      <!-- <div class="scroll-top">
         <a class="scroll-top__link" href="#">
-          <!--<span>TOP</span>-->
           <span>
             <svg viewBox="0 0 24 24">
               <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path>
             </svg>
           </span>
-        </a> <!--href="#" navigates to the top of the page-->
-      </div>
+        </a>
+      </div> -->
     </main>
     <footer id='footer'>
       {% include footer.html %}

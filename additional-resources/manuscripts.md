@@ -7,13 +7,23 @@ title: "Additional Manuscripts"
 
 <p>In addition to the original notebooks recorded by Mary Haas and Sesostrie Youchigant, there are many other types of unique archival documents about the Tunica people and language.</p>
 
-{% include view-button.html
-  text = "View all Tunica manuscript resources"
-  url = "https://diglib.amphilsoc.org/solr-search/content?search_api_fulltext=tunica&sort_by=search_api_relevance&sort_order=DESC&items_per_page=10&f%5B0%5D=genre%3AManuscripts"
-%}
+<div class="view-all-notebooks-container">
+<a href="https://diglib.amphilsoc.org/solr-search/content?search_api_fulltext=tunica&sort_by=search_api_relevance&sort_order=DESC&items_per_page=10&f%5B0%5D=genre%3AManuscripts" target="_blank" class="no-decoration-link">
+        <div class="view-all-notebooks" style="background-image: url(&quot;{{ 'assets/img/haas-tunica-texts-2.png' | relative_url }}&quot;);">
+            <h2>View all Tunica manuscript resources</h2>
+        </div>
+    </a>
+</div>
 
-<section class="textWithImage">
-<div class="manuscripts1">
+<div>
+<div class="floated-figure">
+  {% include modal-figure.html
+    imgFile = "Mss_Ms_Coll_094-001.jpg"
+    imgAlt = "Excerpt of letter from Chief Joe Pierite to Mary Haas, October 17, 1964"
+    imgSize = "max-width:250px"
+    imgCaption = "Excerpt of letter from Chief Joe Pierite to Mary Haas, October 17, 1964"
+  %}
+</div>
 
   <p>The resources include a wide variety of materials:</p>
 
@@ -24,13 +34,3 @@ title: "Additional Manuscripts"
   </ul>
 
 </div>
-
-<div class="manuscripts2 w-100 text-center">
-  {% include modal-figure.html
-    imgFile = "Mss_Ms_Coll_094-001.jpg"
-    imgAlt = "Excerpt of letter from Chief Joe Pierite to Mary Haas, October 17, 1964"
-    imgSize = "max-width:300px"
-    imgCaption = "Excerpt of letter from Chief Joe Pierite to Mary Haas, October 17, 1964"
-  %}
-</div>
-</section>

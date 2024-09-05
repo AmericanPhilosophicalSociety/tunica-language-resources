@@ -1,3 +1,8 @@
+TOMORROW:
+
+do something for photo display
+colors on notebook buttons?
+
 # General
 
 + *get pages into folder to make directory easier to navigate / do something with config file?*
@@ -13,19 +18,18 @@
 ## Photographs
 
 + **priority** - alternate photo display with info about subjects. this is waiting on photo metadata cleanup
++ integrate photo-subjects page onto actual site
 
 # Oral Histories
 
++ fix the whole flex thing for this :||
 + add imgAlt field (or don't? just put images in page content?)
 + UUIDs for videos and photos? - this could help improve connection between videos and related images
 + should videos be in a specific order?
 
 # Mobile / Small Screen View
 
-+ for nav cards, do some kind of conditional formatting thing where Insights and Language and Culture Revitalization are wide on a big screen and same size as the rest on a small one
-+ Video player looks weird on mobile - get it to flex down if window is below a certain size
-+ Why is header cut off on side?
-+ Additional Manuscripts: mess w flex, don't want this to display as columns on small screen
++ what's going on with link size and centered text for 'see manuscripts/notebooks' cards?
 
 # Links for TOC
 
@@ -108,4 +112,29 @@ https://diglib.amphilsoc.org/taxonomy/term/17895
 https://diglib.amphilsoc.org/taxonomy/term/17894
 
 
-include custom link for Speck, Neitzel - separate photos they took and photos they appear in
+include custom link for Speck - separate photos he took and photos he appears in
+AND narrow down to only tunica photos
+
+same for Neitzel?
+
+
+height="315" width="560"
+
+
+how to make this look unique/like its own distinct project, not just a WIS clone?
+
+come up with some new design for navcards
+make it a square, be more deliberate w image selection, maybe make text opaque?
+
+play around w design on 'notebooks' page - something with button colors
+surprising 'view all notebooks' button
+
+surprising 'view all manuscripts' button
+
+could change: size, have an interesting texture/background from a project-related image, border from youchigant image?
+
+images to use:
+still from the oral histories
+Speck drawings
+notebooks (cropped)
+Tunica alphabet (cropped)

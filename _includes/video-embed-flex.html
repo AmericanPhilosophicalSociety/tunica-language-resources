@@ -1,11 +1,14 @@
 <div>
+    {% if page.layout != "video" %}
+            <h3 class="video-title"><a href="{{ video.url | relative_url }}" class="no-decoration-link">{{ video.title }}</a></h3>
+        {% endif %}
     <!-- Display title and video in column 1 -->
     <div class="video-embed">
     <div class="videoPlayerColumn">
-        {% if page.layout != "video" %}
+        <!-- {% if page.layout != "video" %}
             <h3 class="video-title"><a href="{{ video.url | relative_url }}" class="no-decoration-link">{{ video.title }}</a></h3>
-        {% endif %}
-        <video controls="" height="315" width="560">
+        {% endif %} -->
+        <video class="video-sized" controls="">
             <source src="{{ video.link }}" type="video/ogg">
             <source src="{{ video.link }}" type="video/mp4">
         </video>
@@ -13,13 +16,15 @@
     <!-- Display video description and metadata in column 2 -->
     <div class="videoDescriptionColumn">
         <!-- Display description and image (if included) -->
+         {% if video.content %}
         <p>{{ video.content }}</p>
+        {% endif %}
         {% if video.img %}
             {% include modal-figure.html
                 modalId = forloop.index
                 imgFile = video.img
                 imgAlt = ""
-                imgSize = "max-height:250px"
+                imgSize = "max-height:250px;max-width: 300px"
                 imgCaption = ""
             %}
         {% endif %}
