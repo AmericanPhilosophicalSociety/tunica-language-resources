@@ -1,9 +1,10 @@
 ---
-layout: default
+layout: photos
+display-title: 'Photographs by Subject'
 title: 'Photographs by Subject'
 ---
 
-# {{ page.title }}
+[Placeholder explanatory text]
 
 ## Pictured
 

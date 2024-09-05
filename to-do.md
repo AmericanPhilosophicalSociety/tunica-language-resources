@@ -1,14 +1,19 @@
-TOMORROW:
+COMING UP:
 
-do something for photo display
-colors on notebook buttons?
-bring back the 'scroll up' button but in a way that doesn't break stuff
+load in subjects data for Speck photos
+nicer 'see all photos' thing?
+load in a few more photos
+HOW DOES THIS LOOK ON DIFFERENT SCREENS?
+what's going on with that script / page links?
+final comments from CNAIR?
+get it on the server
 
 # General
 
 + *get pages into folder to make directory easier to navigate / do something with config file?*
 + change fonts - get from Brian and Paul
 + *get it on the server* / figure out workflow for getting it on the server
++ bring back the 'scroll up' button but in a way that doesn't break stuff?
 
 # TOC
 

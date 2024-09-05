@@ -1,0 +1,18 @@
+<nav class="nav nav-pills flex-column flex-sm-row">
+    {% if page.title == "Mary Haas" %}
+        <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="{{ '/additional-resources/photographs' | relative_url }}">Mary Haas</a>
+    {% else %}
+        <a class="flex-sm-fill text-sm-center nav-link" href="{{ '/additional-resources/photographs' | relative_url }}">Mary Haas</a>
+    {% endif %}
+    {% if page.title == "Frank G. Speck" %}
+        <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="{{ '/additional-resources/photographs/speck' | relative_url }}">Frank G. Speck</a>
+    {% else %}
+        <a class="flex-sm-fill text-sm-center nav-link" href="{{ '/additional-resources/photographs/speck' | relative_url }}">Frank G. Speck</a>
+    {% endif %}
+    {% if page.title == "Photographs by Subject" %}
+        <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="{{ '/additional-resources/photographs/photo-subjects' | relative_url }}">Photographs by Subject</a>
+    {% else %}
+        <a class="flex-sm-fill text-sm-center nav-link" href="{{ '/additional-resources/photographs/photo-subjects' | relative_url }}">Photographs by Subject</a>
+    {% endif %}
+</nav>
+<hr>

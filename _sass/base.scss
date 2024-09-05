@@ -966,54 +966,33 @@ a:target > img.cssbox_thumb + span.cssbox_full {
   margin-right: 5em;
 }
 
-// w3schools photo gallery CSS
+// Image gallery
 
-/* The grid: Four equal columns that floats next to each other */
-.photo-gallery .column {
-  float: left;
-  width: 25%;
-  padding: 10px;
+.thumbnails {
+  display: flex;
 }
 
-/* Style the images inside the grid */
-.photo-gallery .column img {
-  max-width: 25%;
+.thumbnail img {
+  max-height: 8rem;
+  margin: 1rem;
   opacity: 0.8;
   cursor: pointer;
 }
 
-.photo-gallery .column img:hover {
+.thumbnail img:hover {
   opacity: 1;
 }
 
-/* Clear floats after the columns */
-.photo-gallery .row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 /* The expanding image container (positioning is needed to position the close button and the text) */
-.photo-gallery .container {
+.photo-gallery .photo-expanded {
   position: relative;
   display: block;
+  margin-top: 2rem;
 }
 
-/* Expanding image text */
-#imgtext {
-  // position: absolute;
-  // bottom: 15px;
-  // left: 15px;
-  // color: white;
-  font-size: 20px;
-}
-
-/* Closable button inside the image */
-.photo-gallery .closebtn {
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  color: white;
-  font-size: 35px;
-  cursor: pointer;
+.photo-gallery .photo-expanded img {
+  max-height: 50rem;
+  width: auto;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
