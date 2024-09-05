@@ -2,6 +2,7 @@ TOMORROW:
 
 do something for photo display
 colors on notebook buttons?
+bring back the 'scroll up' button but in a way that doesn't break stuff
 
 # General
 
@@ -22,7 +23,6 @@ colors on notebook buttons?
 
 # Oral Histories
 
-+ fix the whole flex thing for this :||
 + add imgAlt field (or don't? just put images in page content?)
 + UUIDs for videos and photos? - this could help improve connection between videos and related images
 + should videos be in a specific order?
@@ -138,3 +138,11 @@ still from the oral histories
 Speck drawings
 notebooks (cropped)
 Tunica alphabet (cropped)
+
+
+
+consistently sized image thumbnails along the top bar. have a few pixels between them but don't have them spaced out so much
+cut it down to like a square from the middle of the image?
+make a consistently sized box below this - max-width 100%, height can be anything
+within that, image has a max width of 100% and set a max height in pixels to keep it from getting too big?
+below the image, print some text: its title (hyperlinked) and description, maybe eventually some info about the people displayed

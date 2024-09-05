@@ -266,6 +266,10 @@ b, strong {
   color: $alt-color-2;
 }
 
+.navbar-toggler, .navbar-toggler-icon {
+  background-color: $link-color !important;
+}
+
 // Scroll formatting
 
 main {position: relative;} /* to place scrollbar */
@@ -863,19 +867,33 @@ a:target > img.cssbox_thumb + span.cssbox_full {
   // padding-bottom: .75rem;
 }
 
-// .btn {
-//   color: green !important;
-//   background-color: blue !important;
-//   outline-color: green !important;
-//   border-color: purple !important;
-//   active-color: red !important;
+// .toc-buttons .btn-outline-primary {
+//   border-color: red !important;
 // }
 
+// .toc-buttons .btn-outline-primary:active {
+//   // color: purple !important;
+//   background-color: yellow !important;
+//   // bs-btn-active-bgs: orange !important;
+//   // fill: red !important;
+// }
 
-// @media screen and (max-width: 450px) {
-//   .button-right {
-//     display: flex-end;
-//   }
+// .toc-buttons .btn-outline-primary:focus {
+//   background-color: yellow !important;
+// }
+
+// .btn.btn-success:not(:disabled):not(.disabled):active,
+// .btn.btn-success:not(:disabled):not(.disabled).active {
+//   background-color: yellow !important;
+// }
+
+// .btn-primary {
+//   background-color: #565474 !important;
+//   // background: purple !important;
+// }
+
+// .btn-check:checked {
+//   background-color: yellow !important;
 // }
 
 // Styling for Insights
@@ -909,9 +927,9 @@ a:target > img.cssbox_thumb + span.cssbox_full {
   height: auto;
 }
 
-.videoDescriptionColumn {
-  // flex: 70;
-}
+// .videoDescriptionColumn {
+//   flex: 70;
+// }
 
 .video-title {
   text-transform: uppercase;
@@ -919,11 +937,6 @@ a:target > img.cssbox_thumb + span.cssbox_full {
   margin-bottom: 1em;
   letter-spacing: 0.1em;
 }
-
-.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
-  color:black !important;
-  background-color:#fcd900 !important;
-  }
 
 .nav-pills a.nav-link:hover {
   color: $alt-color-2 !important;
@@ -951,4 +964,56 @@ a:target > img.cssbox_thumb + span.cssbox_full {
   max-width: 250px;
   margin-left: 5em;
   margin-right: 5em;
+}
+
+// w3schools photo gallery CSS
+
+/* The grid: Four equal columns that floats next to each other */
+.photo-gallery .column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.photo-gallery .column img {
+  max-width: 25%;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.photo-gallery .column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.photo-gallery .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.photo-gallery .container {
+  position: relative;
+  display: block;
+}
+
+/* Expanding image text */
+#imgtext {
+  // position: absolute;
+  // bottom: 15px;
+  // left: 15px;
+  // color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the image */
+.photo-gallery .closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
 }
