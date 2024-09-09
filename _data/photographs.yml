@@ -4,6 +4,10 @@
   displayTitle: Anna Mae Pierite Juneau, Joseph Pierite, Jr., and Norma Pierite Khawaja
   description: "Black and white photo of a girl (Anna Mae Pierite Juneau), a young man (Joseph Pierite, Jr.), and a young woman (Norma Pierite Khawaja), standing outside wearing traditional Tunica headdresses."
   collection: "Frank G. Speck Papers"
+  pictured: 
+    - "Juneau, Anna Mae Pierite"
+    - "Pierite, Joseph, Jr."
+    - "Khawaja, Norma Pierite"
 
 - url: https://diglib.amphilsoc.org/islandora/object/graphics%3A9756
   fileName: 10-26-g-tunica-group-assembled.jpg
@@ -11,6 +15,11 @@
   displayTitle: Tunica group assembled outside home (I)
   description: "Black and white photo of a group of people assembled outside a home in the distance. Includes Chief Horace Pierite, Sr., Merlin Pierite, Joseph Pierite, Sr., and Arthur Joseph Bordelon."
   collection: "Frank G. Speck Papers"
+  pictured:
+    - "Pierite, Horace, Sr."
+    - "Pierite, Merlin"
+    - "Pierite, Joseph, Sr."
+    - "Bordelon, Arthur Joseph"
 
 - url: https://diglib.amphilsoc.org/islandora/object/graphics%3A9765
   fileName: 10-27-d-tunica-group-assembled.jpg
@@ -18,6 +27,14 @@
   displayTitle: Tunica group assembled outside home (II)
   description: 'Black and white photo of a group of Tunica people (Merlin Pierite, Joseph Pierite, Sr., Anglaise "English" Barbry, Arthur Joseph Bordelon, Chief Horace Pierite, Sr., Joseph "Babe" Barbry) and a man in a suit (Frank Speck) assembled outside a home.'
   collection: "Frank G. Speck Papers"
+  pictured:
+    - "Speck, Frank Gouldsmith"
+    - "Pierite, Merlin"
+    - "Pierite, Joseph, Sr."
+    - "Barbry, Anglaise"
+    - "Pierite, Horace, Sr."
+    - "Barbry, Joseph"
+    - "Bordelon, Arthur Joseph"
 
 - url: https://diglib.amphilsoc.org/islandora/object/graphics%3A1693
   fileName: haas-alice-picote-sam-young-sesostrie.jpg

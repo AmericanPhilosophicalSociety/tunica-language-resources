@@ -1,12 +1,16 @@
 COMING UP:
 
-load in subjects data for Speck photos
-nicer 'see all photos' thing?
-load in a few more photos
-HOW DOES THIS LOOK ON DIFFERENT SCREENS?
-what's going on with that script / page links?
-final comments from CNAIR?
+script for page links
 get it on the server
+
+From CNAIR:
+
+get correct link for Speck and Haas photos
+do they want more images uploaded?
+final comments?
+
+upload Bella rev city docs
+Andrew database
 
 # General
 
@@ -23,8 +27,7 @@ get it on the server
 
 ## Photographs
 
-+ **priority** - alternate photo display with info about subjects. this is waiting on photo metadata cleanup
-+ integrate photo-subjects page onto actual site
++ load in more content? how much do they want on here?
 
 # Oral Histories
 

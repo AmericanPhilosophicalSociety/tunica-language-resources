@@ -559,6 +559,7 @@ main > p {
   justify-content: space-around;
   align-items: stretch;
   flex-wrap: wrap;
+  // max-width: 100%;
 }
 
 .nav-cards a {
@@ -614,7 +615,7 @@ main > p {
   transition: 0.3s;
 }
 
-.modalImg:hover {opacity: 0.7;}
+figure .modalImg:hover {opacity: 0.7;}
 
 /* The Modal (background) */
 .modal {
@@ -635,8 +636,9 @@ main > p {
 .modal-content {
   margin: auto;
   display: block;
-  width: 80%;
-  max-width: 700px;
+  // width: 80%;
+  // max-width: 700px;
+  max-width: 80%;
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
@@ -672,7 +674,7 @@ main > p {
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
   .modal-content {
-    width: 100%;
+    max-width: 100%;
   }
 }
 
@@ -970,10 +972,12 @@ a:target > img.cssbox_thumb + span.cssbox_full {
 
 .thumbnails {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .thumbnail img {
   max-height: 8rem;
+  width: auto;
   margin: 1rem;
   opacity: 0.8;
   cursor: pointer;
@@ -981,6 +985,12 @@ a:target > img.cssbox_thumb + span.cssbox_full {
 
 .thumbnail img:hover {
   opacity: 1;
+}
+
+@media (max-width: 450px) {
+  .thumbnail img {
+    max-height: 5rem;
+  }
 }
 
 /* The expanding image container (positioning is needed to position the close button and the text) */

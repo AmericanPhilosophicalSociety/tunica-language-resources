@@ -32,7 +32,10 @@
         <h2>
             <a href="{{ photo.url }}" target="_blank">{{ photo.displayTitle }}</a>
         </h2>
-        <img src="{{ imgPath | relative_url }}" />
+        <!-- <img src="{{ imgPath | relative_url }}" /> -->
+         {% include modal.html
+            imgFile = photo.fileName
+            modalId = forloop.index %}
 
         <!-- Image description and subjects -->
         <div>

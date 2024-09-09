@@ -1,6 +1,6 @@
 <div class="accordion" id="toc-accordion">
     <div class="accordion-item">
-        {% for notebook in site.data.notebooks-with-pages %}
+        {% for notebook in site.data.notebooks-updated %}
             {% assign panelId = "panel" | append: forloop.index %}
             {% assign buttonId = "button" | append: forloop.index %}
             {% assign panelCollapseId = "panelCollapse" | append: forloop.index %}
@@ -28,12 +28,8 @@
                 <ul>
                     {% for section in notebook.contents %}
                         <li>
-                            {% if section.page %}
-                                {% assign pageUrl = notebook.url | append: "?page=" | append: section.page %}
-                                <a href="{{ pageUrl }}" target="_blank" class="no-decoration-link">{{ section.title }}</a>
-                            {% else %}
-                                {{ section.title }}
-                            {% endif %}
+                            {% assign pageUrl = notebook.url | append: "?page=" | append: section[0] %}
+                            <a href="{{ pageUrl }}" target="_blank" class="no-decoration-link">{{ section[1] }}</a>
                         </li>
                     {% endfor %}
                 </ul>
