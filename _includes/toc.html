@@ -1,6 +1,6 @@
 <div class="accordion" id="toc-accordion">
     <div class="accordion-item">
-        {% for notebook in site.data.notebooks-updated %}
+        {% for notebook in site.data.notebooks %}
             {% assign panelId = "panel" | append: forloop.index %}
             {% assign buttonId = "button" | append: forloop.index %}
             {% assign panelCollapseId = "panelCollapse" | append: forloop.index %}

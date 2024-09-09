@@ -45,12 +45,12 @@ You can also navigate the notebooks via their contents (below). Contents can be 
 </div>
 
 <div id="toc" style="display: block">
-    {% include toc-with-links.html %}
+    {% include toc.html %}
 </div>
 
 <div id="toc-by-topic" style="display: none">
     <!-- {% include toc-by-topic.html %} -->
-    {% include toc-by-topic-links.html %}
+    {% include toc-by-topic.html %}
 </div>
 
 <script>
