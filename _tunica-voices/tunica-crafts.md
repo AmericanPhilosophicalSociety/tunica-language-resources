@@ -1,5 +1,5 @@
 ---
 title: Tunica Crafts
-layout: oral-history-category
+layout: tunica-voices-category
 navOrder: 5
 ---

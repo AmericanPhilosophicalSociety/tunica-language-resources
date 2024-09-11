@@ -15,7 +15,7 @@ In the 1930s, the last known speaker of the Tunica language, Sesostrie Youchigan
 You can view digitizations and transcriptions of these notebooks on the APS website, linked below.
 
 <div class="view-all-notebooks-container">
-<a href="https://diglib.amphilsoc.org/islandora/object/text%3AMss.Ms.Coll.94_TunicaNotebooksWithTOC" target="_blank" class="no-decoration-link">
+<a href="https://diglib.amphilsoc.org/islandora/object/text%3AMss.Ms.Coll.94_TunicaNotebooksWithTOC?=&sort_order=ASC&sort_by=title" target="_blank" class="no-decoration-link">
         <div class="view-all-notebooks" style="background-image: url(&quot;{{ 'assets/img/TunicaNotebook14-006.jpg' | relative_url }}&quot;);">
             <h2>View All Notebooks</h2>
         </div>
@@ -49,7 +49,6 @@ You can also navigate the notebooks via their contents (below). Contents can be 
 </div>
 
 <div id="toc-by-topic" style="display: none">
-    <!-- {% include toc-by-topic.html %} -->
     {% include toc-by-topic.html %}
 </div>
 

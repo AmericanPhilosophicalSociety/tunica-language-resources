@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 'Additional Resources'
+permalink: /additional-resources/
 ---
 # {{ page.title }}
 

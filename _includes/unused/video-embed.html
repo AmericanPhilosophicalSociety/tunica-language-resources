@@ -13,10 +13,10 @@
         </figure>
     {% endif %}
     {% if video.interviewee and page.layout != "interviewee" %}
-        {% assign intervieweeRecord = site.oral-histories | where:"name", video.interviewee | first %}
+        {% assign intervieweeRecord = site.tunica-voices | where:"name", video.interviewee | first %}
         <p>Interviewee: <a href="{{ intervieweeRecord.url | relative_url }}">{{ video.interviewee }}</a></p>
     {% elsif page.layout == "interviewee" %}
-        {% assign categoryRecord = site.oral-histories | where:"title", video.category | first %}
+        {% assign categoryRecord = site.tunica-voices | where:"title", video.category | first %}
         <p>Category: <a href="{{ categoryRecord.url | relative_url }}">{{video.category}}</a></p>
     {% endif %}
 </div>

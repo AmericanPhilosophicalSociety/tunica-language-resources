@@ -1,7 +1,7 @@
 ---
 layout: photos
 display-title: "Photographs"
-title: "Frank G. Speck"
+title: "Frank G. Speck Collection"
 ---
 
 [Placeholder explanatory text: Frank G. Speck. These are drawn from a <a href="https://diglib.amphilsoc.org/taxonomy/term/4693" target="_blank">larger collection</a> of photos available on the APS digital library.]

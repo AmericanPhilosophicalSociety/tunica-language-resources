@@ -1,5 +1,5 @@
 ---
 title: Connecting Generations
-layout: oral-history-category
+layout: tunica-voices-category
 navOrder: 3
 ---

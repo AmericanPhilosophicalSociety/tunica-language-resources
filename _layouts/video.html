@@ -3,7 +3,7 @@ layout: default
 ---
 <h1>{{ page.title }}</h1>
 
-{% include oral-histories-nav.html %}
+{% include tunica-voices-nav.html %}
 
-{% assign video = site.oral-histories | where: "title", page.title | first %}
+{% assign video = site.tunica-voices | where: "title", page.title | first %}
 {% include video-embed-flex.html %}

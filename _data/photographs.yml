@@ -1,3 +1,12 @@
+- url: https://diglib.amphilsoc.org/islandora/object/graphics%3A9766
+  fileName: 10-27-e-merlin-pierite.jpg
+  title: "10-27-e: Merlin Pierite with stickball sticks"
+  displayTitle: Merlin Pierite with stickball sticks
+  description: "Black and white photo of a man (Merlin Pierite) dressed in overalls, holding two stickball sticks."
+  collection: "Frank G. Speck Papers"
+  pictured:
+    - "Pierite, Merlin"
+
 - url: https://diglib.amphilsoc.org/islandora/object/graphics%3A9760
   fileName: 10-26-k-anna-mae-pierite-juneau.jpg
   title: "10-26-k: Anna Mae Pierite Juneau, Joseph Pierite, Jr., and Norma Pierite Khawaja"
@@ -35,6 +44,15 @@
     - "Pierite, Horace, Sr."
     - "Barbry, Joseph"
     - "Bordelon, Arthur Joseph"
+
+- url: https://diglib.amphilsoc.org/islandora/object/graphics%3A9750
+  fileName: 10-26-a-anglaise-barbry.jpg
+  title: '10-26-a: Anglaise "English" Barbry and older woman'
+  displayTitle: 'Anglaise "English" Barbry and older woman'
+  description: 'Black and white portrait of two women (Anglaise "English" Barbry and an older unidentified woman) seated outside.'
+  collection: "Frank G. Speck Papers"
+  pictured:
+    - "Barbry, Anglaise"
 
 - url: https://diglib.amphilsoc.org/islandora/object/graphics%3A1693
   fileName: haas-alice-picote-sam-young-sesostrie.jpg

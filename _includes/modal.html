@@ -21,6 +21,8 @@
     <img class="modal-content" src="{{ imgUrl | relative_url }}" alt="{{ include.imgAlt }}">
 
     <!-- Modal Caption (Image Text) -->
+     {% if include.imgCaption %}
     <div class="modalCaption">{{ include.imgCaption }}</div>
+    {% endif %}
     </div> 
 </div>

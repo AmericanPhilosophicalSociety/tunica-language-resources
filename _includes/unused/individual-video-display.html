@@ -19,6 +19,6 @@
 {% endif %}
 
 {% if page.interviewee %}
-    {% assign intervieweeRecord = site.oral-histories | where:"name", page.interviewee | first %}
+    {% assign intervieweeRecord = site.tunica-voices | where:"name", page.interviewee | first %}
     <p>Interviewee: <a href="{{ intervieweeRecord.url | relative_url }}">{{ page.interviewee }}</a></p>
 {% endif %}

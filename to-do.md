@@ -1,6 +1,6 @@
 COMING UP:
 
-script for page links
+delete some stuff I'm not using from img
 get it on the server
 
 From CNAIR:
@@ -11,6 +11,9 @@ final comments?
 
 upload Bella rev city docs
 Andrew database
+
+
+find notebook URL
 
 # General
 

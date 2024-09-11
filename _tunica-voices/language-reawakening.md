@@ -1,5 +1,5 @@
 ---
 title: Language Reawakening
-layout: oral-history-category
+layout: tunica-voices-category
 navOrder: 4
 ---

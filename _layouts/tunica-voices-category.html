@@ -2,11 +2,11 @@
 layout: default
 ---
 
-<h1>Oral Histories</h1>
+<h1>Tunica Voices</h1>
 
-{% include oral-histories-nav.html %}
+{% include tunica-voices-nav.html %}
 
-{% assign videos = site.oral-histories | where:"category", page.title %}
+{% assign videos = site.tunica-voices | where:"category", page.title %}
 
 {% for video in videos %}
     {% include video-embed-flex.html %}

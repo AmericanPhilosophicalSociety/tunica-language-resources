@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Insights on the Tunica Language"
+permalink: /additional-resources/insights/
 ---
 
 <h1>{{ page.title }}</h1>

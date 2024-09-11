@@ -23,16 +23,16 @@
         {% endif %}
         <!-- If interviewee is listed and this is NOT an interviewee page, display interviewee -->
         {% if video.interviewee and page.layout != "interviewee" %}
-            {% assign intervieweeRecord = site.oral-histories | where:"name", video.interviewee | first %}
+            {% assign intervieweeRecord = site.tunica-voices | where:"name", video.interviewee | first %}
             <p>Interviewee: <a href="{{ intervieweeRecord.url | relative_url }}">{{ video.interviewee }}</a></p>
         <!-- If interviewee page, display category -->
             {% elsif page.layout == "interviewee" %}
-            {% assign categoryRecord = site.oral-histories | where:"title", video.category | first %}
+            {% assign categoryRecord = site.tunica-voices | where:"title", video.category | first %}
             <p>Category: <a href="{{ categoryRecord.url | relative_url }}">{{video.category}}</a></p>
         {% endif %}
         <!-- If appearing on main page, include link to view more in this category -->
-        {% if page.title == "Oral Histories" %}
-            {% assign categoryRecord = site.oral-histories | where:"title", video.category | first %}
+        {% if page.title == "Tunica Voices" %}
+            {% assign categoryRecord = site.tunica-voices | where:"title", video.category | first %}
             <a href="{{  categoryRecord.url | relative_url }}">
                 <h3>Learn more about {{ video.category }}</h3>
             </a>

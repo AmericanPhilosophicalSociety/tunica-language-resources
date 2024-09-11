@@ -1,5 +1,5 @@
 ---
 title: Tunica History
-layout: oral-history-category
+layout: tunica-voices-category
 navOrder: 1
 ---
