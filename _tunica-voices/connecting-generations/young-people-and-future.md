@@ -5,4 +5,5 @@ description:
 interviewee: Beryl Pierite Holmes
 category: Connecting Generations
 layout: video
+display-order: 1
 ---

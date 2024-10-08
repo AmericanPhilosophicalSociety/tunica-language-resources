@@ -1,6 +1,9 @@
 <nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
-    <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <a href="{{ site.baseurl }}/">
+      <span class="navbar-brand">{{ site.title }}</span><br>
+      <span class="navbar-brand-secondary">at the American Philosophical Society</span>
+    </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -26,6 +29,11 @@
             <li><a class="dropdown-item" href="{{ '/additional-resources/photographs' | relative_url}}">Photographs</a></li>
             <li><a class="dropdown-item" href="{{ '/additional-resources/insights' | relative_url}}">Insights on the Tunica Language</a></li>
           </ul>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ '/about' | relative_url }}">
+            About the Project
+          </a>
+        </li>
         </li>
       </ul>
     </div>

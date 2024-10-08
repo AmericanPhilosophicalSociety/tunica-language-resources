@@ -7,9 +7,11 @@ title: "Tunica Language Resources"
 
 In the 1930s, the last known speaker of the Tunica language, <a href="{{ '/tunica-voices/tunica-history/who-was-sesostrie-youchigant.html'| relative_url }}">Sesostrie Youchigant</a>, worked with the linguist Mary Haas to preserve information on the Tunica language for future generations. The stories, vocabularies, and deep cultural knowledge told by Youchigant and written down in notebooks by Haas form a rich resource that is playing a key role in the ongoing reawakening of the Tunica language.
 
-This online portal brings together those [original documents]({{ '/notebooks'| relative_url }}), now with enhanced tools for exploring them through _transcriptions_ and _content guides_.
+Haas’s notebooks are housed at the American Philosophical Society Library and Museum. This online portal brings together [digitizations of the notebooks]({{ '/notebooks'| relative_url }}), now with enhanced tools for exploring them through _transcriptions_ and _content guides_.
 
 It also gathers together [video interviews]({{ '/tunica-voices'| relative_url }}) by contemporary Tunica community that help to give a rich picture of the past, present, and future of the Tunica language and community, as well as [related digital resources]({{ '/additional-resources'| relative_url }}).
+
+
 
 <div class="nav-cards">
   <a href="{{ '/notebooks'| relative_url }}">
