@@ -43,10 +43,15 @@
             <h3>Pictured here:</h3>
             <ul>
                 {% if photo.pictured %}
-                    {% for name in photo.pictured %}
+                    {% assign names = photo.pictured | sort %}
+                    {% for name in names %}
                         {% assign person = site.data.photo-subjects | where: "name", name | first %}
                         {% if person %}
-                            <li><a href="https://diglib.amphilsoc.org/taxonomy/term/{{ person.taxonomy }}" target="_blank">{{ name }}</a></li>
+                            {% if name == "Youchigant, Sesostrie" %}
+                                <li><a href="https://diglib.amphilsoc.org/islandora/object/tunica-album?sort_order=ASC&sort_by=title&f%5B0%5D=person_block%3AYouchigant%2C%20Sesostrie" target="_blank">{{ name }}</a></li>
+                            {% else %}
+                                <li><a href="https://diglib.amphilsoc.org/taxonomy/term/{{ person.taxonomy }}" target="_blank">{{ name }}</a></li>
+                            {% endif %}
                         {% else %}
                             <li>{{ name }}</li>
                         {% endif %}
