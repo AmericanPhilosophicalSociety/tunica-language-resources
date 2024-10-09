@@ -32,7 +32,7 @@ find notebook URL
 
 + load in more content? how much do they want on here?
 
-# Oral Histories
+# Tunica Voices
 
 + add imgAlt field (or don't? just put images in page content?)
 + UUIDs for videos and photos? - this could help improve connection between videos and related images
@@ -145,7 +145,7 @@ surprising 'view all manuscripts' button
 could change: size, have an interesting texture/background from a project-related image, border from youchigant image?
 
 images to use:
-still from the oral histories
+still from the Tunica Voices
 Speck drawings
 notebooks (cropped)
 Tunica alphabet (cropped)
@@ -157,3 +157,6 @@ cut it down to like a square from the middle of the image?
 make a consistently sized box below this - max-width 100%, height can be anything
 within that, image has a max width of 100% and set a max height in pixels to keep it from getting too big?
 below the image, print some text: its title (hyperlinked) and description, maybe eventually some info about the people displayed
+
+
+bundle exec jekyll serve --config _config_development.yml
