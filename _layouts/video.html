@@ -7,3 +7,9 @@ layout: default
 
 {% assign video = site.tunica-voices | where: "title", page.title | first %}
 {% include video-embed-flex.html %}
+
+{% if page.diglib %}
+<a href="{{  page.diglib }}">
+    <h3>View on APS digital library</h3>
+</a>
+{% endif %}

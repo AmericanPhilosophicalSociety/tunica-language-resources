@@ -1,30 +1,51 @@
-COMING UP:
+Need from community members:
 
-delete some stuff I'm not using from img
-get it on the server
++ colors- too similar to another tribe? match to logo? or red and blue (this was about the older version)
++ link to Denver museum Tunica artifacts, or maybe display images
++ Ryan has additional photos
++ Biloxi language materials
 
-From CNAIR:
+Need from CNAIR:
 
-get correct link for Speck and Haas photos
-do they want more images uploaded?
-final comments?
++ footer ok?
++ download link for FLEx data
++ Language and Culture Revitalization Program, or Cultural?
++ in Additional Manuscripts- link to the Pierite letter to Haas? can't find this on diglib
 
-upload Bella rev city docs
-Andrew database
+Need from Bayard:
+
++ photoshop new header image?
+
+from PT:
+
++ ask her to check alt text
+
+Need from myself:
+
++ delete some stuff I'm not using from img
 
 
-find notebook URL
+need to deal with alt text in:
+Photographs- I think I want alt text to display on the thumbnails (and this can just be the title of the photo), but not in the modal because the description already says what it is?
+
+
+# Accessibility/aria
+
++ links in general?
++ navbar for Tunica Voices
++ photographs - currently thumbnails have alt text (the photo title), no alt text on modal + images because they're already described underneath. is this correct?
+
+
+do something with layout of Manuscripts page- I don't love how this looks
 
 # General
 
 + *get pages into folder to make directory easier to navigate / do something with config file?*
 + change fonts - get from Brian and Paul
-+ *get it on the server* / figure out workflow for getting it on the server
 + bring back the 'scroll up' button but in a way that doesn't break stuff?
++ do I need to write up some documentation?
 
 # TOC
-
-+ write script to get links for subject headings - scrape web for subject headings, in those files find page numbers
 
 # Additional Resources
 
@@ -34,7 +55,6 @@ find notebook URL
 
 # Tunica Voices
 
-+ add imgAlt field (or don't? just put images in page content?)
 + UUIDs for videos and photos? - this could help improve connection between videos and related images
 + should videos be in a specific order?
 
@@ -88,75 +108,6 @@ https://diglib.amphilsoc.org/solr-search/content?search_api_fulltext=tunica&f%5B
 Speck drawings:
 https://diglib.amphilsoc.org/solr-search/content?search_api_fulltext=tunica&f%5B0%5D=collection_globalsearch%3AFrank%20G.%20Speck%20Papers&f%5B1%5D=genre%3ASketches
 
-
-pick a few images to highlight- 5 or so from each collection?
-link out to the rest
-
-sort by collection / sort by people
-
-do people have a node/stable ID?
-
-
-
-people
-
-Creator:
-Speck
-Haas
-Neitzel
-
-Subject:
-
-names
-
-or Creator/Photographer; Pictured/Depicted
-
-
-some of these get a taxonomy term, others don't?
-
-https://diglib.amphilsoc.org/solr-search/content?search_api_fulltext=tunica&f%5B0%5D=person_globalsearch%3APierite%2C%20Joseph%2C%20Jr.
-
-vs
-
-https://diglib.amphilsoc.org/taxonomy/term/17895
-
-https://diglib.amphilsoc.org/taxonomy/term/17894
-
-
-include custom link for Speck - separate photos he took and photos he appears in
-AND narrow down to only tunica photos
-
-same for Neitzel?
-
-
-height="315" width="560"
-
-
-how to make this look unique/like its own distinct project, not just a WIS clone?
-
-come up with some new design for navcards
-make it a square, be more deliberate w image selection, maybe make text opaque?
-
-play around w design on 'notebooks' page - something with button colors
-surprising 'view all notebooks' button
-
-surprising 'view all manuscripts' button
-
-could change: size, have an interesting texture/background from a project-related image, border from youchigant image?
-
-images to use:
-still from the Tunica Voices
-Speck drawings
-notebooks (cropped)
-Tunica alphabet (cropped)
-
-
-
-consistently sized image thumbnails along the top bar. have a few pixels between them but don't have them spaced out so much
-cut it down to like a square from the middle of the image?
-make a consistently sized box below this - max-width 100%, height can be anything
-within that, image has a max width of 100% and set a max height in pixels to keep it from getting too big?
-below the image, print some text: its title (hyperlinked) and description, maybe eventually some info about the people displayed
 
 
 bundle exec jekyll serve --config _config_development.yml

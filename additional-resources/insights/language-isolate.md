@@ -8,7 +8,7 @@ Tunica is a language isolate, meaning it is unrelated to any other language toda
 
 {% include modal-figure.html
   imgFile = "TunicaNotebook09-182cropped.jpg"
-  imgAlt = "Handwritten image reading, 'There used to be another tribe near the Tunica and their language was mutually intelligible.'"
+  imgAlt = "Handwritten text reading, 'There used to be another tribe near the Tunica and their language was mutually intelligible.' Below this is the word for kettle 'in this other language'."
   imgSize = "max-width:600px"
   imgCaption = "Excerpt from <a href='https://diglib.amphilsoc.org/islandora/object/text%3A311967?page=182' target='_blank'>Tunica Notebook 9, page 182</a>"
 %}

@@ -1,6 +1,6 @@
 ---
 layout: photos
-display-title: 'Browse Photos by Names'
+display-title: 'Photographs'
 title: 'Browse Photos by Names'
 ---
 

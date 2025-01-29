@@ -1,5 +1,6 @@
 ---
-link: https://diglib-legacy.amphilsoc.org/islandora/object/video%3A1658/datastream/MP4/view
+link: https://diglib.amphilsoc.org/_flysystem/fedora/2023-12/340450-Service%20File.mp4
+diglib: https://diglib.amphilsoc.org/islandora/object/video%3A1658
 title: Pottery
 description: Ryan Lopez talks about learning language and history through studying pottery.
 interviewee: Ryan Lopez

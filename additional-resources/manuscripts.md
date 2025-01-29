@@ -19,7 +19,7 @@ title: "Additional Manuscripts"
 <div class="floated-figure">
   {% include modal-figure.html
     imgFile = "Mss_Ms_Coll_094-001.jpg"
-    imgAlt = "Excerpt of letter from Chief Joe Pierite to Mary Haas, October 17, 1964"
+    imgAlt = "Scan of the first page of a handwritten letter from Chief Joe Pierite to Mary Haas, October 17, 1964. Pierite references a visit Haas made to the Tunica in the 1930s, when their chief was 'Sam Young, or Sesostrie Youchigant'."
     imgSize = "max-width:250px"
     imgCaption = "Excerpt of letter from Chief Joe Pierite to Mary Haas, October 17, 1964"
   %}
