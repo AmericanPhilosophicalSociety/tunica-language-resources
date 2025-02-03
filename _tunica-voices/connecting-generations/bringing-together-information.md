@@ -1,5 +1,6 @@
 ---
-link: https://diglib-legacy.amphilsoc.org/islandora/object/video%3A1685/datastream/MP4/view
+link: https://diglib.amphilsoc.org/_flysystem/fedora/2025-02/438417-Service%20File.mp4
+diglib: https://diglib.amphilsoc.org/islandora/object/jeremy-bringing-together-information-family-histories
 title: Bringing together information on family histories
 description: 
 interviewee: Jeremy Zahn
