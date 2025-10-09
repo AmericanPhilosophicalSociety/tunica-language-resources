@@ -7,19 +7,19 @@ title: EditionCrafter Test
 </div>
 <div id="ec"></div>
 
- <script type="text/javascript" src="{{ 'editioncrafter/editioncrafter.js' | relative_url }}" ></script>
+ <script type="text/javascript" src="{{ 'assets/editioncrafter/editioncrafter.js' | relative_url }}" ></script>
 
  <script type="text/javascript">
 
      EditionCrafter.viewer({
          id: 'ec',
          documentName: 'Tunica Notebook 6',
-         iiifManifest: '{{ 'editioncrafter/output-two-layers/iiif/manifest.json' | relative_url }}',
+         iiifManifest: '{{ 'assets/editioncrafter/iiif/manifest.json' | relative_url }}',
          transcriptionTypes: {
            text: 'Transcription',
            linguistic: 'Linguistic Data',
          },
-         notesURL: '{{ 'editioncrafter/contents.md' | relative_url }}',
+         notesURL: '{{ 'assets/editioncrafter/contents.md' | relative_url }}',
      })
 
  </script>
