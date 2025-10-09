@@ -15,7 +15,7 @@ layout: header-footer-only
 
      EditionCrafter.viewer({
          id: 'ec',
-         documentName: 'Tunica Notebook 7',
+         documentName: '{{ 'Tunica Notebook ' | append: page.num }}',
          iiifManifest: '{{ manifest_path | relative_url }}',
          transcriptionTypes: {
            text: 'Transcription',
