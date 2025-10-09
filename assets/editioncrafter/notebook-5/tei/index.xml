@@ -231,24 +231,76 @@
 
 <pb facs="#f001" />
 <ab>
-                    <h1>Haas Notebook 05.000A</h1>
-                    <p>No data to display</p>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
 </ab>
 
 <pb facs="#f002" />
 <ab>
-                    <h1>Haas Notebook 05.000B</h1>
-                    <p>No data to display</p>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
 </ab>
 
 <pb facs="#f004" />
 <ab>
-                    <p>Deleted table</p>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
 </ab>
 
 <pb facs="#f005" />
 <ab>
-<p>No data to display</p>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
 </ab>
 
 <pb facs="#f006" />
@@ -1741,10 +1793,4 @@
 
   </div></body>
       </text>
-    <text xml:id="linguistic">
-                <pb facs="#f004" />
-                <ab>
-                    <p>This is a linguistic info layer, or whatever</p>
-                </ab>
-    </text>
   </TEI>

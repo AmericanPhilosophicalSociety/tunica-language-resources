@@ -224,85 +224,73 @@
 <body><div>
     <pb facs="#f000" />
 <ab>
-<p>No data to display</p>
+<lb />= 
+<lb /> =
 </ab>
 
 <pb facs="#f002" />
 <ab>
-<p>No data to display</p>
+<lb />= 
+<lb /> =
 </ab>
 
 <pb facs="#f003" />
 <ab>
-                    <table>
-                        <tr>
-                            <th>Word</th>
-                            <td colspan="2">wä´s'inihki</td>
-                        </tr>
-                        <tr>
-                            <th>Morphemes</th>
-                            <td>wä´s</td>
-                            <td>-'inihki</td>
-                        </tr>
-                        <tr>
-                            <th>Modern Tunica</th>
-                            <td>
-                                <a
-                                    href="https://www.webonary.org/tunica?s=w%C9%9Bsa&amp;search=Search&amp;key=tun&amp;pos=&amp;search_options_set=1&amp;match_whole_words=1"
-                                    target="blank">wɛsa</a>
-                            </td>
-                            <td>
-                                <a
-                                    href="https://www.webonary.org/tunica?s=-inihki&amp;search=Search&amp;key=tun&amp;pos=&amp;search_options_set=1&amp;match_whole_words=1"
-                                    target="blank">-inihki</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th>Morpheme Type</th>
-                            <td>stem</td>
-                            <td>suffix</td>
-                        </tr>
-                        <tr>
-                            <th>Grammatical Info</th>
-                            <td>v.I</td>
-                            <td>v:Subject</td>
-                        </tr>
-                    </table>
+<lb />= I jumped
+<lb /> = he jumped
+<lb /> = we jumped
+<lb /> = I fell
+<lb /> = he fell
+<lb /> = we fell
+<lb /> = I left
+<lb /> = he left
+<lb /> = we left
+<lb /> = I aksed
+<lb /> = he asked
+<lb /> = we asked
+<lb /> = I drank
+<lb /> = he drank
+<lb /> = we drank
 </ab>
 
 <pb facs="#f004" />
 <ab>
-                    <table>
-                        <tr>
-                            <th>Word</th>
-                            <td colspan="1">ha´pa</td>
-                        </tr>
-                        <tr>
-                            <th>Morphemes</th>
-                            <td>ha´pa</td>
-                        </tr>
-                        <tr>
-                            <th>Modern Tunica</th>
-                            <td>
-                                <a
-                                    href="https://www.webonary.org/tunica?s=hapa&amp;search=Search&amp;key=tun&amp;pos=&amp;search_options_set=1&amp;match_whole_words=1"
-                                    target="blank">hapa</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th>Morpheme Type</th>
-                            <td>stem</td>
-                        </tr>
-                        <tr>
-                            <th>Grammatical Info</th>
-                            <td>v.I</td>
-                        </tr>
-                    </table>
+<lb />= 
+<lb /> = 
+<lb /> = to stop
+<lb /> = to saw
+<lb /> = to jump
+<lb /> = to fall
+<lb /> = to roll
+<lb /> = to leave
+<lb /> = to mark
+<lb /> = to burn
+<lb /> = to loan
+<lb /> = to hit
+<lb /> = to ask
+<lb /> = to land
+<lb /> = to wear
+<lb /> = to touch
+<lb /> = to taste
+<lb /> = to cross
+<lb /> = to boil
+<lb /> = to drink
+<lb /> = 
+<lb /> = I
+<lb /> = he
+<lb /> = we 2
+<lb /> = he stopped, quit
+<lb /> = we 2 stopped
+<lb /> = I quit
+<lb /> = I sawed
+<lb /> = 
+<lb /> = he sawed
+<lb /> = we 2 sawed
 </ab>
 
 <pb facs="#f005" />
 <ab>
-<p>No data to display</p>
+<lb />=
 </ab>
 
 <pb facs="#f006" />
@@ -6357,8 +6345,4 @@
 
   </div></body>
       </text>
-    <text xml:id="linguistic">
-                <pb facs="#f004" />
-                <p>This is a linguistic info layer, or whatever</p>
-    </text>
   </TEI>
