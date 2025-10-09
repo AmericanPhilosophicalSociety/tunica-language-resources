@@ -6,4 +6,6 @@ markdown: kramdown
 collections:
   tunica-voices:
     output: true
+  notebooks-collection:
+    output: true
 page_excerpts: true
