@@ -1,0 +1,1750 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+          <fileDesc>
+              <titleStmt>
+                  <title>
+                      <!-- Your Title Here -->
+                  </title>
+              </titleStmt>
+              <publicationStmt>
+                  <p></p>
+              </publicationStmt>
+              <sourceDesc>
+                  <p></p>
+              </sourceDesc>
+          </fileDesc>
+      </teiHeader>
+
+      <facsimile sameAs="https://diglib.amphilsoc.org/node/233520/manifest">
+                    <surface xml:id="f000" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/763388" ><label>Tunica Notebook 05 , Page 1</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F242310-Service%2520File.jpg"/></surface>
+          <surface xml:id="f001" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/753899" ><label>Tunica Notebook 05 , Page 2</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F240098-Service%2520File.jpg"/></surface>
+          <surface xml:id="f002" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/769521" ><label>Tunica Notebook 05 , Page 3</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F243717-Service%2520File.jpg"/></surface>
+          <surface xml:id="f003" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/728780" ><label>Tunica Notebook 05 , Page 4</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F234358-Service%2520File.jpg"/></surface>
+          <surface xml:id="f004" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/745399" ><label>Tunica Notebook 05 , Page 5</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F238120-Service%2520File.jpg"/></surface>
+          <surface xml:id="f005" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/758276" ><label>Tunica Notebook 05 , Page 6</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F241127-Service%2520File.jpg"/></surface>
+          <surface xml:id="f006" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/750291" ><label>Tunica Notebook 05 , Page 7</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F239269-Service%2520File.jpg"/></surface>
+          <surface xml:id="f007" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/779321" ><label>Tunica Notebook 05 , Page 8</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F246257-Service%2520File.jpg"/></surface>
+          <surface xml:id="f008" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/777342" ><label>Tunica Notebook 05 , Page 9</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F245695-Service%2520File.jpg"/></surface>
+          <surface xml:id="f009" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/765053" ><label>Tunica Notebook 05 , Page 10</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F242687-Service%2520File.jpg"/></surface>
+          <surface xml:id="f010" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/736444" ><label>Tunica Notebook 05 , Page 11</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F236118-Service%2520File.jpg"/></surface>
+          <surface xml:id="f011" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/761159" ><label>Tunica Notebook 05 , Page 12</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F241791-Service%2520File.jpg"/></surface>
+          <surface xml:id="f012" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/759990" ><label>Tunica Notebook 05 , Page 13</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F241523-Service%2520File.jpg"/></surface>
+          <surface xml:id="f013" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/733550" ><label>Tunica Notebook 05 , Page 14</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F235463-Service%2520File.jpg"/></surface>
+          <surface xml:id="f014" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/729376" ><label>Tunica Notebook 05 , Page 15</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F234501-Service%2520File.jpg"/></surface>
+          <surface xml:id="f015" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/742881" ><label>Tunica Notebook 05 , Page 16</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F237548-Service%2520File.jpg"/></surface>
+          <surface xml:id="f016" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/733468" ><label>Tunica Notebook 05 , Page 17</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F235444-Service%2520File.jpg"/></surface>
+          <surface xml:id="f017" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/730046" ><label>Tunica Notebook 05 , Page 18</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F234662-Service%2520File.jpg"/></surface>
+          <surface xml:id="f018" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/730737" ><label>Tunica Notebook 05 , Page 19</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F234830-Service%2520File.jpg"/></surface>
+          <surface xml:id="f019" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/737226" ><label>Tunica Notebook 05 , Page 20</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F236287-Service%2520File.jpg"/></surface>
+          <surface xml:id="f020" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/758757" ><label>Tunica Notebook 05 , Page 21</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F241239-Service%2520File.jpg"/></surface>
+          <surface xml:id="f021" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/776146" ><label>Tunica Notebook 05 , Page 22</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F245364-Service%2520File.jpg"/></surface>
+          <surface xml:id="f022" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/735186" ><label>Tunica Notebook 05 , Page 23</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F235837-Service%2520File.jpg"/></surface>
+          <surface xml:id="f023" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/734937" ><label>Tunica Notebook 05 , Page 24</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F235776-Service%2520File.jpg"/></surface>
+          <surface xml:id="f024" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/763802" ><label>Tunica Notebook 05 , Page 25</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F242403-Service%2520File.jpg"/></surface>
+          <surface xml:id="f025" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/769639" ><label>Tunica Notebook 05 , Page 26</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F243744-Service%2520File.jpg"/></surface>
+          <surface xml:id="f026" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/766857" ><label>Tunica Notebook 05 , Page 27</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F243098-Service%2520File.jpg"/></surface>
+          <surface xml:id="f027" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/763781" ><label>Tunica Notebook 05 , Page 28</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F242399-Service%2520File.jpg"/></surface>
+          <surface xml:id="f028" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/768907" ><label>Tunica Notebook 05 , Page 29</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F243576-Service%2520File.jpg"/></surface>
+          <surface xml:id="f029" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/738249" ><label>Tunica Notebook 05 , Page 30</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F236498-Service%2520File.jpg"/></surface>
+          <surface xml:id="f030" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/747308" ><label>Tunica Notebook 05 , Page 31</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F238575-Service%2520File.jpg"/></surface>
+          <surface xml:id="f031" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/739170" ><label>Tunica Notebook 05 , Page 32</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F236696-Service%2520File.jpg"/></surface>
+          <surface xml:id="f032" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/761918" ><label>Tunica Notebook 05 , Page 33</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F241975-Service%2520File.jpg"/></surface>
+          <surface xml:id="f033" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/776176" ><label>Tunica Notebook 05 , Page 34</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F245373-Service%2520File.jpg"/></surface>
+          <surface xml:id="f034" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/768554" ><label>Tunica Notebook 05 , Page 35</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F243491-Service%2520File.jpg"/></surface>
+          <surface xml:id="f035" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/730023" ><label>Tunica Notebook 05 , Page 36</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F234657-Service%2520File.jpg"/></surface>
+          <surface xml:id="f036" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/763940" ><label>Tunica Notebook 05 , Page 37</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F242433-Service%2520File.jpg"/></surface>
+          <surface xml:id="f037" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/764800" ><label>Tunica Notebook 05 , Page 38</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F242632-Service%2520File.jpg"/></surface>
+          <surface xml:id="f038" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/767420" ><label>Tunica Notebook 05 , Page 39</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F243224-Service%2520File.jpg"/></surface>
+          <surface xml:id="f039" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/731085" ><label>Tunica Notebook 05 , Page 40</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F234913-Service%2520File.jpg"/></surface>
+          <surface xml:id="f040" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/748710" ><label>Tunica Notebook 05 , Page 41</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F238906-Service%2520File.jpg"/></surface>
+          <surface xml:id="f041" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/738640" ><label>Tunica Notebook 05 , Page 42</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F236587-Service%2520File.jpg"/></surface>
+          <surface xml:id="f042" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/757517" ><label>Tunica Notebook 05 , Page 43</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F240944-Service%2520File.jpg"/></surface>
+          <surface xml:id="f043" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/745652" ><label>Tunica Notebook 05 , Page 44</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F238186-Service%2520File.jpg"/></surface>
+          <surface xml:id="f044" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/775910" ><label>Tunica Notebook 05 , Page 45</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F245296-Service%2520File.jpg"/></surface>
+          <surface xml:id="f045" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/769069" ><label>Tunica Notebook 05 , Page 46</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F243613-Service%2520File.jpg"/></surface>
+          <surface xml:id="f046" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/750108" ><label>Tunica Notebook 05 , Page 47</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F239226-Service%2520File.jpg"/></surface>
+          <surface xml:id="f047" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/734636" ><label>Tunica Notebook 05 , Page 48</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F235707-Service%2520File.jpg"/></surface>
+          <surface xml:id="f048" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/732527" ><label>Tunica Notebook 05 , Page 49</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F235238-Service%2520File.jpg"/></surface>
+          <surface xml:id="f049" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/727124" ><label>Tunica Notebook 05 , Page 50</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F233961-Service%2520File.jpg"/></surface>
+          <surface xml:id="f050" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/751565" ><label>Tunica Notebook 05 , Page 51</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F239566-Service%2520File.jpg"/></surface>
+          <surface xml:id="f051" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/771050" ><label>Tunica Notebook 05 , Page 52</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F244081-Service%2520File.jpg"/></surface>
+          <surface xml:id="f052" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/765218" ><label>Tunica Notebook 05 , Page 53</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F242726-Service%2520File.jpg"/></surface>
+          <surface xml:id="f053" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/774773" ><label>Tunica Notebook 05 , Page 54</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F244985-Service%2520File.jpg"/></surface>
+          <surface xml:id="f054" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/775178" ><label>Tunica Notebook 05 , Page 55</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F245095-Service%2520File.jpg"/></surface>
+          <surface xml:id="f055" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/754498" ><label>Tunica Notebook 05 , Page 56</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F240235-Service%2520File.jpg"/></surface>
+          <surface xml:id="f056" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/744493" ><label>Tunica Notebook 05 , Page 57</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F237914-Service%2520File.jpg"/></surface>
+          <surface xml:id="f057" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/770450" ><label>Tunica Notebook 05 , Page 58</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F243936-Service%2520File.jpg"/></surface>
+          <surface xml:id="f058" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/753300" ><label>Tunica Notebook 05 , Page 59</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F239962-Service%2520File.jpg"/></surface>
+          <surface xml:id="f059" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/758545" ><label>Tunica Notebook 05 , Page 60</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F241188-Service%2520File.jpg"/></surface>
+          <surface xml:id="f060" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/780056" ><label>Tunica Notebook 05 , Page 61</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F246462-Service%2520File.jpg"/></surface>
+          <surface xml:id="f061" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/744501" ><label>Tunica Notebook 05 , Page 62</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F237915-Service%2520File.jpg"/></surface>
+          <surface xml:id="f062" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/761579" ><label>Tunica Notebook 05 , Page 63</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F241896-Service%2520File.jpg"/></surface>
+          <surface xml:id="f063" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/728395" ><label>Tunica Notebook 05 , Page 64</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F234263-Service%2520File.jpg"/></surface>
+          <surface xml:id="f064" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/741934" ><label>Tunica Notebook 05 , Page 65</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F237330-Service%2520File.jpg"/></surface>
+          <surface xml:id="f065" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/741783" ><label>Tunica Notebook 05 , Page 66</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F237295-Service%2520File.jpg"/></surface>
+          <surface xml:id="f066" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/778031" ><label>Tunica Notebook 05 , Page 67</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F245895-Service%2520File.jpg"/></surface>
+          <surface xml:id="f067" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/755290" ><label>Tunica Notebook 05 , Page 68</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F240421-Service%2520File.jpg"/></surface>
+          <surface xml:id="f068" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/774701" ><label>Tunica Notebook 05 , Page 69</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F244966-Service%2520File.jpg"/></surface>
+          <surface xml:id="f069" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/763745" ><label>Tunica Notebook 05 , Page 70</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F242393-Service%2520File.jpg"/></surface>
+          <surface xml:id="f070" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/727371" ><label>Tunica Notebook 05 , Page 71</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F234023-Service%2520File.jpg"/></surface>
+          <surface xml:id="f071" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/770016" ><label>Tunica Notebook 05 , Page 72</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F243831-Service%2520File.jpg"/></surface>
+          <surface xml:id="f072" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/736947" ><label>Tunica Notebook 05 , Page 73</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F236228-Service%2520File.jpg"/></surface>
+          <surface xml:id="f073" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/765511" ><label>Tunica Notebook 05 , Page 74</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F242792-Service%2520File.jpg"/></surface>
+          <surface xml:id="f074" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/740631" ><label>Tunica Notebook 05 , Page 75</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F237026-Service%2520File.jpg"/></surface>
+          <surface xml:id="f075" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/754137" ><label>Tunica Notebook 05 , Page 76</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F240150-Service%2520File.jpg"/></surface>
+          <surface xml:id="f076" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/752481" ><label>Tunica Notebook 05 , Page 77</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F239777-Service%2520File.jpg"/></surface>
+          <surface xml:id="f077" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/747136" ><label>Tunica Notebook 05 , Page 78</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F238535-Service%2520File.jpg"/></surface>
+          <surface xml:id="f078" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/759055" ><label>Tunica Notebook 05 , Page 79</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F241307-Service%2520File.jpg"/></surface>
+          <surface xml:id="f079" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/738482" ><label>Tunica Notebook 05 , Page 80</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F236553-Service%2520File.jpg"/></surface>
+          <surface xml:id="f080" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/746429" ><label>Tunica Notebook 05 , Page 81</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F238368-Service%2520File.jpg"/></surface>
+          <surface xml:id="f081" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/744409" ><label>Tunica Notebook 05 , Page 82</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F237891-Service%2520File.jpg"/></surface>
+          <surface xml:id="f082" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/758700" ><label>Tunica Notebook 05 , Page 83</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F241225-Service%2520File.jpg"/></surface>
+          <surface xml:id="f083" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/753527" ><label>Tunica Notebook 05 , Page 84</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F240012-Service%2520File.jpg"/></surface>
+          <surface xml:id="f084" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/766906" ><label>Tunica Notebook 05 , Page 85</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F243110-Service%2520File.jpg"/></surface>
+          <surface xml:id="f085" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/778427" ><label>Tunica Notebook 05 , Page 86</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F246002-Service%2520File.jpg"/></surface>
+          <surface xml:id="f086" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/749803" ><label>Tunica Notebook 05 , Page 87</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F239155-Service%2520File.jpg"/></surface>
+          <surface xml:id="f087" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/756889" ><label>Tunica Notebook 05 , Page 88</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F240796-Service%2520File.jpg"/></surface>
+          <surface xml:id="f088" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/752749" ><label>Tunica Notebook 05 , Page 89</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F239838-Service%2520File.jpg"/></surface>
+          <surface xml:id="f089" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/777555" ><label>Tunica Notebook 05 , Page 90</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F245754-Service%2520File.jpg"/></surface>
+          <surface xml:id="f090" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/772176" ><label>Tunica Notebook 05 , Page 91</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F244338-Service%2520File.jpg"/></surface>
+          <surface xml:id="f091" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/757313" ><label>Tunica Notebook 05 , Page 92</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F240897-Service%2520File.jpg"/></surface>
+          <surface xml:id="f092" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/773386" ><label>Tunica Notebook 05 , Page 93</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F244613-Service%2520File.jpg"/></surface>
+          <surface xml:id="f093" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/766257" ><label>Tunica Notebook 05 , Page 94</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F242957-Service%2520File.jpg"/></surface>
+          <surface xml:id="f094" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/778490" ><label>Tunica Notebook 05 , Page 95</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F246019-Service%2520File.jpg"/></surface>
+          <surface xml:id="f095" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/727541" ><label>Tunica Notebook 05 , Page 96</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F234060-Service%2520File.jpg"/></surface>
+          <surface xml:id="f096" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/761605" ><label>Tunica Notebook 05 , Page 97</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F241904-Service%2520File.jpg"/></surface>
+          <surface xml:id="f097" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/757046" ><label>Tunica Notebook 05 , Page 98</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F240831-Service%2520File.jpg"/></surface>
+          <surface xml:id="f098" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/749806" ><label>Tunica Notebook 05 , Page 99</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F239156-Service%2520File.jpg"/></surface>
+          <surface xml:id="f099" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/779312" ><label>Tunica Notebook 05 , Page 100</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F246254-Service%2520File.jpg"/></surface>
+          <surface xml:id="f100" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/759306" ><label>Tunica Notebook 05 , Page 101</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F241366-Service%2520File.jpg"/></surface>
+          <surface xml:id="f101" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/746328" ><label>Tunica Notebook 05 , Page 102</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F238345-Service%2520File.jpg"/></surface>
+          <surface xml:id="f102" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/780083" ><label>Tunica Notebook 05 , Page 103</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F246467-Service%2520File.jpg"/></surface>
+          <surface xml:id="f103" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/762329" ><label>Tunica Notebook 05 , Page 104</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F242072-Service%2520File.jpg"/></surface>
+          <surface xml:id="f104" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/773243" ><label>Tunica Notebook 05 , Page 105</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F244581-Service%2520File.jpg"/></surface>
+          <surface xml:id="f105" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/769054" ><label>Tunica Notebook 05 , Page 106</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F243609-Service%2520File.jpg"/></surface>
+          <surface xml:id="f106" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/768990" ><label>Tunica Notebook 05 , Page 107</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F243594-Service%2520File.jpg"/></surface>
+          <surface xml:id="f107" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/764753" ><label>Tunica Notebook 05 , Page 108</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F242622-Service%2520File.jpg"/></surface>
+          <surface xml:id="f108" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/766660" ><label>Tunica Notebook 05 , Page 109</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F243049-Service%2520File.jpg"/></surface>
+          <surface xml:id="f109" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/744546" ><label>Tunica Notebook 05 , Page 110</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F237924-Service%2520File.jpg"/></surface>
+          <surface xml:id="f110" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/758227" ><label>Tunica Notebook 05 , Page 111</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F241116-Service%2520File.jpg"/></surface>
+          <surface xml:id="f111" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/730373" ><label>Tunica Notebook 05 , Page 112</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F234736-Service%2520File.jpg"/></surface>
+          <surface xml:id="f112" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/729098" ><label>Tunica Notebook 05 , Page 113</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F234432-Service%2520File.jpg"/></surface>
+          <surface xml:id="f113" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/739881" ><label>Tunica Notebook 05 , Page 114</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F236857-Service%2520File.jpg"/></surface>
+          <surface xml:id="f114" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/770302" ><label>Tunica Notebook 05 , Page 115</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F243899-Service%2520File.jpg"/></surface>
+          <surface xml:id="f115" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/748118" ><label>Tunica Notebook 05 , Page 116</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F238771-Service%2520File.jpg"/></surface>
+          <surface xml:id="f116" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/765230" ><label>Tunica Notebook 05 , Page 117</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F242728-Service%2520File.jpg"/></surface>
+          <surface xml:id="f117" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/754835" ><label>Tunica Notebook 05 , Page 118</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F240315-Service%2520File.jpg"/></surface>
+          <surface xml:id="f118" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/754389" ><label>Tunica Notebook 05 , Page 119</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F240208-Service%2520File.jpg"/></surface>
+          <surface xml:id="f119" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/740995" ><label>Tunica Notebook 05 , Page 120</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F237109-Service%2520File.jpg"/></surface>
+          <surface xml:id="f120" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/733046" ><label>Tunica Notebook 05 , Page 121</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F235347-Service%2520File.jpg"/></surface>
+          <surface xml:id="f121" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/765295" ><label>Tunica Notebook 05 , Page 122</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F242743-Service%2520File.jpg"/></surface>
+          <surface xml:id="f122" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/744318" ><label>Tunica Notebook 05 , Page 123</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F237871-Service%2520File.jpg"/></surface>
+          <surface xml:id="f123" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/737023" ><label>Tunica Notebook 05 , Page 124</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F236240-Service%2520File.jpg"/></surface>
+          <surface xml:id="f124" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/730188" ><label>Tunica Notebook 05 , Page 125</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F234694-Service%2520File.jpg"/></surface>
+          <surface xml:id="f125" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/763848" ><label>Tunica Notebook 05 , Page 126</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F242413-Service%2520File.jpg"/></surface>
+          <surface xml:id="f126" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/739615" ><label>Tunica Notebook 05 , Page 127</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F236799-Service%2520File.jpg"/></surface>
+          <surface xml:id="f127" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/733081" ><label>Tunica Notebook 05 , Page 128</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F235356-Service%2520File.jpg"/></surface>
+          <surface xml:id="f128" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/738300" ><label>Tunica Notebook 05 , Page 129</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F236510-Service%2520File.jpg"/></surface>
+          <surface xml:id="f129" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/729634" ><label>Tunica Notebook 05 , Page 130</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F234563-Service%2520File.jpg"/></surface>
+          <surface xml:id="f130" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/758472" ><label>Tunica Notebook 05 , Page 131</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F241172-Service%2520File.jpg"/></surface>
+          <surface xml:id="f131" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/752744" ><label>Tunica Notebook 05 , Page 132</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F239837-Service%2520File.jpg"/></surface>
+          <surface xml:id="f132" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/728422" ><label>Tunica Notebook 05 , Page 133</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F234269-Service%2520File.jpg"/></surface>
+          <surface xml:id="f133" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/768877" ><label>Tunica Notebook 05 , Page 134</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F243569-Service%2520File.jpg"/></surface>
+          <surface xml:id="f134" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/754102" ><label>Tunica Notebook 05 , Page 135</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F240142-Service%2520File.jpg"/></surface>
+          <surface xml:id="f135" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/736928" ><label>Tunica Notebook 05 , Page 136</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F236223-Service%2520File.jpg"/></surface>
+          <surface xml:id="f136" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/765707" ><label>Tunica Notebook 05 , Page 137</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F242839-Service%2520File.jpg"/></surface>
+          <surface xml:id="f137" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/734814" ><label>Tunica Notebook 05 , Page 138</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F235749-Service%2520File.jpg"/></surface>
+          <surface xml:id="f138" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/758549" ><label>Tunica Notebook 05 , Page 139</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F241189-Service%2520File.jpg"/></surface>
+          <surface xml:id="f139" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/775753" ><label>Tunica Notebook 05 , Page 140</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F245252-Service%2520File.jpg"/></surface>
+          <surface xml:id="f140" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/728761" ><label>Tunica Notebook 05 , Page 141</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F234353-Service%2520File.jpg"/></surface>
+          <surface xml:id="f141" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/778551" ><label>Tunica Notebook 05 , Page 142</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F246035-Service%2520File.jpg"/></surface>
+          <surface xml:id="f142" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/749977" ><label>Tunica Notebook 05 , Page 143</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F239199-Service%2520File.jpg"/></surface>
+          <surface xml:id="f143" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/767777" ><label>Tunica Notebook 05 , Page 144</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F243311-Service%2520File.jpg"/></surface>
+          <surface xml:id="f144" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/760229" ><label>Tunica Notebook 05 , Page 145</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F241577-Service%2520File.jpg"/></surface>
+          <surface xml:id="f145" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/755362" ><label>Tunica Notebook 05 , Page 146</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F240438-Service%2520File.jpg"/></surface>
+          <surface xml:id="f146" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/770156" ><label>Tunica Notebook 05 , Page 147</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F243863-Service%2520File.jpg"/></surface>
+          <surface xml:id="f147" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/758198" ><label>Tunica Notebook 05 , Page 148</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F241109-Service%2520File.jpg"/></surface>
+          <surface xml:id="f148" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/736145" ><label>Tunica Notebook 05 , Page 149</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F236060-Service%2520File.jpg"/></surface>
+          <surface xml:id="f149" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/777994" ><label>Tunica Notebook 05 , Page 150</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F245884-Service%2520File.jpg"/></surface>
+          <surface xml:id="f150" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/751070" ><label>Tunica Notebook 05 , Page 151</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F239449-Service%2520File.jpg"/></surface>
+          <surface xml:id="f151" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/769014" ><label>Tunica Notebook 05 , Page 152</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F243600-Service%2520File.jpg"/></surface>
+          <surface xml:id="f152" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/756621" ><label>Tunica Notebook 05 , Page 153</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F240732-Service%2520File.jpg"/></surface>
+          <surface xml:id="f153" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/762032" ><label>Tunica Notebook 05 , Page 154</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F242001-Service%2520File.jpg"/></surface>
+          <surface xml:id="f154" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/740162" ><label>Tunica Notebook 05 , Page 155</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F236918-Service%2520File.jpg"/></surface>
+          <surface xml:id="f155" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/773612" ><label>Tunica Notebook 05 , Page 156</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F244673-Service%2520File.jpg"/></surface>
+          <surface xml:id="f156" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/743095" ><label>Tunica Notebook 05 , Page 157</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F237595-Service%2520File.jpg"/></surface>
+          <surface xml:id="f157" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/755902" ><label>Tunica Notebook 05 , Page 158</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F240568-Service%2520File.jpg"/></surface>
+          <surface xml:id="f158" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/764378" ><label>Tunica Notebook 05 , Page 159</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F242532-Service%2520File.jpg"/></surface>
+          <surface xml:id="f159" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/765375" ><label>Tunica Notebook 05 , Page 160</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F242762-Service%2520File.jpg"/></surface>
+          <surface xml:id="f160" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/761397" ><label>Tunica Notebook 05 , Page 161</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F241852-Service%2520File.jpg"/></surface>
+          <surface xml:id="f161" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/774735" ><label>Tunica Notebook 05 , Page 162</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F244975-Service%2520File.jpg"/></surface>
+          <surface xml:id="f162" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/756759" ><label>Tunica Notebook 05 , Page 163</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F240766-Service%2520File.jpg"/></surface>
+          <surface xml:id="f163" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/728777" ><label>Tunica Notebook 05 , Page 164</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F234357-Service%2520File.jpg"/></surface>
+          <surface xml:id="f164" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/730603" ><label>Tunica Notebook 05 , Page 165</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F234794-Service%2520File.jpg"/></surface>
+          <surface xml:id="f165" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/747934" ><label>Tunica Notebook 05 , Page 166</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F238727-Service%2520File.jpg"/></surface>
+          <surface xml:id="f166" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/769570" ><label>Tunica Notebook 05 , Page 167</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F243730-Service%2520File.jpg"/></surface>
+          <surface xml:id="f167" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/744968" ><label>Tunica Notebook 05 , Page 168</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F238020-Service%2520File.jpg"/></surface>
+          <surface xml:id="f168" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/749282" ><label>Tunica Notebook 05 , Page 169</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F239032-Service%2520File.jpg"/></surface>
+          <surface xml:id="f169" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/734704" ><label>Tunica Notebook 05 , Page 170</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F235723-Service%2520File.jpg"/></surface>
+          <surface xml:id="f170" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/749727" ><label>Tunica Notebook 05 , Page 171</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F239137-Service%2520File.jpg"/></surface>
+          <surface xml:id="f171" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/777453" ><label>Tunica Notebook 05 , Page 172</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F245726-Service%2520File.jpg"/></surface>
+          <surface xml:id="f172" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/749021" ><label>Tunica Notebook 05 , Page 173</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F238976-Service%2520File.jpg"/></surface>
+          <surface xml:id="f173" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/771452" ><label>Tunica Notebook 05 , Page 174</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F244172-Service%2520File.jpg"/></surface>
+          <surface xml:id="f174" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/727991" ><label>Tunica Notebook 05 , Page 175</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F234171-Service%2520File.jpg"/></surface>
+          <surface xml:id="f175" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/736654" ><label>Tunica Notebook 05 , Page 176</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F236164-Service%2520File.jpg"/></surface>
+          <surface xml:id="f176" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/755805" ><label>Tunica Notebook 05 , Page 177</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F240544-Service%2520File.jpg"/></surface>
+          <surface xml:id="f177" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/754163" ><label>Tunica Notebook 05 , Page 178</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F240157-Service%2520File.jpg"/></surface>
+          <surface xml:id="f178" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/753627" ><label>Tunica Notebook 05 , Page 179</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F240035-Service%2520File.jpg"/></surface>
+          <surface xml:id="f179" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/748690" ><label>Tunica Notebook 05 , Page 180</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F238903-Service%2520File.jpg"/></surface>
+          <surface xml:id="f180" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/737624" ><label>Tunica Notebook 05 , Page 181</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F236363-Service%2520File.jpg"/></surface>
+          <surface xml:id="f181" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/774229" ><label>Tunica Notebook 05 , Page 182</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F244840-Service%2520File.jpg"/></surface>
+          <surface xml:id="f182" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/741282" ><label>Tunica Notebook 05 , Page 183</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F237178-Service%2520File.jpg"/></surface>
+          <surface xml:id="f183" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/759903" ><label>Tunica Notebook 05 , Page 184</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F241504-Service%2520File.jpg"/></surface>
+          <surface xml:id="f184" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/777324" ><label>Tunica Notebook 05 , Page 185</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F245689-Service%2520File.jpg"/></surface>
+          <surface xml:id="f185" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/756137" ><label>Tunica Notebook 05 , Page 186</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F240624-Service%2520File.jpg"/></surface>
+          <surface xml:id="f186" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/750491" ><label>Tunica Notebook 05 , Page 187</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F239315-Service%2520File.jpg"/></surface>
+          <surface xml:id="f187" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/778439" ><label>Tunica Notebook 05 , Page 188</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F246005-Service%2520File.jpg"/></surface>
+          <surface xml:id="f188" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/771347" ><label>Tunica Notebook 05 , Page 189</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F244146-Service%2520File.jpg"/></surface>
+          <surface xml:id="f189" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/769129" ><label>Tunica Notebook 05 , Page 190</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F243628-Service%2520File.jpg"/></surface>
+          <surface xml:id="f190" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/775433" ><label>Tunica Notebook 05 , Page 191</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F245163-Service%2520File.jpg"/></surface>
+          <surface xml:id="f191" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/773575" ><label>Tunica Notebook 05 , Page 192</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F244664-Service%2520File.jpg"/></surface>
+          <surface xml:id="f192" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/779231" ><label>Tunica Notebook 05 , Page 193</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F246229-Service%2520File.jpg"/></surface>
+          <surface xml:id="f193" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/762427" ><label>Tunica Notebook 05 , Page 194</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F242094-Service%2520File.jpg"/></surface>
+          <surface xml:id="f194" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/737188" ><label>Tunica Notebook 05 , Page 195</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F236278-Service%2520File.jpg"/></surface>
+          <surface xml:id="f195" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/766976" ><label>Tunica Notebook 05 , Page 196</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F243125-Service%2520File.jpg"/></surface>
+          <surface xml:id="f196" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/734712" ><label>Tunica Notebook 05 , Page 197</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F235724-Service%2520File.jpg"/></surface>
+          <surface xml:id="f197" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/771830" ><label>Tunica Notebook 05 , Page 198</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F244259-Service%2520File.jpg"/></surface>
+          <surface xml:id="f198" ulx="0" uly="0" lrx="5023" lry="6408" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/765322" ><label>Tunica Notebook 05 , Page 199</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F242749-Service%2520File.jpg"/></surface>
+          <surface xml:id="f199" ulx="0" uly="0" lrx="5023" lry="6412" sameAs="https://diglib.amphilsoc.org/node/233520/canvas/771611" ><label>Tunica Notebook 05 , Page 200</label><graphic mimeType="application/json" url="https://diglib.amphilsoc.org/cantaloupe/iiif/2/https%3A%2F%2Fdiglib.amphilsoc.org%2F_flysystem%2Ffedora%2F2023-11%2F244207-Service%2520File.jpg"/></surface>
+
+      </facsimile>
+
+      <text xml:id="text">
+<body><div>
+    <pb facs="#f000" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f001" />
+<ab>
+                    <h1>Haas Notebook 05.000A</h1>
+                    <p>No data to display</p>
+</ab>
+
+<pb facs="#f002" />
+<ab>
+                    <h1>Haas Notebook 05.000B</h1>
+                    <p>No data to display</p>
+</ab>
+
+<pb facs="#f004" />
+<ab>
+                    <p>Deleted table</p>
+</ab>
+
+<pb facs="#f005" />
+<ab>
+<p>No data to display</p>
+</ab>
+
+<pb facs="#f006" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f008" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f011" />
+<ab>
+<lb />= he blows (the whistle); he smokes
+<lb /> = he&apos;s whistling
+</ab>
+
+<pb facs="#f012" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = a whistle (cane-blower)
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f014" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f015" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f016" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f017" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f018" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f019" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f020" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f022" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f023" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f024" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f026" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f027" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f028" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f030" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f031" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f032" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f033" />
+<ab>
+<lb />= 
+<lb /> =
+</ab>
+
+<pb facs="#f034" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f035" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f036" />
+<ab>
+<lb />= 
+<lb /> =
+</ab>
+
+<pb facs="#f038" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f039" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f040" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f042" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f045" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f046" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f047" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f048" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f052" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f053" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f054" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f055" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f056" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f057" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f058" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f059" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f060" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f061" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f062" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f063" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f064" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = again
+<lb /> = turn!
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f065" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f066" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = good-for-nothing
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f067" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f068" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f069" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f070" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f071" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f072" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f073" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f078" />
+<ab>
+<lb />= 
+<lb /> =
+</ab>
+
+<pb facs="#f084" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f087" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f088" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f090" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f097" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f098" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = Do you speak French (m.)
+<lb /> = Do you (f.)
+<lb /> = 
+<lb /> = Come here!
+<lb /> = he said he was going to town
+<lb /> =
+</ab>
+
+<pb facs="#f099" />
+<ab>
+<lb />= I&apos;m working hard
+<lb /> = 
+<lb /> = (you m.) work hard!
+<lb /> = 
+<lb /> = 
+<lb /> = I ask you: you working hard
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f100" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f102" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f103" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f104" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f106" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f112" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f118" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f124" />
+<ab>
+<lb />= 
+<lb /> =
+</ab>
+
+<pb facs="#f130" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f132" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f134" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f136" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f138" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f140" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f142" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f144" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f146" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f148" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f150" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f152" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f154" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f156" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f157" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f158" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = tick
+<lb /> = Tick Dance
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f160" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f171" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f193" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = turtle dance
+<lb /> = 
+<lb /> = 
+<lb /> = Snake Dance
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f194" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = duck dance
+<lb /> = bear dance
+<lb /> = chicken dance
+<lb /> = rabbit dance
+<lb /> = alligator dance
+<lb /> = &quot;coon&quot; dance
+<lb /> = quail dance
+<lb /> = two-heads dance
+<lb /> = after-midnight dance
+<lb /> = stealing dance
+<lb /> = round dance
+</ab>
+
+<pb facs="#f195" />
+<ab>
+<lb />= 
+<lb /> =
+</ab>
+
+<pb facs="#f196" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f197" />
+<ab>
+<lb />= 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+<pb facs="#f198" />
+<ab>
+<lb />= cercelle: a small duck that sings all night, tuwi˳s in Chitimacha
+<lb /> = 
+<lb /> = 
+<lb /> =
+</ab>
+
+  </div></body>
+      </text>
+    <text xml:id="linguistic">
+                <pb facs="#f004" />
+                <ab>
+                    <p>This is a linguistic info layer, or whatever</p>
+                </ab>
+    </text>
+  </TEI>
