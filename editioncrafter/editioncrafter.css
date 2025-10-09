@@ -1,0 +1,22 @@
+table {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+th, td {
+    text-align: left;
+    padding-right: 1rem;
+}
+
+.interlinear-tunica {
+    font-weight: bold;
+}
+
+#ec {
+    width: 100% !important;
+    display: block;
+}
+
+main, #main {
+    width: 100%;
+}
