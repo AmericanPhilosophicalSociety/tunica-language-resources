@@ -1,17 +1,24 @@
 ---
 layout: header-footer-only
 ---
-<div>
-    <h1>Previous Notebook     Contents     Next Notebook</h1>
-</div>
+
+{% assign notebook_path = 'notebooks/notebook-' %}
+{% assign prev_notebook = page.num | minus: 1 %}
+{% assign next_notebook = page.num | plus: 1 %}
+
+{% include editioncrafter-nav.html %}
+
+
 <div id="ec"></div>
 
- <script type="text/javascript" src="{{ 'assets/editioncrafter/editioncrafter.js' | relative_url }}" ></script>
-
- <script type="text/javascript">
+{% include editioncrafter-nav.html %}
 
 {% assign manifest_path_start = 'assets/editioncrafter/notebook-' | append: page.num %}
 {% assign manifest_path = manifest_path_start | append: '/iiif/manifest.json' %}
+
+<script type="text/javascript" src="{{ 'assets/editioncrafter/editioncrafter.js' | relative_url }}" ></script>
+
+ <script type="text/javascript">
 
      EditionCrafter.viewer({
          id: 'ec',

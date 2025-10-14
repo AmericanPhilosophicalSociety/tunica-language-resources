@@ -12,11 +12,16 @@ th, td {
     font-weight: bold;
 }
 
-#ec {
+/* #ec {
     width: 100% !important;
     display: block;
-}
+} */
 
 main, #main {
     width: 100%;
+}
+
+#editioncrafter-nav {
+    margin: 1rem;
+    padding: 1rem;
 }
