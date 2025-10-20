@@ -111,3 +111,5 @@ https://diglib.amphilsoc.org/solr-search/content?search_api_fulltext=tunica&f%5B
 
 
 bundle exec jekyll serve --config _config_development.yml
+
+bundle exec jekyll serve --config _config_development.yml --incremental
