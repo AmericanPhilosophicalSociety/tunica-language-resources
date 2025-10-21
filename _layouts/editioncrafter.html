@@ -6,6 +6,8 @@ layout: header-footer-only
 {% assign prev_notebook = page.num | minus: 1 %}
 {% assign next_notebook = page.num | plus: 1 %}
 
+{% assign contents_path = 'assets/editioncrafter/notebook-' | append: page.num | append: '/contents.md' %}
+
 {% include editioncrafter-nav.html %}
 
 
@@ -28,7 +30,7 @@ layout: header-footer-only
            text: 'Transcription',
            linguistic: 'Linguistic Data',
          },
-         notesURL: '{{ 'assets/editioncrafter/contents.md' | relative_url }}',
+         notesURL: '{{ contents_path | relative_url }}',
      })
 
  </script>
