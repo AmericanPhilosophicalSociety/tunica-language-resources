@@ -72551,11 +72551,6 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                               ],
                             }),
                             !We &&
-                              Ee.jsx(WP, {
-                                onClick: K,
-                                active: e.documentView[e.side].isXMLMode,
-                                icon: Tj,
-                              }),
                             Ee.jsx("div", { className: "vertical-separator" }),
                             te &&
                               Ee.jsx(WP, { active: g, onClick: H, icon: kj }),
