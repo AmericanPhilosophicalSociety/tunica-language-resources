@@ -45,7 +45,7 @@ You can also navigate the notebooks via their contents (below). Contents can be 
 </div>
 
 <div id="toc" style="display: block">
-    {% include toc-ec.html %}
+    {% include toc.html %}
 </div>
 
 <div id="toc-by-topic" style="display: none">

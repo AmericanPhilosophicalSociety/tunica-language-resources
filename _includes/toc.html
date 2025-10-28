@@ -19,22 +19,31 @@
                 </h2>
             </button>
         </div>
-            <div id="{{ panelCollapseId }}" class="accordion-collapse collapse" aria-labelledby="{{ panelId }}">
+        <div id="{{ panelCollapseId }}" class="accordion-collapse collapse" aria-labelledby="{{ panelId }}">
             <div class="accordion-body">
                 <p><i>{{ notebook.description }}</i></p>
                 {% if notebook.url %}
-                    <p><a href="{{ notebook.url }}" target="_blank">View full notebook</a></p>
+                    {% assign ec_url = "notebooks/notebook-" | append: notebook.number | append: "#/ec" %}
+                    <p><a href="{{ ec_url | relative_url }}">View full notebook</a></p>
                 {% endif %}
                 <ul>
-                    {% for section in notebook.contents %}
+                    {% for page in notebook.contents %}
+                    <!-- <li>
+                                <a href="{{ subsection['ec_url'] }}" class="no-decoration-link">Page: {{ page }}</a>
+                            </li>        
+                    <li>
+                                <a href="{{ subsection['ec_url'] }}" class="no-decoration-link">Page 0: {{ page[0] }}</a>
+                            </li> -->
+                            <!-- convoluted nesting necessary to reach inner yml info -->
                         <li>
-                            {% assign pageUrl = notebook.url | append: "?page=" | append: section[0] %}
-                            <a href="{{ pageUrl }}" target="_blank" class="no-decoration-link">{{ section[1] }}</a>
+                            {% for subsection in page %}
+                                    <a href="{{ subsection['ec_url'] }}" class="no-decoration-link">{{ subsection['title'] }}</a>
+                            {% endfor %}
                         </li>
                     {% endfor %}
                 </ul>
             </div>
-            </div>
+        </div>
         {% endfor %}
     </div>
 </div>
