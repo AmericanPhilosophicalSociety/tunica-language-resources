@@ -20,7 +20,7 @@
                             {% assign sourceNotebook = site.data.notebooks | where: "number", section[1].notebook | first %}
                             {% assign pageUrl = sourceNotebook.url | append: "?page=" | append: section[1].page %}
                             <li>
-                                <a href="{{ pageUrl }}" target="_blank" class="no-decoration-link">{{ section[0] }}</a>
+                                <a href="{{ section[1].ec_url }}" class="no-decoration-link">{{ section[0] }} ({{section[1].notebook}}.{{section[1].page}})</a>
                             </li>
                         {% else %}
                             <li>

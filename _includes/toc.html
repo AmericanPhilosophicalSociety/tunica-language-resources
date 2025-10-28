@@ -22,23 +22,15 @@
         <div id="{{ panelCollapseId }}" class="accordion-collapse collapse" aria-labelledby="{{ panelId }}">
             <div class="accordion-body">
                 <p><i>{{ notebook.description }}</i></p>
-                {% if notebook.url %}
+                {% if notebook.number != 13 %}
                     {% assign ec_url = "notebooks/notebook-" | append: notebook.number | append: "#/ec" %}
                     <p><a href="{{ ec_url | relative_url }}">View full notebook</a></p>
                 {% endif %}
                 <ul>
                     {% for page in notebook.contents %}
-                    <!-- <li>
-                                <a href="{{ subsection['ec_url'] }}" class="no-decoration-link">Page: {{ page }}</a>
-                            </li>        
-                    <li>
-                                <a href="{{ subsection['ec_url'] }}" class="no-decoration-link">Page 0: {{ page[0] }}</a>
-                            </li> -->
-                            <!-- convoluted nesting necessary to reach inner yml info -->
+                    <!-- in YAML page[0] = key, page[1] = value(s) -->
                         <li>
-                            {% for subsection in page %}
-                                    <a href="{{ subsection['ec_url'] }}" class="no-decoration-link">{{ subsection['title'] }}</a>
-                            {% endfor %}
+                            <a href="{{ page[1]['ec_url'] }}" class="no-decoration-link">{{ page[1]['title'] }} ({{ page[0] }})</a>
                         </li>
                     {% endfor %}
                 </ul>
