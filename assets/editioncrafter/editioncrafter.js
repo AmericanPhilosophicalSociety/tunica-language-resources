@@ -72444,46 +72444,46 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                         Ee.jsxs("div", {
                           className: "toolbar-side toolbar-right",
                           children: [
-                            Ee.jsxs("div", {
-                              className: "book-mode-toggles",
-                              title: "Toggle book mode",
-                              onClick: ae,
-                              children: [
-                                Ee.jsx("button", {
-                                  className: e.documentView.bookMode
-                                    ? "selected"
-                                    : "",
-                                  type: "button",
-                                  children: Ee.jsx(xJ, {}),
-                                }),
-                                Ee.jsx("button", {
-                                  className: e.documentView.bookMode
-                                    ? ""
-                                    : "selected",
-                                  type: "button",
-                                  children: Ee.jsx(CJ, {}),
-                                }),
-                              ],
-                            }),
-                            Ee.jsxs("label", {
-                              className: "lockmode-container",
-                              children: [
-                                Ee.jsx("input", {
-                                  onChange: oe,
-                                  title: "Toggle coordination of views",
-                                  type: "checkbox",
-                                  value: e.documentView.linkedMode,
-                                }),
-                                Ee.jsx("span", {
-                                  className: "switch",
-                                  children: Ee.jsx("span", {
-                                    className: "slider",
-                                    children: Ee.jsx(TJ, {}),
-                                  }),
-                                }),
-                              ],
-                            }),
-                            Ee.jsx("div", { className: "vertical-separator" }),
+                            // Ee.jsxs("div", {
+                            //   className: "book-mode-toggles",
+                            //   title: "Toggle book mode",
+                            //   onClick: ae,
+                            //   children: [
+                            //     Ee.jsx("button", {
+                            //       className: e.documentView.bookMode
+                            //         ? "selected"
+                            //         : "",
+                            //       type: "button",
+                            //       children: Ee.jsx(xJ, {}),
+                            //     }),
+                            //     Ee.jsx("button", {
+                            //       className: e.documentView.bookMode
+                            //         ? ""
+                            //         : "selected",
+                            //       type: "button",
+                            //       children: Ee.jsx(CJ, {}),
+                            //     }),
+                            //   ],
+                            // }),
+                            // Ee.jsxs("label", {
+                            //   className: "lockmode-container",
+                            //   children: [
+                            //     Ee.jsx("input", {
+                            //       onChange: oe,
+                            //       title: "Toggle coordination of views",
+                            //       type: "checkbox",
+                            //       value: e.documentView.linkedMode,
+                            //     }),
+                            //     Ee.jsx("span", {
+                            //       className: "switch",
+                            //       children: Ee.jsx("span", {
+                            //         className: "slider",
+                            //         children: Ee.jsx(TJ, {}),
+                            //       }),
+                            //     }),
+                            //   ],
+                            // }),
+                            // Ee.jsx("div", { className: "vertical-separator" }),
                             Ee.jsxs(FO, {
                               className: ze,
                               style: {
@@ -72550,26 +72550,26 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
                                   ),
                               ],
                             }),
-                            !We &&
-                            Ee.jsx("div", { className: "vertical-separator" }),
-                            te &&
-                              Ee.jsx(WP, { active: g, onClick: H, icon: kj }),
-                            Ee.jsxs("button", {
-                              title: "Toggle folio help",
-                              className: `toggle-button ${o ? "active" : ""}`,
-                              onClick: F,
-                              ref: x,
-                              type: "button",
-                              children: [
-                                Ee.jsx(Cj, {}),
-                                Ee.jsx(Rj, {
-                                  marginStyle: Le,
-                                  anchorEl: x.current,
-                                  open: o,
-                                  onClose: F,
-                                }),
-                              ],
-                            }),
+                            // !We &&
+                            // Ee.jsx("div", { className: "vertical-separator" }),
+                            // te &&
+                            //   Ee.jsx(WP, { active: g, onClick: H, icon: kj }),
+                            // Ee.jsxs("button", {
+                            //   title: "Toggle folio help",
+                            //   className: `toggle-button ${o ? "active" : ""}`,
+                            //   onClick: F,
+                            //   ref: x,
+                            //   type: "button",
+                            //   children: [
+                            //     Ee.jsx(Cj, {}),
+                            //     Ee.jsx(Rj, {
+                            //       marginStyle: Le,
+                            //       anchorEl: x.current,
+                            //       open: o,
+                            //       onClose: F,
+                            //     }),
+                            //   ],
+                            // }),
                           ],
                         }),
                         Ee.jsx(PJ, {
