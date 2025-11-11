@@ -109,7 +109,16 @@ Speck drawings:
 https://diglib.amphilsoc.org/solr-search/content?search_api_fulltext=tunica&f%5B0%5D=collection_globalsearch%3AFrank%20G.%20Speck%20Papers&f%5B1%5D=genre%3ASketches
 
 
+# Commands
+
+## Run locally
 
 bundle exec jekyll serve --config _config_development.yml
 
 bundle exec jekyll serve --config _config_development.yml --incremental
+
+## Build
+
+bundle exec jekyll build
+
+Then take files from _site (minus to-do and thumbs.db) and copy into birch via WinSCP.
