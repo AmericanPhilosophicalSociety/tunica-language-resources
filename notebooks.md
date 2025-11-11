@@ -13,9 +13,9 @@ permalink: /notebooks/
 
 In the 1930s, the last known speaker of the Tunica language, Sesostrie Youchigant, worked with the linguist Mary Haas to preserve information on the Tunica language for future generations. The stories, vocabularies, and deep cultural knowledge told by Youchigant and written down in notebooks by Haas form a rich resource that is playing a key role in the ongoing reawakening of the Tunica language.
 
-Haas’s notebooks are housed at the American Philosophical Society Library and Museum. Use the links below to view digitizations and transcriptions of these notebooks.
+Haas’s notebooks are housed at the American Philosophical Society Library and Museum. **Use the links below to view digitizations and transcriptions of these notebooks.** Contents can be sorted by notebook number or by theme. Click on any section title to view that page in the relevant notebook.
 
-Contents can be sorted by notebook number or by theme. Click on any section title to view that page in the relevant notebook.
+The notebooks viewer was built using a modified version of [EditionCrafter](https://editioncrafter.org/). You can also view scans of the notebooks in the [APS Digital Library](https://diglib.amphilsoc.org/islandora/object/text%3AMss.Ms.Coll.94_TunicaNotebooksWithTOC?=&sort_order=ASC&sort_by=title).
 
 <!-- <div class="view-all-notebooks-container">
 <a href="https://diglib.amphilsoc.org/islandora/object/text%3AMss.Ms.Coll.94_TunicaNotebooksWithTOC?=&sort_order=ASC&sort_by=title" target="_blank" class="no-decoration-link">

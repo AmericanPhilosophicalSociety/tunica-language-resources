@@ -11,7 +11,7 @@ permalink: /additional-resources/insights/
 
 <p>These short articles were written by Dr. Patricia Anderson, the lead linguist on the NSF project, long time member of the Tunica Language Working Group (or Kuhpani Yoyani Luhchi Yoroni – KYLY) and author of <a href="https://uapress.arizona.edu/book/revitalization-lexicography" target="_blank"><i>Revitalization Lexicography: The Making of the New Tunica Dictionary</i></a> (University of Arizona Press, 2020).</p>
 
-<p>Each article focuses on a particular characteristic of the Tunica language with examples drawn from the <a href="https://diglib-legacy.amphilsoc.org/labs/tunicalanguageresources/notebooks">Haas-Youchigant notebooks</a>.</p>
+<p>Each article focuses on a particular characteristic of the Tunica language with examples drawn from the <a href="{{ '/notebooks'| relative_url }}">Haas-Youchigant notebooks</a>.</p>
 
 <hr>
 

@@ -1,5 +1,5 @@
 ---
-title: Notebook 5
+title: 'Notebook 5: Music'
 layout: editioncrafter
 num: 5
 ---

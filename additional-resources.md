@@ -29,7 +29,7 @@ Beyond the notebooks, there are many more Tunica language documents made by Mary
   </a>
   <a href="{{ '/additional-resources/photographs'| relative_url }}">
     <div class="nav-card-square" style="background-image: url(&quot;{{ 'assets/img/square-picote-sesostrie.jpg' | relative_url }}&quot;);">
-      <div class="card-text">
+      <div class="card-text accent">
         Photographs
       </div>
     </div>
@@ -46,11 +46,11 @@ Explore fascinating features of the Tunica language, with examples straight from
       </div>
     </div>
   </a>
-  <!-- <a href="{{ '/assets/threetexts.xml'| relative_url }}" download>
+  <a href="{{ '/additional-resources/linguistic-data'| relative_url }}">
     <div class="nav-card-square" style="background-image: url(&quot;{{ '/assets/img/xml-screenshot.png' | relative_url }}&quot;);">
       <div class="card-text">
-        FLEx Database
+        Linguistic Data
       </div>
     </div>
-  </a> -->
+  </a>
 </div>
