@@ -37,11 +37,11 @@ Tyler Whitaker
 
 The second major component of the project is the creation of an overall portal to the Tunica archival resources at the APS Library & Museum. This portal provides: 
 
-* Multiple ways to [browse](/tunicalanguageresources/notebooks) the stories, such as by topic, title, or sequence in the notebooks  
-* [Video commentaries and reflections](/tunicalanguageresources/tunica-voices/) by Tunica community members on Tunica language, culture, and history  
-* Short [articles](/tunicalanguageresources/additional-resources/insights/) giving linguistic context  
-* Additional Tunica language [resources](/tunicalanguageresources/additional-resources/)  
-* Digitized archival [photographs](/tunicalanguageresources/additional-resources/photographs/) of the Tunica community from the APS collections
+* Multiple ways to [browse](/labs/tunicalanguageresources/notebooks/) the stories, such as by topic, title, or sequence in the notebooks  
+* [Video commentaries and reflections](/labs/tunicalanguageresources/tunica-voices/) by Tunica community members on Tunica language, culture, and history  
+* Short [articles](/labs/tunicalanguageresources/additional-resources/insights/) giving linguistic context  
+* Additional Tunica language [resources](/labs/tunicalanguageresources/additional-resources/)  
+* Digitized archival [photographs](/labs/tunicalanguageresources/additional-resources/photographs/) of the Tunica community from the APS collections
 
 
 The current website is a starting point for further collaboration, providing a space to create and add more content to further illuminate these materials, especially through the perspectives of Tunica-Biloxi community members themselves.

@@ -1,5 +1,5 @@
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/tunicalanguageresources" # the subpath of your site, e.g. /blog
+baseurl: "/labs/tunicalanguageresources" # the subpath of your site, e.g. /blog
 title: "Tunica Language Resources" # the name of your site, e.g. ACME Corp.
 description: "A collection of resources about the Tunica language, based on collections at the American Philosophical Society."
 markdown: kramdown
