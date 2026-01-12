@@ -119,6 +119,18 @@ bundle exec jekyll serve --config _config_development.yml --incremental
 
 ## Build
 
-bundle exec jekyll build
+bundle exec jekyll build --config _config.yml
 
 Then take files from _site (minus to-do and thumbs.db) and copy into birch via WinSCP.
+
+# Notes
+
+On 11/11/25, I switched the baseurl in config_development from /tunicalanguageresources to . This should keep it consistent with the live site's config file.
+
+This also required me to switch hard-coded URLs in a number of locations:
+
++ EditionCrafter manifests
++ About and Notebooks pages
++ notebooks.yml and notebooks-by-topic.yml (used to build the two TOC)
+
+Probably these will need to be switched back when we move the site onto the new server.
