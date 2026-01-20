@@ -2,6 +2,7 @@
 layout: insights
 title: Spatial Orientation in Tunica Grammar
 author: Patricia Anderson
+num: 4
 ---
 Sitting, standing and lying down:  those are the three positions any noun can take in the Tunica language. Some nouns are inherently one position: rivers always lie; trees generally stand. It is possible for a tree to lay after it is felled. But under no circumstances of Tunica grammar could a tree sit.
 
@@ -106,7 +107,7 @@ This example from Notebook 14 shows the different position used when asking wher
   imgFile = "TunicaNotebook14-006.jpg"
   imgAlt = "Handwritten text giving English and Tunica for the sentences: 'Where is the rice?', 'Where is the cricket?', and 'Where is the star?'"
   imgSize = "max-width:700px"
-  imgCaption = "Excerpt from <a href='https://diglib.amphilsoc.org/islandora/object/text%3A312178?page=6' target='_blank'>Tunica Notebook 14, page 2</a>"
+  imgCaption = "Excerpt from <a href='https://tunica-biloxi.amphilsoc.org/notebooks/notebook-14#/ec/f005/f/f005/text' target='_blank'>Tunica Notebook 14, page 6</a>"
 %}
 
 When asking where “rice” is, you use the verb that denotes a lying position, whereas when you ask where the “star” is, you use the verb that denotes a sitting position. 

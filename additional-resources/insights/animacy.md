@@ -2,6 +2,7 @@
 layout: insights
 title: Tunica Animacy
 author: Patricia Anderson
+num: 2
 ---
 Tunica nouns have both a grammatical gender and an animacy class. Tunica grammatical gender is either masculine or feminine; there is no neuter or neutral grammatical gender. Tunica animacy classes consist of inanimate, animate-non-human, and animate-human.
 

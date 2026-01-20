@@ -2,15 +2,16 @@
 layout: insights
 title: Tunica as a Language Isolate
 author: Patricia Anderson
+num: 1
 ---
 
-Tunica is a language isolate, meaning it is unrelated to any other language today. But, as is the case with many language isolates, it is likely that related languages once existed. Unfortunately, no related languages were recorded or written down before their speakers were coerced to stop speaking them. Youchigant mentions a mutually intelligible language in Notebook 9, stating that <a href="https://diglib.amphilsoc.org/islandora/object/text%3A311967?page=182" target="_blank">“there used to be another tribe near the Tunica and their languages were mutually intelligible”</a> (180).
+Tunica is a language isolate, meaning it is unrelated to any other language today. But, as is the case with many language isolates, it is likely that related languages once existed. Unfortunately, no related languages were recorded or written down before their speakers were coerced to stop speaking them. Youchigant mentions a mutually intelligible language in Notebook 9, stating that <a href="{{ 'notebooks/notebook-9#/ec/f181/f/f181/text' | relative_url }}" target="_blank">“there used to be another tribe near the Tunica and their languages were mutually intelligible”</a> (180).
 
 {% include modal-figure.html
   imgFile = "TunicaNotebook09-182cropped.jpg"
   imgAlt = "Handwritten text reading, 'There used to be another tribe near the Tunica and their language was mutually intelligible.' Below this is the word for kettle 'in this other language'."
   imgSize = "max-width:600px"
-  imgCaption = "Excerpt from <a href='https://diglib.amphilsoc.org/islandora/object/text%3A311967?page=182' target='_blank'>Tunica Notebook 9, page 182</a>"
+  imgCaption = "Excerpt from <a href='https://tunica-biloxi.amphilsoc.org/notebooks/notebook-9#/ec/f181/f/f181/text' target='_blank'>Tunica Notebook 9, page 182</a>"
 %}
 
 Several linguistic relations for Tunica have been proposed over the years. John R. Swanton (1919) proposed a relationship between Tunica, Chitimacha, and Ishak (Atakapa). Edward Sapir (1929) included Tunica in the Hokan-Siouan super-stock. Mary Haas (1951, 1952, 158) proposed a Gulf language family that included Tunica, Natchez, Muskogean, and tentatively included Ishak (Atakapa) and Chitimacha. Pamela Munro (1994) expanded on Haas’s Guld classification to encompass Yuki. For a comprehensive analysis of proposed linguistic relations of Tunica, see Campbell (1997, particularly pages 305-309). 

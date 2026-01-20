@@ -17,7 +17,7 @@ permalink: /additional-resources/insights/
 
 </div>
 
-{% assign entries = site.pages | where:"layout", "insights" %}
+{% assign entries = site.pages | where:"layout", "insights" | sort: "num" %}
 
 <div>
     {% for page in entries %}

@@ -10,4 +10,59 @@ layout: default
     <h2>by {{ page.author }}</h2>
 {% endif %}
 
-<div class="insights-text">{{ content }}</div>
+<div class="insights-text">
+    {{ content }}
+
+{% assign entries = site.pages | where:"layout", "insights" %}
+
+{% assign prev_num = page.num | minus: 1 %}
+{% assign next_num = page.num | plus: 1 %}
+
+{% for entry in entries %}
+    {% if entry.num == prev_num %}
+        {% assign prev = entry %}
+    {% endif %}
+
+    {% if entry.num == next_num %}
+        {% assign next = entry %}
+    {% endif %}
+{% endfor %}
+
+ <div class="insights-nav">
+    <nav aria-label="Page navigation">
+    <ul class="pagination justify-content-center pagination-lg">
+        {% if prev %}
+            <li class="page-item"><a class="page-link" href="{{ prev.url }}">&laquo; Previous post: {{ prev.title }}</a></li>
+        {% else %}
+            <li class="page-item disabled"><a class="page-link" href="#">&laquo; Previous post</a></li>
+        {% endif %}
+            <!-- <li class="page-item disabled"><a class="page-link" href="#">{{ page.title }}</a></li> -->
+        {% if next %}
+            <li class="page-item"><a class="page-link" href="{{ next.url }}">Next post: {{ next.title }} &raquo;</a></li>
+        {% else %}
+            <li class="page-item disabled"><a class="page-link" href="#">Next post &raquo;</a></li>
+        {% endif %}
+    </ul>
+    </nav>
+</div>
+
+</div>
+
+<!-- <div>
+
+    <hr />
+<p>Prev/next</p>
+
+
+
+{% if prev %}
+<p>Previous post: {{ prev.title }}</p>
+{% endif %}
+
+{% if next %}
+<p>Next post: {{ next.title }}</p>
+{% endif %}
+
+
+
+</div> -->
