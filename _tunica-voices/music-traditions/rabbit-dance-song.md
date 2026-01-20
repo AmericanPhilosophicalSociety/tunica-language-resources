@@ -1,6 +1,6 @@
 ---
 link: https://diglib.amphilsoc.org/_flysystem/fedora/2023-12/340449-Service%20File.mp4
-diglib: https://diglib.amphilsoc.org/islandora/object/video%3A1657
+diglib: https://diglib.amphilsoc.org/node/340449
 title: Rabbit Dance Song
 description: 
 interviewee: Elisabeth Pierite
@@ -10,4 +10,4 @@ category: Tunica Culture and Music
 layout: video
 ---
 
-The <a href="https://diglib.amphilsoc.org/islandora/object/text%3A312184?page=5" target="_blank">Rabbit Dance Song</a>, sung by Elisabeth Pierite.
+The <a href="https://tunica-biloxi.amphilsoc.org/notebooks/notebook-5#/ec/f004" target="_blank">Rabbit Dance Song</a>, sung by Elisabeth Pierite.

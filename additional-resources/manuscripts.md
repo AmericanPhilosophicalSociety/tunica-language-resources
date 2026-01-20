@@ -21,8 +21,8 @@ title: "Additional Manuscripts"
 
   <ul>
     <li>Letters, including some from Tunica people such as Sesostrie Youchigant and Chief Joe Pierite</li>
-    <li>More original notes about the Tunica language, such as vocabularies about <a href="https://diglib.amphilsoc.org/islandora/object/text%3A349645" target="_blank">plants and animals</a></li>
-    <li>Notes by Haas and other researchers on a wide range of cultural and historical topics such as <a href="https://diglib.amphilsoc.org/islandora/object/text%3A349830" target="_blank">the Tunica and other neighboring Indigenous peoples</a></li>
+    <li>More original notes about the Tunica language, such as vocabularies about <a href="https://diglib.amphilsoc.org/node/233530" target="_blank">plants and animals</a></li>
+    <li>Notes by Haas and other researchers on a wide range of cultural and historical topics such as <a href="https://diglib.amphilsoc.org/node/233529" target="_blank">the Tunica and other neighboring Indigenous peoples</a></li>
   </ul>
 
 </div>
