@@ -107,7 +107,7 @@ This example from Notebook 14 shows the different position used when asking wher
   imgFile = "TunicaNotebook14-006.jpg"
   imgAlt = "Handwritten text giving English and Tunica for the sentences: 'Where is the rice?', 'Where is the cricket?', and 'Where is the star?'"
   imgSize = "max-width:700px"
-  imgCaption = "Excerpt from <a href='https://tunica-biloxi.amphilsoc.org/notebooks/notebook-14#/ec/f005/f/f005/text' target='_blank'>Tunica Notebook 14, page 6</a>"
+  imgCaption = "Excerpt from <a href='https://tunica-biloxi.amphilsoc.org/notebooks/notebook-14#/ec/f005' target='_blank'>Tunica Notebook 14, page 6</a>"
 %}
 
 When asking where “rice” is, you use the verb that denotes a lying position, whereas when you ask where the “star” is, you use the verb that denotes a sitting position. 

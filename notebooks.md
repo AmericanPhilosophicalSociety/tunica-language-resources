@@ -17,18 +17,6 @@ Haas’s notebooks are housed at the American Philosophical Society Library and 
 
 The notebooks viewer was built using a modified version of [EditionCrafter](https://editioncrafter.org/). You can also view scans of the notebooks in the [APS Digital Library](https://diglib.amphilsoc.org/node/233504).
 
-<!-- <div class="view-all-notebooks-container">
-<a href="https://diglib.amphilsoc.org/islandora/object/text%3AMss.Ms.Coll.94_TunicaNotebooksWithTOC?=&sort_order=ASC&sort_by=title" target="_blank" class="no-decoration-link">
-        <div class="view-all-notebooks" style="background-image: url(&quot;{{ 'assets/img/TunicaNotebook14-006.jpg' | relative_url }}&quot;);">
-            <h2>View All Notebooks</h2>
-        </div>
-    </a>
-</div> -->
-
-<!-- {% include view-button.html
-  text = "View all notebooks"
-  url = "https://diglib.amphilsoc.org/islandora/object/text%3AMss.Ms.Coll.94_TunicaNotebooksWithTOC"
-%} -->
 
 <div class="toc-buttons">
 

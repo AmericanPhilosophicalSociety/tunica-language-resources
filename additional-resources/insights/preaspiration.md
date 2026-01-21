@@ -24,7 +24,7 @@ However, not every word in Tunica has an aspirated pair. In the Notebooks, we se
   imgFile = "Tunica08-063preaspiration.jpg"
   imgAlt = "Handwritten text giving the Tunica word for 'he spoke to them', with an h (in blue ink) crossed out and surrounded by parentheses above and below (in black ink)."
   imgSize = "max-width:600px"
-  imgCaption = "Excerpt from <a href='https://tunica-biloxi.amphilsoc.org/notebooks/notebook-8.html#/ec/f064/f/f064/text' target='_blank'>Tunica Notebook 8, page 65</a>"
+  imgCaption = "Excerpt from <a href='https://tunica-biloxi.amphilsoc.org/notebooks/notebook-8.html#/ec/f064' target='_blank'>Tunica Notebook 8, page 65</a>"
 %}
 
 Preaspiration is an important feature that the Tunica revitalization effort seeks to standardize and highlight when applicable; the variation found in the Haas notebooks informs these standardization decisions.

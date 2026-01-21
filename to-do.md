@@ -7,10 +7,7 @@ Need from community members:
 
 Need from CNAIR:
 
-+ footer ok?
-+ download link for FLEx data
 + Language and Culture Revitalization Program, or Cultural?
-+ in Additional Manuscripts- link to the Pierite letter to Haas? can't find this on diglib
 
 Need from Bayard:
 
@@ -35,8 +32,6 @@ Photographs- I think I want alt text to display on the thumbnails (and this can 
 + navbar for Tunica Voices
 + photographs - currently thumbnails have alt text (the photo title), no alt text on modal + images because they're already described underneath. is this correct?
 
-
-do something with layout of Manuscripts page- I don't love how this looks
 
 # General
 
@@ -121,7 +116,7 @@ bundle exec jekyll serve --config _config_development.yml --incremental
 
 bundle exec jekyll build --config _config.yml
 
-Then take files from _site (minus to-do and thumbs.db) and copy into birch via WinSCP.
+Then take files from _site (minus to-do and thumbs.db) and copy into maple via WinSCP.
 
 # Notes
 
