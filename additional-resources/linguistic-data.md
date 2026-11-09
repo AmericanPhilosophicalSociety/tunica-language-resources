@@ -11,14 +11,14 @@ This data was originally recorded in [Fieldworks Language Explorer (FLEx)](https
 
 {% include download-button.html
   text = "Download FLEx database"
-  url = "/assets/linguistic-data/tun-aps-flex-11-11-2025.fwbackup"
+  url = "/assets/linguistic-data/tun-aps-flex-11-11-2025.zip"
 %}
 
 Data can also be downloaded in two additional formats: HTML (to be opened in your web browser), and XML (to be processed computationally).
 
 {% include download-button.html
   text = "Download HTML"
-  url = "/assets/linguistic-data/Tunica-FLEx-data-11-11-25.htm"
+  url = "/assets/linguistic-data/Tunica-FLEx-data-11-11-25-htm.zip"
 %}
 
 {% include download-button.html
