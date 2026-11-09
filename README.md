@@ -66,7 +66,7 @@ Note that the site will throw console errors about missing .xml files for indivi
 
 /assets/editioncrafter/editioncrafter.css and /assets/editioncrafter/editioncrafter.js were downloaded on 10/20/25 and modified to remove certain features from the EditionCrafter display. These will not reflect more recent updates to EditionCrafter.
 
-ADD INFO ABOUT UPLOAD PROCESS LATER
+See scripts and documentation for the EditionCrafter notebooks viewer [here](https://github.com/AmericanPhilosophicalSociety/tunica-scripts).
 
 ### Misc.
 
